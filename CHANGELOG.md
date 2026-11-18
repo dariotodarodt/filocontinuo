@@ -67,3 +67,5 @@
 - Aggiunti import SVG, esportatori STL/3MF/OBJ/SVG, file progetto, autosave e cronologia.
 - Preparati avvio Windows, test, esempi e documentazione per proseguire tra ChatGPT e Codex.
 - Segnalate fotografie mancanti e limiti fisici dell'alfabeto sperimentale.
+
+Nota CI Style Studio: adattatore Node dei test worker corretto per usare self === globalThis; primo run Linux aveva due errori del loader. Nessuna modifica al worker distribuito; suite Windows e build web rieseguite. Audit: sei advisory moderati di sviluppo, zero di produzione, nessun downgrade automatico.

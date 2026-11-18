@@ -53,7 +53,7 @@ Verifica visiva reale tramite API supportata Computer Use Windows, su dati isola
 
 Non provati visivamente: ogni singolo glifo, import famiglia personale, sostituzione singola lettera, tutti i trascinamenti e tutti i dialoghi di export. Non eseguiti nuova installazione, disinstallazione, aggiornamento fra pacchetti firmati, slicing, stampa o misure fisiche. Nel registro Windows è presente FILOCONTINUO 0.4.0, coerente con l'installazione precedente riferita dall'utente: non è prova d'installazione del nuovo Style Studio.
 
-Composizione+analisi dei 30 casi, sulla macchina della sessione: da 21 a 475 ms; mesh, avvio worker e carico di altri processi esclusi. Dati grezzi in confronto.json, non benchmark universale. Bundle principale circa 1019 kB e worker 223 kB; warning Vite di dimensione mantenuto. Nessun downgrade/upgrade delle dipendenze per nascondere advisory.
+Composizione+analisi dei 30 casi, sulla macchina della sessione: da 21 a 475 ms; mesh, avvio worker e carico di altri processi esclusi. Dati grezzi in confronto.json, non benchmark universale. Bundle principale circa 1019 kB e worker 223 kB; warning Vite di dimensione mantenuto. Audit rieseguito: sei advisory moderati nella catena di sviluppo electron-builder/minimatch, zero alti/critici e zero nelle dipendenze di produzione (npm audit --omit=dev). La proposta automatica comporta downgrade maggiore del builder: non applicata senza una valutazione separata. Nessuna dipendenza modificata.
 
 ### Desktop, versioni e distribuzione
 
@@ -67,13 +67,13 @@ Updater 6.8.11 invariato: niente download/installazione automatici, niente beta/
 
 Cartella attiva **D:/FILOCONTINUO_Studio/filocontinuo_github**; Git/GCM in **D:/FILOCONTINUO_Studio/filocontinuo_tools/git**; backup privati in **D:/FILOCONTINUO_Studio/filocontinuo_backup**. Cache e temporanei nella .tools del checkout. Il backup prima di questo sviluppo è prima-style-studio-20261118-190113 (bundle, sorgenti ZIP e patch delle modifiche locali).
 
-Branch dedicato **feature/v04-style-studio**, basato sul commit 3d3d48d; sincronizzazione del ramo secondo autorizzazione, senza force push. main resta baseline web V0.3 e develop resta la precedente integrazione desktop fino a revisione. Workflow CI aggiornati per rigenerare anche v04; la loro esecuzione su GitHub va distinta dalle prove locali e registrata dopo il push.
+Branch dedicato **feature/v04-style-studio**, basato sul commit 3d3d48d; sincronizzazione del ramo secondo autorizzazione, senza force push. main resta baseline web V0.3 e develop resta la precedente integrazione desktop fino a revisione. Sorgenti sincronizzati con commit 13779d5. Primo workflow GitHub effettivamente avviato: due test worker falliti su Linux per lo shim Node che definiva self come oggetto separato. Corretto il solo adattatore dei test usando self === globalThis; suite locale rieseguita, 60/60, e build web riuscita. Verificare le esecuzioni successive su https://github.com/dariotodarodt/filocontinuo/actions: gli esiti cloud restano distinti dalle prove locali. Nessun cambiamento al pacchetto desktop per questa correzione dei test.
 
 Il precedente riordino delle tre cartelle è riuscito. La vecchia D:/filocontinuo **non è stata eliminata**: la verifica automatica ha rifiutato la cancellazione con blocked by policy e il tentativo reversibile di archiviarla ha incontrato un processo che la teneva in uso. Non è stata ritentata la cancellazione aggirando il blocco. Esiste anche un backup aggiornato con 3634 file confrontati tramite checksum. Questo limite non impedisce lo sviluppo nella nuova cartella.
 
 ### Prossimi sviluppi
 
-Ridisegnare glifi/raccordi con raggi controllati e migliorare leggibilità, continuità e compattezza, senza forzare il verde. Completare repertori contestuali in ogni famiglia, mappatura dei nodi editati alle lettere, routing generale, test UI estesi e prove fisiche. Luxury/Handwriting/Modern, TTF/OTF e centralizzazione dei contorni, archi SVG e testo lungo curve restano in roadmap. Sezionamento automatico rimandato alla V0.5.
+Ridisegnare glifi/raccordi con raggi controllati e migliorare leggibilità, continuità e compattezza, senza forzare il verde. Completare repertori contestuali in ogni famiglia, mappatura dei nodi editati alle lettere, routing generale, test UI estesi e prove fisiche. Luxury/Handwriting/Modern, TTF/OTF e estrazione sperimentale della linea centrale dai contorni, archi SVG e testo lungo curve restano in roadmap. Sezionamento automatico rimandato alla V0.5.
 
 ---
 
