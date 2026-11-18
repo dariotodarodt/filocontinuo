@@ -10,9 +10,15 @@ Aprire il setup locale `release/FILOCONTINUO-Setup-0.4.0-x64.exe` oppure `releas
 
 Da sorgenti: `npm run desktop:dev`; per generare setup: `npm run desktop:dist`. Progetti e backup tramite dialoghi nativi, dati in %APPDATA%/FILOCONTINUO. In Impostazioni → Aggiornamenti il controllo all'avvio è facoltativo; download e installazione richiedono consenso e restano bloccati nella build non firmata.
 
-Repository ufficiale **pubblico**: [dariotodarodt/filocontinuo](https://github.com/dariotodarodt/filocontinuo). Sorgenti preparati localmente; autenticazione GitHub completata e verificata con dry-run; primo push ancora da approvare. Nessuna licenza open source assegnata (UNLICENSED). Cache/runtime/installer/dati personali non entrano in Git.
+Repository ufficiale **pubblico**: [dariotodarodt/filocontinuo](https://github.com/dariotodarodt/filocontinuo). Sorgenti pubblicati dopo autorizzazione; usare il ramo develop per lo sviluppo corrente 0.4.0. main conserva la baseline web V0.3. Nessuna licenza open source assegnata (UNLICENSED). Cache/runtime/installer/dati personali non entrano in Git.
 
 Istruzioni complete: [installazione e recupero](docs/INSTALLATION.md), [Git e release](docs/RELEASE_PROCESS.md), [aggiornamenti](docs/UPDATE_SYSTEM.md), [sicurezza](docs/SECURITY.md), [licenze dipendenze](docs/THIRD_PARTY_NOTICES.md).
+
+## Cartella di lavoro dopo la migrazione
+
+Usare **D:/filocontinuo_github**, clone verificato da GitHub, e aprirlo in VS Code. Git è in D:/filocontinuo_tools/git; il backup privato è in D:/filocontinuo_backup. La vecchia cartella D:/filocontinuo è conservata. Il codice completo resta anche sul disco: GitHub conserva la cronologia remota, mentre test e build vengono eseguiti nel checkout locale.
+
+Nel nuovo percorso: avvia.cmd per la modalità web, oppure release/win-unpacked/FILOCONTINUO.exe per l'app desktop ricostruita. Runtime e cartella release devono essere conservati insieme all'eseguibile. Dettagli e recupero in docs/INSTALLATION.md.
 
 ## Avvio web locale
 

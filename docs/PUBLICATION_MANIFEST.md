@@ -1,10 +1,10 @@
-# Manifesto del primo push — da approvare
+# Manifesto del primo push — autorizzato ed eseguito
 
-Preparato il 18 novembre 2026 per il repository **pubblico** dariotodarodt/filocontinuo. **Nessun file è ancora stato inviato**. Autenticazione GitHub completata e dry-run dei tre rami riuscito senza inviare file. Occorre ancora la conferma esplicita del proprietario al primo push. L'approvazione riguarda i sorgenti/rami, non autorizza tag, release stabili, installer pubblici o cambio di visibilità/licenza.
+Preparato il 18 novembre 2026 per il repository **pubblico** dariotodarodt/filocontinuo. **Primo push autorizzato dal proprietario ed eseguito il 18 novembre 2026** sui rami main, develop e feature/desktop-distribution. Questa è la fotografia dei 205 file approvati al commit 939adfa; dimensioni ed elenco sottostanti descrivono quella revisione prima degli aggiornamenti documentali della migrazione. L'approvazione riguarda i sorgenti/rami, non autorizza tag, release stabili, installer pubblici o cambio di visibilità/licenza.
 
 ## Riepilogo
 
-**205 file** nella proposta complessiva del ramo feature/desktop-distribution (include baseline V0.3). I rami main/develop contengono il sottoinsieme storico V0.3.
+**205 file** nella proposta complessiva del ramo feature/desktop-distribution (include baseline V0.3). main conserva il sottoinsieme storico V0.3; develop e feature/desktop-distribution contengono 0.4.0.
 
 | Gruppo | File |
 | --- | ---: |

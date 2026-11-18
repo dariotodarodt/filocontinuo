@@ -4,7 +4,7 @@
 
 Repository ufficiale: https://github.com/dariotodarodt/filocontinuo. Verificato pubblico e senza riferimenti remoti all'inizio della sessione del 18 novembre 2026. La pubblicazione rende sorgenti, documenti e campioni autorizzati accessibili a chiunque; `UNLICENSED` non conferisce una licenza open source e non rende privati i contenuti. Nessuna licenza open source è stata scelta.
 
-`main` conserva la baseline web 0.3.0; `develop` è il ramo di integrazione; `feature/desktop-distribution` contiene il desktop 0.4.0 sperimentale. Nuove attività in `feature/*`, correzioni in `fix/*`. Prima di integrare, test e revisione; il semplice push esegue CI ma non pubblica release. Nessun force push.
+`main` conserva la baseline web 0.3.0; `develop` è il ramo di integrazione 0.4.0; `feature/desktop-distribution` contiene il desktop 0.4.0 sperimentale. Nuove attività in `feature/*`, correzioni in `fix/*`. Prima di integrare, test e revisione; il semplice push esegue CI ma non pubblica release. Nessun force push.
 
 L'identità locale deriva dal profilo pubblico indicato dal proprietario: DtDesigns, email GitHub noreply. Verificare `git log` prima della pubblicazione. Git portatile, runtime, cache e backup in `.tools` restano locali. Il primo push richiede **conferma esplicita del proprietario sul manifesto dei file** ; l’autenticazione GitHub con dariotodarodt è stata completata e il dry-run dei tre rami è riuscito, senza inviare file. Nessun push reale effettuato.
 
@@ -32,3 +32,7 @@ Seguire l'ambiente in INSTALLATION.md, poi `npm ci`, `npm run examples:v03`, `np
 Non usare una versione beta sul canale stabile; niente downgrade automatico. In caso di regressione distribuire una versione correttiva superiore. Backup prima dell'aggiornamento; recupero dati descritto in INSTALLATION.md. Autenticazione GitHub verificata. Certificati, ambiente protetto, tag, esecuzione Actions e rilascio restano da predisporre/verificare sul servizio.
 
 VS Code locale: git.path nelle impostazioni utente punta al Git portatile sotto D:/filocontinuo/.tools/git/cmd/git.exe. Il workspace .tools/FILOCONTINUO.code-workspace apre lo stesso progetto e riconosce il ramo feature/desktop-distribution. Configurazioni locali e credenziali non sono incluse nel repository. Il collegamento Git non implica accesso a Copilot, sincronizzazione delle impostazioni o pubblicazione del codice.
+
+## Migrazione completata
+
+I sorgenti sono ora sul remoto ufficiale. Lavorare nel clone D:/filocontinuo_github, con Git esterno D:/filocontinuo_tools/git. La configurazione iniziale che puntava a D:/filocontinuo/.tools/git è storica ed è stata sostituita nelle impostazioni utente VS Code. La cartella precedente resta conservata. La documentazione della migrazione è nel ramo feature/migrazione-github, integrato in develop; nessun tag o release. Il manifesto del primo push conserva l’elenco storico approvato al commit 939adfa.

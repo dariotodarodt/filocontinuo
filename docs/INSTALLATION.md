@@ -19,7 +19,7 @@ Da **Impostazioni → Aggiornamenti → Esporta backup dati** salvare autosave, 
 
 ## Sviluppo locale
 
-Sul computer corrente `avvia.cmd` mantiene la modalità web esistente su http://127.0.0.1:5173/. Per i comandi manuali, da `D:/filocontinuo`:
+Sul computer corrente `avvia.cmd` mantiene la modalità web esistente su http://127.0.0.1:5173/. Per i comandi manuali, da `D:/filocontinuo_github`:
 
 ```powershell
 $env:PATH = "$PWD/.tools/node-v22.16.0-win-x64;$env:PATH"
@@ -44,3 +44,13 @@ npm run desktop:smoke
 Chiudere l'app impacchettata prima di ricostruirla: Windows può bloccare file del runtime o log aperti. Usare normalmente `desktop:dist`, che prepara il pacchetto dai sorgenti; non riutilizzare directory di esecuzione contenenti log/dati per una distribuzione.
 
 Sorgenti in Git; build in `dist/`, installer in `release/`, cache e temporanei di sviluppo in `.tools/`. Nell'app distribuita i dati seguono i percorsi Windows standard e non dipendono da D:.
+
+## Migrazione effettuata e backup esterno
+
+Cartella attiva: D:/filocontinuo_github, ramo develop con versione desktop 0.4.0 sperimentale. Aprire questa cartella in VS Code oppure il workspace locale .tools/FILOCONTINUO-GITHUB.code-workspace. Il primo push è stato autorizzato ed eseguito; nessuna release stabile. main mantiene la baseline V0.3.
+
+Backup: D:/filocontinuo_backup/migrazione-20261118-182427225. progetto-originale contiene la copia precedente, inclusi installer e backup; dati-applicazione contiene i dati FILOCONTINUO dell'utente Windows e progetti-documenti i file della sua cartella Documenti/FILOCONTINUO. SHA256.json elenca 1257 file; 208 file critici sono stati confrontati con gli originali. Altri percorsi di salvataggio personali non vengono scoperti automaticamente.
+
+Git funziona da D:/filocontinuo_tools/git e non richiede la cartella originale. Node e cache del nuovo checkout sono in .tools del nuovo progetto. Le impostazioni VS Code precedenti sono conservate nel backup. Il sistema Windows mantiene le credenziali GCM; non sono esportate.
+
+Per ripristinare, copiare lo snapshot in una cartella nuova e usare npm ci/build per le dipendenze escluse. Prima di ripristinare i dati dell'app, chiudere FILOCONTINUO e salvare una copia dei dati attuali. Il backup contiene dati personali e non va pubblicato. La cartella originale è stata conservata: la migrazione non ne esegue la cancellazione.

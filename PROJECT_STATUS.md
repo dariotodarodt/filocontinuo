@@ -2,14 +2,26 @@
 
 Aggiornato il **18 novembre 2026**. Nuova MINOR compatibile: package/lock/app 0.4.0. Backup precedente: `.tools/backups/prima-desktop-2026-11-18.zip`. Il motore e i dati geometrici V0.3 restano invariati; i risultati a 400/600 mm restano incompatibili. Nessuna fotografia originale disponibile.
 
-## Risultati della sessione desktop
+## Migrazione GitHub verificata — 18 novembre 2026
+
+- Primo push autorizzato ed eseguito: main conserva la baseline V0.3; develop integra 0.4.0 e la documentazione corrente. feature/desktop-distribution conserva l'implementazione desktop, feature/migrazione-github registra questa migrazione. Nessun force push, tag o release.
+- Nuovo checkout ottenuto da GitHub: **D:/filocontinuo_github**. Il codice è stato recuperato dal ramo develop al commit 939adfa prima delle sole modifiche documentali della migrazione. La cartella D:/filocontinuo è conservata come originale, non è più il percorso di lavoro consigliato.
+- Backup esterno privato: **D:/filocontinuo_backup/migrazione-20261118-182427225**. Copiati 1257 file, verificati contro l'originale 208 file critici, incluso l'installer. SHA256.json inventaria le copie. Inclusi progetto/.git, runtime portatili, backup precedenti, installer, dati %APPDATA%/FILOCONTINUO e file Documenti/FILOCONTINUO. Esclusi dipendenze, dist, cache e temporanei ricostruibili. Eventuali progetti scelti in altre cartelle restano nei loro percorsi.
+- Git e Credential Manager copiati in **D:/filocontinuo_tools/git**; git.path utente di VS Code aggiornato e impostazioni precedenti salvate nel backup. Node 22.16.0 nel nuovo checkout .tools, cache/log/temp sul disco D. Nessun token nel repository o nei pacchetti.
+- Da installazione pulita delle dipendenze: npm ci riuscito (388 pacchetti), examples:v03 rigenerati, **45/45 test**, build web TypeScript/Vite riuscita. Nessuna modifica alla geometria o rigenerazione silenziosa di progetti personali.
+- Ricostruito realmente il desktop dal nuovo percorso: desktop:dist e desktop:smoke riusciti. Renderer locale, Web Worker e mesh valida confermati; contextIsolation e sandbox true, nodeIntegration false. Setup 126326618 byte, SHA-256 8048D719C182A4C4972EACA6F7903EB56337EAA8E662375F610DC222C87EC1DF, firma NotSigned. Rimane sperimentale, non installato né pubblicato come release.
+- Nuovo audit sullo stesso lockfile: **6 moderate, zero high/critical; runtime zero advisory** del registry. Nessun upgrade/downgrade applicato. I vecchi rapporti con 12 advisory sono storici. Warning bundle web circa 978 kB conservato.
+- Al controllo dopo il primo push l'API Actions riporta zero esecuzioni: workflow presenti nel ramo di sviluppo, esecuzione cloud e configurazione delle protezioni ancora da verificare. La prova locale non viene dichiarata prova GitHub Actions.
+- Nessuna installazione pulita, disinstallazione, aggiornamento reale fra versioni firmate, stampa, slicing o misura LED effettuati in questa migrazione. Prove e limiti produttivi precedenti invariati. La vecchia cartella non è stata cancellata.
+
+## Risultati della sessione desktop (storico precedente alla migrazione)
 
 - Electron 45.3.4, Builder 26.18.0, Updater 6.8.11, protocollo locale sicuro e renderer sandbox senza Node. Modalità web mantenuta. Nessun codice remoto caricato dal renderer.
 - Dialoghi nativi per file V1/V2 e quattro esportazioni, controllo modifiche non salvate alla chiusura, dati Windows standard, backup/ripristino validato con copia preventiva, impostazioni schema 1 e preferenze persistenti.
 - Impostazioni → Aggiornamenti: versione, stabile/data/note/dimensione/stato, controllo/download/installazione/differimento. Auto-controllo facoltativo inizialmente spento; auto-download e auto-installazione alla chiusura disabilitati. Niente beta o downgrade. Download e installazione bloccati senza firma. Firma Authenticode fail closed e SHA-512 dell'updater, non firma separata del manifest.
 - Installer NSIS x64 reale in release, icona dedicata, menu Start e desktop facoltativo, disinstallazione prevista senza rimozione dati. Non firmato e sperimentale, non autorizzato alla distribuzione stabile. Vedere il rapporto di consegna per dimensione/hash e verifica finale.
 - CI web/Windows e workflow manuale di sola release in bozza firmata, azioni fissate a SHA e permessi limitati. Nessuna esecuzione GitHub, tag o release effettuata.
-- Git locale inizializzato, origin ufficiale pubblico inizialmente vuoto. Baseline V0.3 locale su main; develop e feature/desktop-distribution separano lo sviluppo. Identità DtDesigns con email GitHub noreply. Autenticazione GitHub completata con dariotodarodt tramite Git Credential Manager; push --dry-run riuscito sui tre rami senza inviare file. VS Code riconosce Git e il ramo nel workspace locale. Nessun push reale: conferma proprietario ancora richiesta dopo revisione del manifesto.
+- Git locale inizializzato, origin ufficiale pubblico inizialmente vuoto. Baseline V0.3 locale su main; develop e feature/desktop-distribution separano lo sviluppo. Identità DtDesigns con email GitHub noreply. Autenticazione GitHub completata con dariotodarodt tramite Git Credential Manager; push --dry-run riuscito sui tre rami senza inviare file. VS Code riconosce Git e il ramo nel workspace locale. Questo descrive il controllo precedente al primo push, poi autorizzato ed eseguito come riportato sopra.
 - Inventario licenze e nessuna licenza open source assegnata. Runtime/cache/backups/installer/foto e progetti privati esclusi. Git non è un archivio dei dati utente.
 
 ## Test e limiti della distribuzione

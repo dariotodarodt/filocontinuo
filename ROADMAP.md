@@ -11,7 +11,10 @@
 - [x] Verifica visiva Windows limitata a CAD/3D e aggiornamenti, salvataggio nativo e JSON V2 valido
 - [x] Workflow CI e release firmata solo in bozza, inventario licenze
 - [x] Autenticazione GitHub, Git configurato in VS Code e verifica push --dry-run
-- [ ] Conferma del manifesto e primo push GitHub
+- [x] Conferma del manifesto e primo push GitHub
+- [x] Backup esterno D:/filocontinuo_backup e verifica di 208 file critici
+- [x] Nuovo clone D:/filocontinuo_github, npm ci, 45 test, build web/desktop e smoke
+- [x] Git separato in D:/filocontinuo_tools e configurazione percorso VS Code
 - [ ] Protezioni rami e ambiente release-signing con revisori su GitHub
 - [ ] Esecuzione effettiva dei workflow sul repository
 - [ ] Certificato Authenticode e gestione sicura secret

@@ -14,7 +14,7 @@
 - In V0.2 conservare nodi/maniglie originali e reader JSON V1; non rigenerare silenziosamente i progetti legacy.
 - Salvare in JSON V2 dopo modifiche manuali. Ottimizzazioni soltanto proposte fino alla conferma esplicita nella UI.
 - Per nuove funzioni vettoriali eseguire i test V0.1 e V0.2; SSR/XML non sono QA visiva. Non aggirare l'indisponibilità del browser con automazioni alternative non supportate.
-- Cache, log e temporanei su D:\filocontinuo\.tools. Non forzare downgrade/upgrade della toolchain per nascondere advisory senza verificarne gli effetti.
+- Cache, log e temporanei sul disco D nella cartella `.tools` del checkout corrente (ora `D:\filocontinuo_github\.tools`). Non dipendere dalla vecchia cartella `D:\filocontinuo`. Non forzare downgrade/upgrade della toolchain per nascondere advisory senza verificarne gli effetti.
 - V0.3: non presentare le candidate a quattro tratti come soluzioni LED; 400/600 mm restano incompatibili. Consultare examples/v03/confronto.json.
 - Non usare verde se un controllo esaurisce il budget. Conservare separati radiusLower, raggio osservato e difetti di giunzione.
 - Conservare gate dei job, cancellazione e blocco export per dati obsoleti. Il test Node del worker non equivale a QA browser.
