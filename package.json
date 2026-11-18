@@ -1,0 +1,35 @@
+{
+  "name": "filocontinuo",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "test": "tsx --test tests/*.test.ts",
+    "preview": "vite preview --host 127.0.0.1",
+    "examples:v03": "tsx scripts/generate-v03.ts"
+  },
+  "dependencies": {
+    "clipper-lib": "^6.4.2",
+    "earcut": "^3.0.1",
+    "fflate": "^0.8.2",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.177.0"
+  },
+  "devDependencies": {
+    "@types/clipper-lib": "^6.4.0",
+    "@types/earcut": "^3.0.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/three": "^0.177.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "linkedom": "^0.18.12",
+    "tsx": "^4.19.4",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "mesh": {
+    "valid": true,
+    "triangles": 26148,
+    "boundary": 0,
+    "nonManifold": 0,
+    "nonManifoldVertices": 0,
+    "inconsistent": 0,
+    "degenerate": 0,
+    "volume": 36704.556729684286
+  },
+  "dimensions": {
+    "width": 408.6899962425232,
+    "height": 89.41500043869019,
+    "depth": 8.5
+  },
+  "production": {
+    "length": 1608.5984307562755,
+    "minRadius": 0.4192615645153941,
+    "intersections": 17,
+    "proximity": 7519,
+    "warnings": [
+      "Raggio rilevato 0.4 mm, inferiore ai 12 mm richiesti.",
+      "Incroci tra percorsi: il LED non può occupare lo stesso spazio. Correggere il disegno prima della produzione.",
+      "Tratti vicini o sovrapposti: possibili fusioni delle pareti. Verificare nella vista 2D."
+    ],
+    "paths": 7
+  }
+}

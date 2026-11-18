@@ -1,0 +1,1 @@
+export function bedCompatibility(width:number,height:number,depth:number,plate=256){const fits=width>0&&height>0&&depth>0&&width<=plate&&height<=plate&&depth<=256;return {fits,width,height,depth,plate,message:fits?'Dentro 256 × 256 × 256 mm, orientamento corrente.':'Fuori volume P1S 256 × 256 × 256 mm. Suddivisione non implementata.'};}

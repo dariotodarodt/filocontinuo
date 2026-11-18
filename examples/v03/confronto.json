@@ -1,0 +1,3737 @@
+{
+  "date": "2026-11-18",
+  "notes": "Profili dimostrativi. Nessuna fotografia, verifica visiva, slicing o stampa fisica. Le candidate incompatibili non sono soluzioni produttive.",
+  "baseline": [
+    {
+      "version": "V0.2",
+      "width": 400,
+      "paths": 17,
+      "length": 555.7872942077801,
+      "radiusObserved": 3.7329555899253837,
+      "legacy": {
+        "errors": 24,
+        "warnings": 30,
+        "compatible": false
+      },
+      "strict": {
+        "status": "incompatible",
+        "errors": 28,
+        "warnings": 9,
+        "raw": {
+          "intersections": 0,
+          "overlaps": 0,
+          "clearanceDeficit": 1617.9613547660742,
+          "cuspCount": 1,
+          "violatingSpans": 21,
+          "unknownSpans": 0
+        }
+      },
+      "params": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale"
+    },
+    {
+      "version": "V0.2",
+      "width": 600,
+      "paths": 17,
+      "length": 833.737332231053,
+      "radiusObserved": 5.5994333848880835,
+      "legacy": {
+        "errors": 24,
+        "warnings": 35,
+        "compatible": false
+      },
+      "strict": {
+        "status": "incompatible",
+        "errors": 25,
+        "warnings": 5,
+        "raw": {
+          "intersections": 0,
+          "overlaps": 0,
+          "clearanceDeficit": 470.6340431738534,
+          "cuspCount": 1,
+          "violatingSpans": 20,
+          "unknownSpans": 0
+        }
+      },
+      "params": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale"
+    },
+    {
+      "version": "V0.2",
+      "width": 1600,
+      "paths": 17,
+      "length": 2223.7544728134817,
+      "radiusObserved": 13.190882326021734,
+      "legacy": {
+        "errors": 0,
+        "warnings": 2,
+        "compatible": true
+      },
+      "strict": {
+        "status": "incompatible",
+        "errors": 1,
+        "warnings": 2,
+        "raw": {
+          "intersections": 0,
+          "overlaps": 0,
+          "clearanceDeficit": 0,
+          "cuspCount": 1,
+          "violatingSpans": 0,
+          "unknownSpans": 0
+        }
+      },
+      "params": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale"
+    }
+  ],
+  "variants": [
+    {
+      "text": "Stay playful",
+      "width": 400,
+      "variant": "fluida",
+      "height": 42.492128844756614,
+      "paths": 4,
+      "length": 902.0218531733219,
+      "radiusObserved": 0.7045509588497882,
+      "radiusLower": 0.06431744804546366,
+      "status": "incompatible",
+      "errors": 126,
+      "warnings": 20,
+      "raw": {
+        "intersections": 0,
+        "overlaps": 0,
+        "clearanceDeficit": 2454.888151957131,
+        "cuspCount": 0,
+        "violatingSpans": 109,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "S",
+          "previous": null,
+          "next": "t",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "t",
+          "previous": "S",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "t",
+          "next": "y",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        },
+        {
+          "character": "p",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "l",
+          "next": "y",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": "f",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "f",
+          "previous": "y",
+          "next": "u",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "u",
+          "previous": "f",
+          "next": "l",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Stay playful",
+      "width": 400,
+      "variant": "aperta",
+      "height": 29.730345456051698,
+      "paths": 4,
+      "length": 746.823294516458,
+      "radiusObserved": 0.7363838032382608,
+      "radiusLower": 0.16313449164641067,
+      "status": "incompatible",
+      "errors": 135,
+      "warnings": 25,
+      "raw": {
+        "intersections": 0,
+        "overlaps": 0,
+        "clearanceDeficit": 3786.2980325649837,
+        "cuspCount": 0,
+        "violatingSpans": 114,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "S",
+          "previous": null,
+          "next": "t",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "t",
+          "previous": "S",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "t",
+          "next": "y",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        },
+        {
+          "character": "p",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "l",
+          "next": "y",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": "f",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "f",
+          "previous": "y",
+          "next": "u",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "u",
+          "previous": "f",
+          "next": "l",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Stay playful",
+      "width": 400,
+      "variant": "slanciata",
+      "height": 54.23803526448363,
+      "paths": 4,
+      "length": 1048.9577656948668,
+      "radiusObserved": 0.597070622259522,
+      "radiusLower": 0.020550611555303418,
+      "status": "incompatible",
+      "errors": 122,
+      "warnings": 23,
+      "raw": {
+        "intersections": 0,
+        "overlaps": 0,
+        "clearanceDeficit": 2953.8829095023602,
+        "cuspCount": 0,
+        "violatingSpans": 104,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "S",
+          "previous": null,
+          "next": "t",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "t",
+          "previous": "S",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "t",
+          "next": "y",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        },
+        {
+          "character": "p",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "l",
+          "next": "y",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": "f",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "f",
+          "previous": "y",
+          "next": "u",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "u",
+          "previous": "f",
+          "next": "l",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Stay playful",
+      "width": 600,
+      "variant": "fluida",
+      "height": 63.73819326713491,
+      "paths": 4,
+      "length": 1353.2319332555794,
+      "radiusObserved": 1.0568264382746821,
+      "radiusLower": 0.09647617206819716,
+      "status": "incompatible",
+      "errors": 107,
+      "warnings": 16,
+      "raw": {
+        "intersections": 0,
+        "overlaps": 0,
+        "clearanceDeficit": 75.4078215672828,
+        "cuspCount": 0,
+        "violatingSpans": 101,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "S",
+          "previous": null,
+          "next": "t",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "t",
+          "previous": "S",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "t",
+          "next": "y",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        },
+        {
+          "character": "p",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "l",
+          "next": "y",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": "f",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "f",
+          "previous": "y",
+          "next": "u",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "u",
+          "previous": "f",
+          "next": "l",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Stay playful",
+      "width": 600,
+      "variant": "aperta",
+      "height": 44.595518184077555,
+      "paths": 4,
+      "length": 1120.418668440096,
+      "radiusObserved": 1.1045757048573543,
+      "radiusLower": 0.2447017374695916,
+      "status": "incompatible",
+      "errors": 110,
+      "warnings": 20,
+      "raw": {
+        "intersections": 0,
+        "overlaps": 0,
+        "clearanceDeficit": 105.32236041329948,
+        "cuspCount": 0,
+        "violatingSpans": 102,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "S",
+          "previous": null,
+          "next": "t",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "t",
+          "previous": "S",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "t",
+          "next": "y",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        },
+        {
+          "character": "p",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "l",
+          "next": "y",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": "f",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "f",
+          "previous": "y",
+          "next": "u",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "u",
+          "previous": "f",
+          "next": "l",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Stay playful",
+      "width": 600,
+      "variant": "slanciata",
+      "height": 81.36502282745593,
+      "paths": 4,
+      "length": 1573.6884214767588,
+      "radiusObserved": 0.8956059333893064,
+      "radiusLower": 0.03082591733296053,
+      "status": "incompatible",
+      "errors": 97,
+      "warnings": 20,
+      "raw": {
+        "intersections": 0,
+        "overlaps": 0,
+        "clearanceDeficit": 146.08050189450876,
+        "cuspCount": 0,
+        "violatingSpans": 90,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "S",
+          "previous": null,
+          "next": "t",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "t",
+          "previous": "S",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "t",
+          "next": "y",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        },
+        {
+          "character": "p",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "l",
+          "next": "y",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "y",
+          "previous": "a",
+          "next": "f",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "f",
+          "previous": "y",
+          "next": "u",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "u",
+          "previous": "f",
+          "next": "l",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Amore",
+      "width": 400,
+      "variant": "fluida",
+      "height": 57.62356811145512,
+      "paths": 1,
+      "length": 761.1571510319368,
+      "radiusObserved": 1.3128969974866216,
+      "radiusLower": 0.1873065015479784,
+      "status": "incompatible",
+      "errors": 32,
+      "warnings": 17,
+      "raw": {
+        "intersections": 2,
+        "overlaps": 0,
+        "clearanceDeficit": 4370.534935390834,
+        "cuspCount": 0,
+        "violatingSpans": 27,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "A",
+          "previous": null,
+          "next": "m",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "m",
+          "previous": "A",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "m",
+          "next": "r",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "r",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "e",
+          "previous": "r",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Amore",
+      "width": 400,
+      "variant": "aperta",
+      "height": 36.76762560777959,
+      "paths": 1,
+      "length": 656.5457586023799,
+      "radiusObserved": 1.354897681598983,
+      "radiusLower": 0.09369139949966564,
+      "status": "incompatible",
+      "errors": 35,
+      "warnings": 12,
+      "raw": {
+        "intersections": 2,
+        "overlaps": 0,
+        "clearanceDeficit": 5530.157843543767,
+        "cuspCount": 0,
+        "violatingSpans": 30,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "A",
+          "previous": null,
+          "next": "m",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "m",
+          "previous": "A",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "m",
+          "next": "r",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "r",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "e",
+          "previous": "r",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Amore",
+      "width": 400,
+      "variant": "slanciata",
+      "height": 73.66174217994197,
+      "paths": 1,
+      "length": 854.9173807144507,
+      "radiusObserved": 1.1142697175510594,
+      "radiusLower": 0.29520559975636507,
+      "status": "incompatible",
+      "errors": 35,
+      "warnings": 18,
+      "raw": {
+        "intersections": 2,
+        "overlaps": 0,
+        "clearanceDeficit": 3374.2781228623203,
+        "cuspCount": 0,
+        "violatingSpans": 25,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "A",
+          "previous": null,
+          "next": "m",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "m",
+          "previous": "A",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "m",
+          "next": "r",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "r",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "e",
+          "previous": "r",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Amore",
+      "width": 600,
+      "variant": "fluida",
+      "height": 86.43535216718267,
+      "paths": 1,
+      "length": 1141.8209210333594,
+      "radiusObserved": 1.969345496229934,
+      "radiusLower": 0.2809597523219829,
+      "status": "incompatible",
+      "errors": 22,
+      "warnings": 10,
+      "raw": {
+        "intersections": 2,
+        "overlaps": 0,
+        "clearanceDeficit": 3197.8591492468963,
+        "cuspCount": 0,
+        "violatingSpans": 18,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "A",
+          "previous": null,
+          "next": "m",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "m",
+          "previous": "A",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "m",
+          "next": "r",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "r",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "e",
+          "previous": "r",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Amore",
+      "width": 600,
+      "variant": "aperta",
+      "height": 55.15143841166936,
+      "paths": 1,
+      "length": 984.9596750417099,
+      "radiusObserved": 2.0323465223985147,
+      "radiusLower": 0.14053709924949506,
+      "status": "incompatible",
+      "errors": 25,
+      "warnings": 19,
+      "raw": {
+        "intersections": 2,
+        "overlaps": 0,
+        "clearanceDeficit": 4161.973706558093,
+        "cuspCount": 0,
+        "violatingSpans": 21,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "A",
+          "previous": null,
+          "next": "m",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "m",
+          "previous": "A",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "m",
+          "next": "r",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "r",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "e",
+          "previous": "r",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Amore",
+      "width": 600,
+      "variant": "slanciata",
+      "height": 110.49261326991294,
+      "paths": 1,
+      "length": 1282.4318556293615,
+      "radiusObserved": 1.6714045763266079,
+      "radiusLower": 0.4428083996345349,
+      "status": "incompatible",
+      "errors": 26,
+      "warnings": 10,
+      "raw": {
+        "intersections": 2,
+        "overlaps": 0,
+        "clearanceDeficit": 2472.0042027927166,
+        "cuspCount": 0,
+        "violatingSpans": 18,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "A",
+          "previous": null,
+          "next": "m",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "m",
+          "previous": "A",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "m",
+          "next": "r",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "r",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "e",
+          "previous": "r",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Olivia",
+      "width": 400,
+      "variant": "fluida",
+      "height": 75.86206896551725,
+      "paths": 3,
+      "length": 786.1756690758889,
+      "radiusObserved": 1.3932427725531156,
+      "radiusLower": 0.13245758073344271,
+      "status": "incompatible",
+      "errors": 39,
+      "warnings": 10,
+      "raw": {
+        "intersections": 1,
+        "overlaps": 0,
+        "clearanceDeficit": 1623.6473444956875,
+        "cuspCount": 0,
+        "violatingSpans": 37,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "O",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "O",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "l",
+          "next": "v",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "v",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "v",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "i",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Olivia",
+      "width": 400,
+      "variant": "aperta",
+      "height": 49.328385228095584,
+      "paths": 3,
+      "length": 663.6801481274606,
+      "radiusObserved": 1.4303465908582977,
+      "radiusLower": 0.06591167286571727,
+      "status": "incompatible",
+      "errors": 35,
+      "warnings": 12,
+      "raw": {
+        "intersections": 1,
+        "overlaps": 0,
+        "clearanceDeficit": 3369.953968303286,
+        "cuspCount": 0,
+        "violatingSpans": 33,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "O",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "O",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "l",
+          "next": "v",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "v",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "v",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "i",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Olivia",
+      "width": 400,
+      "variant": "slanciata",
+      "height": 96.86098654708522,
+      "paths": 3,
+      "length": 895.2604360512923,
+      "radiusObserved": 1.1810515049179708,
+      "radiusLower": 0.08672146460676697,
+      "status": "incompatible",
+      "errors": 38,
+      "warnings": 7,
+      "raw": {
+        "intersections": 1,
+        "overlaps": 0,
+        "clearanceDeficit": 1280.0332495715188,
+        "cuspCount": 0,
+        "violatingSpans": 33,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "O",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "O",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "l",
+          "next": "v",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "v",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "v",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "i",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Olivia",
+      "width": 600,
+      "variant": "fluida",
+      "height": 113.79310344827587,
+      "paths": 3,
+      "length": 1179.3965846992955,
+      "radiusObserved": 2.0898641588296725,
+      "radiusLower": 0.19868637110016435,
+      "status": "incompatible",
+      "errors": 26,
+      "warnings": 8,
+      "raw": {
+        "intersections": 1,
+        "overlaps": 0,
+        "clearanceDeficit": 2025.8739828375176,
+        "cuspCount": 0,
+        "violatingSpans": 24,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "O",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "O",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "l",
+          "next": "v",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "v",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "v",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "i",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Olivia",
+      "width": 600,
+      "variant": "aperta",
+      "height": 73.99257784214339,
+      "paths": 3,
+      "length": 995.6385404886545,
+      "radiusObserved": 2.145519886287446,
+      "radiusLower": 0.09886750929857746,
+      "status": "incompatible",
+      "errors": 33,
+      "warnings": 3,
+      "raw": {
+        "intersections": 1,
+        "overlaps": 0,
+        "clearanceDeficit": 1974.7700183430084,
+        "cuspCount": 0,
+        "violatingSpans": 31,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "O",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "O",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "l",
+          "next": "v",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "v",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "v",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "i",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Olivia",
+      "width": 600,
+      "variant": "slanciata",
+      "height": 145.2914798206278,
+      "paths": 3,
+      "length": 1342.9923269542455,
+      "radiusObserved": 1.7715772573769564,
+      "radiusLower": 0.1300821969101519,
+      "status": "incompatible",
+      "errors": 26,
+      "warnings": 7,
+      "raw": {
+        "intersections": 1,
+        "overlaps": 0,
+        "clearanceDeficit": 1706.2957337670896,
+        "cuspCount": 0,
+        "violatingSpans": 23,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "O",
+          "previous": null,
+          "next": "l",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "O",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "l",
+          "next": "v",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "v",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "v",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "i",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Tradizione",
+      "width": 400,
+      "variant": "fluida",
+      "height": 47.58482142857144,
+      "paths": 4,
+      "length": 813.9535957654325,
+      "radiusObserved": 0.7421150278292858,
+      "radiusLower": 0.016685741126372278,
+      "status": "incompatible",
+      "errors": 87,
+      "warnings": 30,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 10765.55019681286,
+        "cuspCount": 0,
+        "violatingSpans": 70,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "T",
+          "previous": null,
+          "next": "r",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "r",
+          "previous": "T",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "r",
+          "next": "d",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "d",
+          "previous": "a",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "d",
+          "next": "z",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "z",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "z",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "i",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "e",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Tradizione",
+      "width": 400,
+      "variant": "aperta",
+      "height": 28.585678993861357,
+      "paths": 4,
+      "length": 688.3030330697381,
+      "radiusObserved": 0.569902799256577,
+      "radiusLower": 0.022594436900954796,
+      "status": "incompatible",
+      "errors": 85,
+      "warnings": 30,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 12983.208300353166,
+        "cuspCount": 0,
+        "violatingSpans": 72,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "T",
+          "previous": null,
+          "next": "r",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "r",
+          "previous": "T",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "r",
+          "next": "d",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "d",
+          "previous": "a",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "d",
+          "next": "z",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "z",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "z",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "i",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "e",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Tradizione",
+      "width": 400,
+      "variant": "slanciata",
+      "height": 60.735114902506965,
+      "paths": 4,
+      "length": 918.2720991365541,
+      "radiusObserved": 0.6288288553841035,
+      "radiusLower": 0.005330763195489417,
+      "status": "incompatible",
+      "errors": 87,
+      "warnings": 24,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 9847.317046727758,
+        "cuspCount": 0,
+        "violatingSpans": 67,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "T",
+          "previous": null,
+          "next": "r",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "r",
+          "previous": "T",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "r",
+          "next": "d",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "d",
+          "previous": "a",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "d",
+          "next": "z",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "z",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "z",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "i",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "e",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Tradizione",
+      "width": 600,
+      "variant": "fluida",
+      "height": 71.3818359375,
+      "paths": 4,
+      "length": 1221.1137961379973,
+      "radiusObserved": 1.1131725417439957,
+      "radiusLower": 0.02502861168955819,
+      "status": "incompatible",
+      "errors": 66,
+      "warnings": 30,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 5974.343992552224,
+        "cuspCount": 0,
+        "violatingSpans": 60,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "T",
+          "previous": null,
+          "next": "r",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "r",
+          "previous": "T",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "r",
+          "next": "d",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "d",
+          "previous": "a",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "d",
+          "next": "z",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "z",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "z",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "i",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "e",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Tradizione",
+      "width": 600,
+      "variant": "aperta",
+      "height": 42.87851849079205,
+      "paths": 4,
+      "length": 1032.5416709442966,
+      "radiusObserved": 0.854854198884881,
+      "radiusLower": 0.0338916553514319,
+      "status": "incompatible",
+      "errors": 69,
+      "warnings": 15,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 8524.769564394835,
+        "cuspCount": 0,
+        "violatingSpans": 61,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "T",
+          "previous": null,
+          "next": "r",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "r",
+          "previous": "T",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "r",
+          "next": "d",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "d",
+          "previous": "a",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "d",
+          "next": "z",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "z",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "z",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "i",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "e",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Tradizione",
+      "width": 600,
+      "variant": "slanciata",
+      "height": 91.10267235376044,
+      "paths": 4,
+      "length": 1377.5976599477199,
+      "radiusObserved": 0.9432432830761005,
+      "radiusLower": 0.007996144793236685,
+      "status": "incompatible",
+      "errors": 62,
+      "warnings": 26,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 5056.799820635553,
+        "cuspCount": 0,
+        "violatingSpans": 52,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "T",
+          "previous": null,
+          "next": "r",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "r",
+          "previous": "T",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "r",
+          "next": "d",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "d",
+          "previous": "a",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "d",
+          "next": "z",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "z",
+          "previous": "i",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "z",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "i",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "e",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "e",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Buon compleanno",
+      "width": 400,
+      "variant": "fluida",
+      "height": 35.865203540820936,
+      "paths": 2,
+      "length": 771.0097368131331,
+      "radiusObserved": 0.46863375686107983,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 143,
+      "warnings": 20,
+      "raw": {
+        "intersections": 5,
+        "overlaps": 0,
+        "clearanceDeficit": 27706.42220704737,
+        "cuspCount": 0,
+        "violatingSpans": 126,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "B",
+          "previous": null,
+          "next": "u",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "u",
+          "previous": "B",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        },
+        {
+          "character": "c",
+          "previous": null,
+          "next": "o",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "m",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "m",
+          "previous": "o",
+          "next": "p",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "p",
+          "previous": "m",
+          "next": "l",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "e",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "e",
+          "previous": "l",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "e",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "a",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Buon compleanno",
+      "width": 400,
+      "variant": "aperta",
+      "height": 24.89856622079339,
+      "paths": 2,
+      "length": 661.2190336889789,
+      "radiusObserved": 0.3433926278126384,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 144,
+      "warnings": 11,
+      "raw": {
+        "intersections": 4,
+        "overlaps": 0,
+        "clearanceDeficit": 19462.591443251393,
+        "cuspCount": 0,
+        "violatingSpans": 129,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "B",
+          "previous": null,
+          "next": "u",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "u",
+          "previous": "B",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        },
+        {
+          "character": "c",
+          "previous": null,
+          "next": "o",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "m",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "m",
+          "previous": "o",
+          "next": "p",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "p",
+          "previous": "m",
+          "next": "l",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "e",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "e",
+          "previous": "l",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "e",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "a",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Buon compleanno",
+      "width": 400,
+      "variant": "slanciata",
+      "height": 45.71229798571263,
+      "paths": 2,
+      "length": 874.8448022697092,
+      "radiusObserved": 0.39656205483585183,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 139,
+      "warnings": 30,
+      "raw": {
+        "intersections": 5,
+        "overlaps": 0,
+        "clearanceDeficit": 28002.295741479124,
+        "cuspCount": 0,
+        "violatingSpans": 121,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "B",
+          "previous": null,
+          "next": "u",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "u",
+          "previous": "B",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        },
+        {
+          "character": "c",
+          "previous": null,
+          "next": "o",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "m",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "m",
+          "previous": "o",
+          "next": "p",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "p",
+          "previous": "m",
+          "next": "l",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "e",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "e",
+          "previous": "l",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "e",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "a",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Buon compleanno",
+      "width": 600,
+      "variant": "fluida",
+      "height": 53.797805311231414,
+      "paths": 2,
+      "length": 1156.6767738519845,
+      "radiusObserved": 0.7029506352916076,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 137,
+      "warnings": 46,
+      "raw": {
+        "intersections": 5,
+        "overlaps": 0,
+        "clearanceDeficit": 19979.065318123066,
+        "cuspCount": 0,
+        "violatingSpans": 113,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "B",
+          "previous": null,
+          "next": "u",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "u",
+          "previous": "B",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        },
+        {
+          "character": "c",
+          "previous": null,
+          "next": "o",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "m",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "m",
+          "previous": "o",
+          "next": "p",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "p",
+          "previous": "m",
+          "next": "l",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "e",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "e",
+          "previous": "l",
+          "next": "a",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "a",
+          "previous": "e",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "a",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Buon compleanno",
+      "width": 600,
+      "variant": "aperta",
+      "height": 37.34784933119008,
+      "paths": 2,
+      "length": 992.0383034010279,
+      "radiusObserved": 0.5150889417189644,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 135,
+      "warnings": 49,
+      "raw": {
+        "intersections": 5,
+        "overlaps": 0,
+        "clearanceDeficit": 22984.805838457323,
+        "cuspCount": 0,
+        "violatingSpans": 118,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "B",
+          "previous": null,
+          "next": "u",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "u",
+          "previous": "B",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        },
+        {
+          "character": "c",
+          "previous": null,
+          "next": "o",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "m",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "m",
+          "previous": "o",
+          "next": "p",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "p",
+          "previous": "m",
+          "next": "l",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "e",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "e",
+          "previous": "l",
+          "next": "a",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "a",
+          "previous": "e",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "a",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Buon compleanno",
+      "width": 600,
+      "variant": "slanciata",
+      "height": 68.56844697856891,
+      "paths": 2,
+      "length": 1312.4686064198336,
+      "radiusObserved": 0.5948430822537953,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 132,
+      "warnings": 39,
+      "raw": {
+        "intersections": 5,
+        "overlaps": 0,
+        "clearanceDeficit": 18680.464357462413,
+        "cuspCount": 0,
+        "violatingSpans": 105,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "B",
+          "previous": null,
+          "next": "u",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "u",
+          "previous": "B",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        },
+        {
+          "character": "c",
+          "previous": null,
+          "next": "o",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "m",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "m",
+          "previous": "o",
+          "next": "p",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "p",
+          "previous": "m",
+          "next": "l",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "p",
+          "next": "e",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "e",
+          "previous": "l",
+          "next": "a",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "a",
+          "previous": "e",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "a",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "n",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Filocontinuo",
+      "width": 400,
+      "variant": "fluida",
+      "height": 49.69316465256797,
+      "paths": 5,
+      "length": 834.6377312137284,
+      "radiusObserved": 0.6277710205202117,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 107,
+      "warnings": 36,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 16997.80650695226,
+        "cuspCount": 0,
+        "violatingSpans": 89,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "F",
+          "previous": null,
+          "next": "i",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "F",
+          "next": "l",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "i",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "l",
+          "next": "c",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "c",
+          "previous": "o",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "t",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "t",
+          "previous": "n",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "t",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "i",
+          "next": "u",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "u",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Filocontinuo",
+      "width": 400,
+      "variant": "aperta",
+      "height": 34.06265028221418,
+      "paths": 5,
+      "length": 705.5751192305315,
+      "radiusObserved": 0.4541919196032488,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 111,
+      "warnings": 14,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 18934.414439757325,
+        "cuspCount": 0,
+        "violatingSpans": 95,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "F",
+          "previous": null,
+          "next": "i",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "F",
+          "next": "l",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "i",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "l",
+          "next": "c",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "c",
+          "previous": "o",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "t",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "t",
+          "previous": "n",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "t",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "i",
+          "next": "u",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "u",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Filocontinuo",
+      "width": 400,
+      "variant": "slanciata",
+      "height": 63.42702116381342,
+      "paths": 5,
+      "length": 952.500411831711,
+      "radiusObserved": 0.5318428437636721,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 109,
+      "warnings": 26,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 17122.661183875665,
+        "cuspCount": 0,
+        "violatingSpans": 87,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "F",
+          "previous": null,
+          "next": "i",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "F",
+          "next": "l",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "i",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "l",
+          "next": "c",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "c",
+          "previous": "o",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "t",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "t",
+          "previous": "n",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "t",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "i",
+          "next": "u",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "u",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    },
+    {
+      "text": "Filocontinuo",
+      "width": 600,
+      "variant": "fluida",
+      "height": 74.5592192220544,
+      "paths": 5,
+      "length": 1252.1234189892966,
+      "radiusObserved": 0.9416565307803605,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 98,
+      "warnings": 22,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 9228.272941975107,
+        "cuspCount": 0,
+        "violatingSpans": 80,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "F",
+          "previous": null,
+          "next": "i",
+          "form": "initial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "F",
+          "next": "l",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "l",
+          "previous": "i",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "l",
+          "next": "c",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "c",
+          "previous": "o",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "t",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "t",
+          "previous": "n",
+          "next": "i",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "i",
+          "previous": "t",
+          "next": "n",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "n",
+          "previous": "i",
+          "next": "u",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "u",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "fluida"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "fluida"
+        }
+      ]
+    },
+    {
+      "text": "Filocontinuo",
+      "width": 600,
+      "variant": "aperta",
+      "height": 51.09397542332128,
+      "paths": 5,
+      "length": 1058.4701847037172,
+      "radiusObserved": 0.6812878794048894,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 92,
+      "warnings": 33,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 12939.228185052843,
+        "cuspCount": 0,
+        "violatingSpans": 80,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "F",
+          "previous": null,
+          "next": "i",
+          "form": "initial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "F",
+          "next": "l",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "l",
+          "previous": "i",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "l",
+          "next": "c",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "c",
+          "previous": "o",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "t",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "t",
+          "previous": "n",
+          "next": "i",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "i",
+          "previous": "t",
+          "next": "n",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "n",
+          "previous": "i",
+          "next": "u",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "u",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "aperta"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "aperta"
+        }
+      ]
+    },
+    {
+      "text": "Filocontinuo",
+      "width": 600,
+      "variant": "slanciata",
+      "height": 95.14053174572014,
+      "paths": 5,
+      "length": 1428.9770928959006,
+      "radiusObserved": 0.7977642656455071,
+      "radiusLower": 0,
+      "status": "incompatible",
+      "errors": 99,
+      "warnings": 37,
+      "raw": {
+        "intersections": 3,
+        "overlaps": 0,
+        "clearanceDeficit": 6895.207270767905,
+        "cuspCount": 0,
+        "violatingSpans": 74,
+        "unknownSpans": 0
+      },
+      "physical": {
+        "ledWidth": 6,
+        "ledHeight": 8,
+        "wall": 1.2,
+        "floor": 1.5,
+        "tolerance": 0.3,
+        "wallHeight": 7,
+        "minRadius": 12
+      },
+      "bend": "laterale",
+      "context": [
+        {
+          "character": "F",
+          "previous": null,
+          "next": "i",
+          "form": "initial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "F",
+          "next": "l",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "l",
+          "previous": "i",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "l",
+          "next": "c",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "c",
+          "previous": "o",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "c",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "o",
+          "next": "t",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "t",
+          "previous": "n",
+          "next": "i",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "i",
+          "previous": "t",
+          "next": "n",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "n",
+          "previous": "i",
+          "next": "u",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "u",
+          "previous": "n",
+          "next": "o",
+          "form": "medial",
+          "variant": "slanciata"
+        },
+        {
+          "character": "o",
+          "previous": "u",
+          "next": null,
+          "form": "final",
+          "variant": "slanciata"
+        }
+      ]
+    }
+  ]
+}

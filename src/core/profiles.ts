@@ -1,0 +1,5 @@
+import { defaults,validateProfile,type LedProfile,type Project } from './types';
+export const demoProfiles:LedProfile[]=[{id:'demo-6x8',name:'Demo 6 × 8 mm — da verificare',params:{...defaults.params},bend:'laterale',cutInterval:25,demonstrative:true},{id:'demo-8x12',name:'Demo 8 × 12 mm — da verificare',params:{...defaults.params,ledWidth:8,ledHeight:12,minRadius:25,wallHeight:10},bend:'laterale',cutInterval:50,demonstrative:true}];
+export function newProject():Project{return {...structuredClone(defaults),version:2,generator:'open',proportion:1,profiles:structuredClone(demoProfiles),activeProfile:demoProfiles[0].id,bend:'laterale',cutInterval:25};}
+export function newProjectV3():Project{return {...newProject(),generator:'contextual',variant:'fluida',maxWidth:600,maxDeviation:3,swashes:false,calibrationNotes:''};}
+export function applyProfile(p:Project,profile:LedProfile):Project{const v=validateProfile(profile);return {...p,version:2,params:v.params,bend:v.bend,cutInterval:v.cutInterval,activeProfile:v.id};}

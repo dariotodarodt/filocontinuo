@@ -1,0 +1,2222 @@
+{
+  "text": "Stay playful",
+  "width": 600,
+  "variant": "slanciata",
+  "height": 81.36502282745593,
+  "paths": 4,
+  "length": 1573.6884214767588,
+  "radiusObserved": 0.8956059333893064,
+  "radiusLower": 0.03082591733296053,
+  "status": "incompatible",
+  "errors": 97,
+  "warnings": 20,
+  "raw": {
+    "intersections": 0,
+    "overlaps": 0,
+    "clearanceDeficit": 146.08050189450876,
+    "cuspCount": 0,
+    "violatingSpans": 90,
+    "unknownSpans": 0
+  },
+  "physical": {
+    "ledWidth": 6,
+    "ledHeight": 8,
+    "wall": 1.2,
+    "floor": 1.5,
+    "tolerance": 0.3,
+    "wallHeight": 7,
+    "minRadius": 12
+  },
+  "bend": "laterale",
+  "context": [
+    {
+      "character": "S",
+      "previous": null,
+      "next": "t",
+      "form": "initial",
+      "variant": "slanciata"
+    },
+    {
+      "character": "t",
+      "previous": "S",
+      "next": "a",
+      "form": "medial",
+      "variant": "slanciata"
+    },
+    {
+      "character": "a",
+      "previous": "t",
+      "next": "y",
+      "form": "medial",
+      "variant": "slanciata"
+    },
+    {
+      "character": "y",
+      "previous": "a",
+      "next": null,
+      "form": "final",
+      "variant": "slanciata"
+    },
+    {
+      "character": "p",
+      "previous": null,
+      "next": "l",
+      "form": "initial",
+      "variant": "slanciata"
+    },
+    {
+      "character": "l",
+      "previous": "p",
+      "next": "a",
+      "form": "medial",
+      "variant": "slanciata"
+    },
+    {
+      "character": "a",
+      "previous": "l",
+      "next": "y",
+      "form": "medial",
+      "variant": "slanciata"
+    },
+    {
+      "character": "y",
+      "previous": "a",
+      "next": "f",
+      "form": "medial",
+      "variant": "slanciata"
+    },
+    {
+      "character": "f",
+      "previous": "y",
+      "next": "u",
+      "form": "medial",
+      "variant": "slanciata"
+    },
+    {
+      "character": "u",
+      "previous": "f",
+      "next": "l",
+      "form": "medial",
+      "variant": "slanciata"
+    },
+    {
+      "character": "l",
+      "previous": "u",
+      "next": null,
+      "form": "final",
+      "variant": "slanciata"
+    }
+  ],
+  "anomalies": [
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 70.6904943042284,
+        "y": 65.23316573520151
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 192,
+      "t": 0,
+      "message": "Distanza tra assi 8.74 mm / esterno 8.70 mm",
+      "measured": 8.74123408194332,
+      "limit": 8.7,
+      "id": "defect-0",
+      "samples": 6
+    },
+    {
+      "kind": "distanza",
+      "severity": "error",
+      "position": {
+        "x": 70.93198531369542,
+        "y": 65.67446079974812
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 192,
+      "t": 0,
+      "message": "Distanza tra assi 8.52 mm / esterno 8.70 mm",
+      "measured": 8.523692017458826,
+      "limit": 8.7,
+      "id": "defect-1",
+      "samples": 1
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 157.663737297349,
+        "y": 51.039436397984886
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 391,
+      "t": 0,
+      "message": "Distanza tra assi 8.71 mm / esterno 8.70 mm",
+      "measured": 8.707696164657888,
+      "limit": 8.7,
+      "id": "defect-2",
+      "samples": 7
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 176.88436676873033,
+        "y": 45.79380326352336
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 444,
+      "t": 0,
+      "message": "Distanza tra assi 8.72 mm / esterno 8.70 mm",
+      "measured": 8.72141175661631,
+      "limit": 8.7,
+      "id": "defect-3",
+      "samples": 9
+    },
+    {
+      "kind": "distanza",
+      "severity": "error",
+      "position": {
+        "x": 177.74832078281946,
+        "y": 47.77176479848866
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 443,
+      "t": 0,
+      "message": "Distanza tra assi 7.45 mm / esterno 8.70 mm",
+      "measured": 7.452723110203297,
+      "limit": 8.7,
+      "id": "defect-4",
+      "samples": 10
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 257.4000658865604,
+        "y": 34.11256300428307
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 62,
+      "t": 0,
+      "message": "Distanza tra assi 9.08 mm / esterno 8.70 mm",
+      "measured": 9.083255000945561,
+      "limit": 8.7,
+      "id": "defect-5",
+      "samples": 13
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 317.96453956462835,
+        "y": 69.43913727959696
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 190,
+      "t": 0,
+      "message": "Distanza tra assi 9.14 mm / esterno 8.70 mm",
+      "measured": 9.14460312748667,
+      "limit": 8.7,
+      "id": "defect-6",
+      "samples": 1
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 404.6158783552835,
+        "y": 51.039436397984886
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 393,
+      "t": 0,
+      "message": "Distanza tra assi 8.71 mm / esterno 8.70 mm",
+      "measured": 8.70769616465783,
+      "limit": 8.7,
+      "id": "defect-7",
+      "samples": 7
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 423.83650782666496,
+        "y": 45.79380326352336
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 446,
+      "t": 0,
+      "message": "Distanza tra assi 8.72 mm / esterno 8.70 mm",
+      "measured": 8.72141175661634,
+      "limit": 8.7,
+      "id": "defect-8",
+      "samples": 9
+    },
+    {
+      "kind": "distanza",
+      "severity": "error",
+      "position": {
+        "x": 424.7004618407541,
+        "y": 47.77176479848866
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 445,
+      "t": 0,
+      "message": "Distanza tra assi 7.45 mm / esterno 8.70 mm",
+      "measured": 7.452723110203297,
+      "limit": 8.7,
+      "id": "defect-9",
+      "samples": 10
+    },
+    {
+      "kind": "distanza",
+      "severity": "error",
+      "position": {
+        "x": 518.3732609003212,
+        "y": 50.11112131198192
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 725,
+      "t": 0,
+      "message": "Distanza tra assi 7.19 mm / esterno 8.70 mm",
+      "measured": 7.186935742112995,
+      "limit": 8.7,
+      "id": "defect-10",
+      "samples": 39
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 518.0194443192207,
+        "y": 48.32169001889169
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 728,
+      "t": 0,
+      "message": "Distanza tra assi 8.83 mm / esterno 8.70 mm",
+      "measured": 8.83279634113341,
+      "limit": 8.7,
+      "id": "defect-11",
+      "samples": 15
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 540.5550932539735,
+        "y": 49.84394678841309
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 776,
+      "t": 0,
+      "message": "Distanza tra assi 8.74 mm / esterno 8.70 mm",
+      "measured": 8.735750518251256,
+      "limit": 8.7,
+      "id": "defect-12",
+      "samples": 10
+    },
+    {
+      "kind": "distanza",
+      "severity": "error",
+      "position": {
+        "x": 541.2280458972784,
+        "y": 50.162744017632235
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 779,
+      "t": 0,
+      "message": "Distanza tra assi 7.44 mm / esterno 8.70 mm",
+      "measured": 7.44362887937614,
+      "limit": 8.7,
+      "id": "defect-13",
+      "samples": 22
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 581.1147309082339,
+        "y": 70.1672701511335
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 858,
+      "t": 0,
+      "message": "Distanza tra assi 9.16 mm / esterno 8.70 mm",
+      "measured": 9.161265376210102,
+      "limit": 8.7,
+      "id": "defect-14",
+      "samples": 1
+    },
+    {
+      "kind": "distanza",
+      "severity": "error",
+      "position": {
+        "x": 77.12715485928823,
+        "y": 57.06039318036108
+      },
+      "pathIds": [
+        0,
+        2
+      ],
+      "segment": 0,
+      "t": 0,
+      "message": "Distanza tra assi 6.88 mm / esterno 8.70 mm",
+      "measured": 6.88029490680085,
+      "limit": 8.7,
+      "id": "defect-15",
+      "samples": 16
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 78.13750411914788,
+        "y": 58.81083615396725
+      },
+      "pathIds": [
+        0,
+        2
+      ],
+      "segment": 1,
+      "t": 0,
+      "message": "Distanza tra assi 8.85 mm / esterno 8.70 mm",
+      "measured": 8.853558843228384,
+      "limit": 8.7,
+      "id": "defect-16",
+      "samples": 3
+    },
+    {
+      "kind": "distanza",
+      "severity": "error",
+      "position": {
+        "x": 491.23847866266766,
+        "y": 59.53403330377163
+      },
+      "pathIds": [
+        1,
+        3
+      ],
+      "segment": 0,
+      "t": 0,
+      "message": "Distanza tra assi 7.96 mm / esterno 8.70 mm",
+      "measured": 7.958042298067273,
+      "limit": 8.7,
+      "id": "defect-17",
+      "samples": 7
+    },
+    {
+      "kind": "distanza",
+      "severity": "warning",
+      "position": {
+        "x": 491.87060112015365,
+        "y": 61.49853589420654
+      },
+      "pathIds": [
+        1,
+        3
+      ],
+      "segment": 0,
+      "t": 0,
+      "message": "Distanza tra assi 9.03 mm / esterno 8.70 mm",
+      "measured": 9.033307038214204,
+      "limit": 8.7,
+      "id": "defect-18",
+      "samples": 3
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 1.5113350125944582,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 1,
+      "t": 0,
+      "message": "Raggio osservato 1.493 mm < 12 mm",
+      "measured": 1.4926765556488484,
+      "limit": 12,
+      "id": "defect-19",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 4.812990211998502,
+        "y": 36.82107997481108
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 2,
+      "t": 0,
+      "message": "Raggio osservato 4.331 mm < 12 mm",
+      "measured": 4.331221653293054,
+      "limit": 12,
+      "id": "defect-20",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 22.40476614379228,
+        "y": 44.727251259445836
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 3,
+      "t": 0.75,
+      "message": "Raggio osservato 10.775 mm < 12 mm",
+      "measured": 10.775111849809374,
+      "limit": 12,
+      "id": "defect-21",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 24.942904700134,
+        "y": 51.61327141057934
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 4,
+      "t": 0.5,
+      "message": "Raggio osservato 4.307 mm < 12 mm",
+      "measured": 4.306934177650174,
+      "limit": 12,
+      "id": "defect-22",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 11.094139852369937,
+        "y": 64.49267947103274
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 6,
+      "t": 0.25,
+      "message": "Raggio osservato 9.505 mm < 12 mm",
+      "measured": 9.505333787021543,
+      "limit": 12,
+      "id": "defect-23",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 11.630386147908293,
+        "y": 75.33178526448361
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 7,
+      "t": 0.25,
+      "message": "Raggio osservato 9.884 mm < 12 mm",
+      "measured": 9.883634007879541,
+      "limit": 12,
+      "id": "defect-24",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 28.61632521721694,
+        "y": 80.30502204030228
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 8,
+      "t": 0.75,
+      "message": "Raggio osservato 7.899 mm < 12 mm",
+      "measured": 7.899453205820736,
+      "limit": 12,
+      "id": "defect-25",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 30.716467693694238,
+        "y": 78.64727644836272
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 9,
+      "t": 0,
+      "message": "Raggio osservato 5.023 mm < 12 mm",
+      "measured": 5.022846355713996,
+      "limit": 12,
+      "id": "defect-26",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 37.616720594732826,
+        "y": 35.800928841309826
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 10,
+      "t": 1,
+      "message": "Raggio osservato 1.524 mm < 12 mm",
+      "measured": 1.5237510023535734,
+      "limit": 12,
+      "id": "defect-27",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 40.40543959452703,
+        "y": 34.27070214105793
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 11,
+      "t": 0.5,
+      "message": "Raggio osservato 9.111 mm < 12 mm",
+      "measured": 9.111160321102675,
+      "limit": 12,
+      "id": "defect-28",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 51.53652392947102,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 15,
+      "t": 0,
+      "message": "Raggio osservato 1.142 mm < 12 mm",
+      "measured": 1.1423545068741152,
+      "limit": 12,
+      "id": "defect-29",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 69.58157259409326,
+        "y": 70.75130667506298
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 17,
+      "t": 1,
+      "message": "Raggio osservato 6.156 mm < 12 mm",
+      "measured": 6.156395485376256,
+      "limit": 12,
+      "id": "defect-30",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 72.44926987776259,
+        "y": 72.000991813602
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 18,
+      "t": 0.5,
+      "message": "Raggio osservato 1.727 mm < 12 mm",
+      "measured": 1.72701861811717,
+      "limit": 12,
+      "id": "defect-31",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 74.46625607698148,
+        "y": 69.75155856423173
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 19,
+      "t": 0,
+      "message": "Raggio osservato 5.847 mm < 12 mm",
+      "measured": 5.8471848186868725,
+      "limit": 12,
+      "id": "defect-32",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 71.10948262230137,
+        "y": 40.75886335012594
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 20,
+      "t": 1,
+      "message": "Raggio osservato 11.979 mm < 12 mm",
+      "measured": 11.978810324850334,
+      "limit": 12,
+      "id": "defect-33",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 74.14072078151992,
+        "y": 35.51018576826196
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 21,
+      "t": 0.75,
+      "message": "Raggio osservato 5.749 mm < 12 mm",
+      "measured": 5.7492096572276,
+      "limit": 12,
+      "id": "defect-34",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 91.51133501259444,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 26,
+      "t": 0,
+      "message": "Raggio osservato 1.120 mm < 12 mm",
+      "measured": 1.1195074167366343,
+      "limit": 12,
+      "id": "defect-35",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "warning",
+      "position": {
+        "x": 98.4399915949793,
+        "y": 50.57816887382296
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 28,
+      "t": 0.376953125,
+      "message": "Vicino al limite: raggio garantito ≥ 13.26 mm, osservato 13.37 mm",
+      "measured": 13.259618258512155,
+      "limit": 12,
+      "id": "defect-36",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 109.76410749587089,
+        "y": 56.90530541561712
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 29,
+      "t": 0.75,
+      "message": "Raggio osservato 7.082 mm < 12 mm",
+      "measured": 7.081706059485039,
+      "limit": 12,
+      "id": "defect-37",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 113.6231170768479,
+        "y": 54.99252204030227
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 30,
+      "t": 0.25,
+      "message": "Raggio osservato 8.074 mm < 12 mm",
+      "measured": 8.074405250533761,
+      "limit": 12,
+      "id": "defect-38",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "warning",
+      "position": {
+        "x": 116.19748564891748,
+        "y": 43.365389345875315
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 31,
+      "t": 0.59375,
+      "message": "Vicino al limite: raggio garantito ≥ 12.11 mm, osservato 12.22 mm",
+      "measured": 12.105368382103647,
+      "limit": 12,
+      "id": "defect-39",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 109.97466709224823,
+        "y": 36.05596662468514
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 32,
+      "t": 0.75,
+      "message": "Raggio osservato 5.979 mm < 12 mm",
+      "measured": 5.979314328021018,
+      "limit": 12,
+      "id": "defect-40",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 108.2338490582089,
+        "y": 35.800928841309826
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 33,
+      "t": 0,
+      "message": "Raggio osservato 3.608 mm < 12 mm",
+      "measured": 3.6084122985886293,
+      "limit": 12,
+      "id": "defect-41",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 99.15531693170584,
+        "y": 22.283926322418132
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 34,
+      "t": 0.5,
+      "message": "Raggio osservato 6.834 mm < 12 mm",
+      "measured": 6.833939611008386,
+      "limit": 12,
+      "id": "defect-42",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 104.89966456938737,
+        "y": 15.907981738035264
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 35,
+      "t": 0.25,
+      "message": "Raggio osservato 9.386 mm < 12 mm",
+      "measured": 9.386007927632784,
+      "limit": 12,
+      "id": "defect-43",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 136.47355163727957,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 37,
+      "t": 1,
+      "message": "Raggio osservato 3.778 mm < 12 mm",
+      "measured": 3.7783375314860934,
+      "limit": 12,
+      "id": "defect-44",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 144.40806045340048,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 41,
+      "t": 0,
+      "message": "Raggio osservato 1.120 mm < 12 mm",
+      "measured": 1.1195074167366343,
+      "limit": 12,
+      "id": "defect-45",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 157.6804480484956,
+        "y": 57.224102644836265
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 43,
+      "t": 1,
+      "message": "Raggio osservato 3.387 mm < 12 mm",
+      "measured": 3.3867008796642204,
+      "limit": 12,
+      "id": "defect-46",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 160.15719928397772,
+        "y": 56.96906486146095
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 44,
+      "t": 0.5,
+      "message": "Raggio osservato 2.286 mm < 12 mm",
+      "measured": 2.2856265035304,
+      "limit": 12,
+      "id": "defect-47",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 161.49784007533387,
+        "y": 39.05266057934509
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 46,
+      "t": 0.75,
+      "message": "Raggio osservato 4.394 mm < 12 mm",
+      "measured": 4.393900917359602,
+      "limit": 12,
+      "id": "defect-48",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 164.53124466798644,
+        "y": 37.33115554156171
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 47,
+      "t": 0.25,
+      "message": "Raggio osservato 2.850 mm < 12 mm",
+      "measured": 2.849518087041706,
+      "limit": 12,
+      "id": "defect-49",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 178.8226965254483,
+        "y": 54.418687027707804
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 49,
+      "t": 0.5,
+      "message": "Raggio osservato 1.548 mm < 12 mm",
+      "measured": 1.547523280402119,
+      "limit": 12,
+      "id": "defect-50",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 180.79713280361432,
+        "y": 53.14349811083123
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 50,
+      "t": 0,
+      "message": "Raggio osservato 2.320 mm < 12 mm",
+      "measured": 2.3203436666659165,
+      "limit": 12,
+      "id": "defect-51",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 180.6731086245827,
+        "y": 0.22315806045340017
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 52,
+      "t": 0.75,
+      "message": "Raggio osservato 2.775 mm < 12 mm",
+      "measured": 2.775404757890013,
+      "limit": 12,
+      "id": "defect-52",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 182.6742361314925,
+        "y": 0.09563916876574198
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 53,
+      "t": 0,
+      "message": "Raggio osservato 3.823 mm < 12 mm",
+      "measured": 3.8232928104052983,
+      "limit": 12,
+      "id": "defect-53",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "warning",
+      "position": {
+        "x": 200.47184848307836,
+        "y": 29.680022040302266
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 54,
+      "t": 1,
+      "message": "Vicino al limite: raggio garantito ≥ 12.29 mm, osservato 12.29 mm",
+      "measured": 12.29464436166455,
+      "limit": 12,
+      "id": "defect-54",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 208.03526448362717,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        0
+      ],
+      "segment": 55,
+      "t": 1,
+      "message": "Raggio osservato 5.668 mm < 12 mm",
+      "measured": 5.66750629722914,
+      "limit": 12,
+      "id": "defect-55",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 251.33501259445842,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 1,
+      "t": 0,
+      "message": "Raggio osservato 0.896 mm < 12 mm",
+      "measured": 0.8956059333893064,
+      "limit": 12,
+      "id": "defect-56",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 268.7713320836229,
+        "y": 56.203951511335006
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 3,
+      "t": 1,
+      "message": "Raggio osservato 6.062 mm < 12 mm",
+      "measured": 6.062132661628681,
+      "limit": 12,
+      "id": "defect-57",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 272.5763219122011,
+        "y": 55.18380037783375
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 4,
+      "t": 0.5,
+      "message": "Raggio osservato 6.657 mm < 12 mm",
+      "measured": 6.65719295314429,
+      "limit": 12,
+      "id": "defect-58",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 276.41842955355804,
+        "y": 48.04274244332493
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 5,
+      "t": 0.5,
+      "message": "Raggio osservato 6.655 mm < 12 mm",
+      "measured": 6.654646649012614,
+      "limit": 12,
+      "id": "defect-59",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 269.9680264177341,
+        "y": 40.136571158690174
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 6,
+      "t": 0.75,
+      "message": "Raggio osservato 7.520 mm < 12 mm",
+      "measured": 7.520348179135936,
+      "limit": 12,
+      "id": "defect-60",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 267.91313407638995,
+        "y": 39.88153337531486
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 7,
+      "t": 0,
+      "message": "Raggio osservato 2.798 mm < 12 mm",
+      "measured": 2.7979073822902696,
+      "limit": 12,
+      "id": "defect-61",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 257.5821284901355,
+        "y": 7.236697103274559
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 8,
+      "t": 1,
+      "message": "Raggio osservato 10.434 mm < 12 mm",
+      "measured": 10.434103111403422,
+      "limit": 12,
+      "id": "defect-62",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 260.3108019581692,
+        "y": 3.6661681360201506
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 9,
+      "t": 0.5,
+      "message": "Raggio osservato 2.438 mm < 12 mm",
+      "measured": 2.437796743572205,
+      "limit": 12,
+      "id": "defect-63",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 282.4162289315783,
+        "y": 30.700173173803528
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 11,
+      "t": 1,
+      "message": "Raggio osservato 11.865 mm < 12 mm",
+      "measured": 11.865491755734782,
+      "limit": 12,
+      "id": "defect-64",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 289.1183879093199,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 12,
+      "t": 1,
+      "message": "Raggio osservato 7.557 mm < 12 mm",
+      "measured": 7.5566750629725785,
+      "limit": 12,
+      "id": "defect-65",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 297.0528967254408,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 16,
+      "t": 0,
+      "message": "Raggio osservato 1.142 mm < 12 mm",
+      "measured": 1.1423545068739862,
+      "limit": 12,
+      "id": "defect-66",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 315.51946169202813,
+        "y": 73.75055100755667
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 18,
+      "t": 1,
+      "message": "Raggio osservato 10.201 mm < 12 mm",
+      "measured": 10.201241642911036,
+      "limit": 12,
+      "id": "defect-67",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 318.6720090839343,
+        "y": 75.75004722921912
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 19,
+      "t": 0.5,
+      "message": "Raggio osservato 2.062 mm < 12 mm",
+      "measured": 2.0619498849078015,
+      "limit": 12,
+      "id": "defect-68",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 321.2625347398871,
+        "y": 73.75055100755667
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 20,
+      "t": 0,
+      "message": "Raggio osservato 4.901 mm < 12 mm",
+      "measured": 4.900664754367727,
+      "limit": 12,
+      "id": "defect-69",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 318.0616236802359,
+        "y": 40.75886335012594
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 21,
+      "t": 1,
+      "message": "Raggio osservato 10.570 mm < 12 mm",
+      "measured": 10.569538521925852,
+      "limit": 12,
+      "id": "defect-70",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 321.09286183945443,
+        "y": 35.51018576826196
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 22,
+      "t": 0.75,
+      "message": "Raggio osservato 5.749 mm < 12 mm",
+      "measured": 5.749209657227584,
+      "limit": 12,
+      "id": "defect-71",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 338.46347607052894,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 27,
+      "t": 0,
+      "message": "Raggio osservato 1.087 mm < 12 mm",
+      "measured": 1.0869004045986759,
+      "limit": 12,
+      "id": "defect-72",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "warning",
+      "position": {
+        "x": 345.6348789039277,
+        "y": 51.3594933276813
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 29,
+      "t": 0.408203125,
+      "message": "Vicino al limite: raggio garantito ≥ 13.80 mm, osservato 13.91 mm",
+      "measured": 13.796333037696662,
+      "limit": 12,
+      "id": "defect-73",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 356.81383172830374,
+        "y": 57.59964578085642
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 30,
+      "t": 0.75,
+      "message": "Raggio osservato 6.880 mm < 12 mm",
+      "measured": 6.8802905872900775,
+      "limit": 12,
+      "id": "defect-74",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 360.66477658411554,
+        "y": 55.62947890428211
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 31,
+      "t": 0.25,
+      "message": "Raggio osservato 8.103 mm < 12 mm",
+      "measured": 8.10336084207846,
+      "limit": 12,
+      "id": "defect-75",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "warning",
+      "position": {
+        "x": 363.13622606507556,
+        "y": 43.47307789800149
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 32,
+      "t": 0.61328125,
+      "message": "Vicino al limite: raggio garantito ≥ 12.79 mm, osservato 12.92 mm",
+      "measured": 12.792571810403317,
+      "limit": 12,
+      "id": "defect-76",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 356.93648582038094,
+        "y": 36.124826826196475
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 33,
+      "t": 0.75,
+      "message": "Raggio osservato 5.870 mm < 12 mm",
+      "measured": 5.870057959017004,
+      "limit": 12,
+      "id": "defect-77",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 355.1945924896529,
+        "y": 35.8621379093199
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 34,
+      "t": 0,
+      "message": "Raggio osservato 3.503 mm < 12 mm",
+      "measured": 3.5033129112511956,
+      "limit": 12,
+      "id": "defect-78",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 346.9369520415084,
+        "y": 19.247063916876574
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 35,
+      "t": 0.75,
+      "message": "Raggio osservato 7.061 mm < 12 mm",
+      "measured": 7.060819007886093,
+      "limit": 12,
+      "id": "defect-79",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 351.7765348591139,
+        "y": 15.372402392947103
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 36,
+      "t": 0.25,
+      "message": "Raggio osservato 9.160 mm < 12 mm",
+      "measured": 9.160308760290736,
+      "limit": 12,
+      "id": "defect-80",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 383.4256926952141,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 38,
+      "t": 1,
+      "message": "Raggio osservato 3.668 mm < 12 mm",
+      "measured": 3.6682888655204855,
+      "limit": 12,
+      "id": "defect-81",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 391.36020151133505,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 42,
+      "t": 0,
+      "message": "Raggio osservato 1.120 mm < 12 mm",
+      "measured": 1.1195074167366343,
+      "limit": 12,
+      "id": "defect-82",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 404.6325891064302,
+        "y": 57.224102644836265
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 44,
+      "t": 1,
+      "message": "Raggio osservato 3.387 mm < 12 mm",
+      "measured": 3.3867008796644362,
+      "limit": 12,
+      "id": "defect-83",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 407.1093403419123,
+        "y": 56.96906486146095
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 45,
+      "t": 0.5,
+      "message": "Raggio osservato 2.286 mm < 12 mm",
+      "measured": 2.285626503530316,
+      "limit": 12,
+      "id": "defect-84",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 408.4499811332684,
+        "y": 39.05266057934509
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 47,
+      "t": 0.75,
+      "message": "Raggio osservato 4.394 mm < 12 mm",
+      "measured": 4.393900917359553,
+      "limit": 12,
+      "id": "defect-85",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 411.483385725921,
+        "y": 37.33115554156171
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 48,
+      "t": 0.25,
+      "message": "Raggio osservato 2.850 mm < 12 mm",
+      "measured": 2.8495180870417687,
+      "limit": 12,
+      "id": "defect-86",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 425.77483758338286,
+        "y": 54.418687027707804
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 50,
+      "t": 0.5,
+      "message": "Raggio osservato 1.548 mm < 12 mm",
+      "measured": 1.5475232804020962,
+      "limit": 12,
+      "id": "defect-87",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 427.74927386154883,
+        "y": 53.14349811083123
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 51,
+      "t": 0,
+      "message": "Raggio osservato 2.320 mm < 12 mm",
+      "measured": 2.320343666665828,
+      "limit": 12,
+      "id": "defect-88",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 427.6252496825173,
+        "y": 0.22315806045340017
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 53,
+      "t": 0.75,
+      "message": "Raggio osservato 2.775 mm < 12 mm",
+      "measured": 2.7754047578900543,
+      "limit": 12,
+      "id": "defect-89",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 429.62637718942705,
+        "y": 0.09563916876574198
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 54,
+      "t": 0,
+      "message": "Raggio osservato 3.823 mm < 12 mm",
+      "measured": 3.823292810405399,
+      "limit": 12,
+      "id": "defect-90",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "warning",
+      "position": {
+        "x": 447.423989541013,
+        "y": 29.680022040302266
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 55,
+      "t": 1,
+      "message": "Vicino al limite: raggio garantito ≥ 12.29 mm, osservato 12.29 mm",
+      "measured": 12.294644361661735,
+      "limit": 12,
+      "id": "defect-91",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 454.98740554156177,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 56,
+      "t": 1,
+      "message": "Raggio osservato 5.668 mm < 12 mm",
+      "measured": 5.667506297229425,
+      "limit": 12,
+      "id": "defect-92",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 462.9219143576827,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 60,
+      "t": 0,
+      "message": "Raggio osservato 0.914 mm < 12 mm",
+      "measured": 0.9138836054992951,
+      "limit": 12,
+      "id": "defect-93",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 482.5278797572174,
+        "y": 76.74979534005037
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 62,
+      "t": 1,
+      "message": "Raggio osservato 5.557 mm < 12 mm",
+      "measured": 5.556685838147719,
+      "limit": 12,
+      "id": "defect-94",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 487.66626952914453,
+        "y": 77.87451196473552
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 63,
+      "t": 0.75,
+      "message": "Raggio osservato 3.420 mm < 12 mm",
+      "measured": 3.419644174422504,
+      "limit": 12,
+      "id": "defect-95",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 488.9888369360587,
+        "y": 76.74979534005037
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 64,
+      "t": 0,
+      "message": "Raggio osservato 3.854 mm < 12 mm",
+      "measured": 3.8537952354210177,
+      "limit": 12,
+      "id": "defect-96",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 471.69360437907307,
+        "y": 4.767931360201509
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 67,
+      "t": 1,
+      "message": "Raggio osservato 2.791 mm < 12 mm",
+      "measured": 2.790679308408339,
+      "limit": 12,
+      "id": "defect-97",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 473.069821133798,
+        "y": 3.7056989924433257
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 68,
+      "t": 0.25,
+      "message": "Raggio osservato 2.947 mm < 12 mm",
+      "measured": 2.94696747995508,
+      "limit": 12,
+      "id": "defect-98",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "warning",
+      "position": {
+        "x": 479.0129511228851,
+        "y": 5.767679471032744
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 69,
+      "t": 0,
+      "message": "Vicino al limite: raggio garantito ≥ 13.41 mm, osservato 13.41 mm",
+      "measured": 13.406175500136294,
+      "limit": 12,
+      "id": "defect-99",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 497.8337531486147,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 70,
+      "t": 1,
+      "message": "Raggio osservato 1.928 mm < 12 mm",
+      "measured": 1.9277232303500489,
+      "limit": 12,
+      "id": "defect-100",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 505.7682619647356,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 74,
+      "t": 0,
+      "message": "Raggio osservato 1.493 mm < 12 mm",
+      "measured": 1.492676555649017,
+      "limit": 12,
+      "id": "defect-101",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 518.1793925370235,
+        "y": 56.203951511335006
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 76,
+      "t": 1,
+      "message": "Raggio osservato 5.170 mm < 12 mm",
+      "measured": 5.170451443941297,
+      "limit": 12,
+      "id": "defect-102",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 520.2252603431374,
+        "y": 56.714027078085635
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 77,
+      "t": 0.5,
+      "message": "Raggio osservato 1.248 mm < 12 mm",
+      "measured": 1.2482236787145466,
+      "limit": 12,
+      "id": "defect-103",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 520.9378162493751,
+        "y": 38.47882556675063
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 79,
+      "t": 0.75,
+      "message": "Raggio osservato 6.840 mm < 12 mm",
+      "measured": 6.840481889621192,
+      "limit": 12,
+      "id": "defect-104",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 523.2356062880407,
+        "y": 35.67340994962217
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 80,
+      "t": 0.25,
+      "message": "Raggio osservato 3.385 mm < 12 mm",
+      "measured": 3.384594780690159,
+      "limit": 12,
+      "id": "defect-105",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "warning",
+      "position": {
+        "x": 528.3772219500338,
+        "y": 36.82107997481108
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 81,
+      "t": 0,
+      "message": "Vicino al limite: raggio garantito ≥ 13.46 mm, osservato 13.54 mm",
+      "measured": 13.457719098225521,
+      "limit": 12,
+      "id": "defect-106",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 541.1516847284593,
+        "y": 56.203951511335006
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 82,
+      "t": 1,
+      "message": "Raggio osservato 5.860 mm < 12 mm",
+      "measured": 5.859844969800329,
+      "limit": 12,
+      "id": "defect-107",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 543.1975525345732,
+        "y": 56.714027078085635
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 83,
+      "t": 0.5,
+      "message": "Raggio osservato 1.248 mm < 12 mm",
+      "measured": 1.2482236787146306,
+      "limit": 12,
+      "id": "defect-108",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 544.3139182644885,
+        "y": 38.47882556675063
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 85,
+      "t": 0.75,
+      "message": "Raggio osservato 6.711 mm < 12 mm",
+      "measured": 6.711271785877651,
+      "limit": 12,
+      "id": "defect-109",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 552.1662468513854,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 86,
+      "t": 1,
+      "message": "Raggio osservato 7.557 mm < 12 mm",
+      "measured": 7.5566750629722,
+      "limit": 12,
+      "id": "defect-110",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 560.1007556675063,
+        "y": 33.7606265743073
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 90,
+      "t": 0,
+      "message": "Raggio osservato 1.120 mm < 12 mm",
+      "measured": 1.1195074167367607,
+      "limit": 12,
+      "id": "defect-111",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 578.6820189475536,
+        "y": 74.56667191435767
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 92,
+      "t": 1,
+      "message": "Raggio osservato 10.398 mm < 12 mm",
+      "measured": 10.398367956301623,
+      "limit": 12,
+      "id": "defect-112",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 581.8403012551328,
+        "y": 76.6069741813602
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 93,
+      "t": 0.5,
+      "message": "Raggio osservato 2.021 mm < 12 mm",
+      "measured": 2.0207108872096264,
+      "limit": 12,
+      "id": "defect-113",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 584.4250919954126,
+        "y": 74.56667191435767
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 94,
+      "t": 0,
+      "message": "Raggio osservato 5.009 mm < 12 mm",
+      "measured": 5.008995851850412,
+      "limit": 12,
+      "id": "defect-114",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 581.1295548271569,
+        "y": 40.90168450881612
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 95,
+      "t": 1,
+      "message": "Raggio osservato 10.979 mm < 12 mm",
+      "measured": 10.97865996327679,
+      "limit": 12,
+      "id": "defect-115",
+      "samples": 1
+    },
+    {
+      "kind": "raggio",
+      "severity": "error",
+      "position": {
+        "x": 584.1457388327339,
+        "y": 35.54589105793451
+      },
+      "pathIds": [
+        1
+      ],
+      "segment": 96,
+      "t": 0.75,
+      "message": "Raggio osservato 5.706 mm < 12 mm",
+      "measured": 5.706165388409462,
+      "limit": 12,
+      "id": "defect-116",
+      "samples": 1
+    }
+  ]
+}

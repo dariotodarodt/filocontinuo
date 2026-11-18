@@ -1,0 +1,89 @@
+{
+  "mesh": {
+    "valid": true,
+    "triangles": 34880,
+    "boundary": 0,
+    "nonManifold": 0,
+    "nonManifoldVertices": 0,
+    "inconsistent": 0,
+    "degenerate": 0,
+    "volume": 71242.32055708577
+  },
+  "led": {
+    "anomalies": [
+      {
+        "kind": "raggio",
+        "severity": "warning",
+        "position": {
+          "x": 389.21756616362427,
+          "y": 56.22265022840368
+        },
+        "pathIds": [
+          4
+        ],
+        "segment": 0,
+        "t": 0.84375,
+        "message": "Raggio 13.20 mm / minimo 12 mm",
+        "measured": 13.199075538784728,
+        "limit": 12,
+        "id": "issue-0",
+        "samples": 8
+      },
+      {
+        "kind": "raggio",
+        "severity": "warning",
+        "position": {
+          "x": 1045.1307368079238,
+          "y": 56.22265022840368
+        },
+        "pathIds": [
+          10
+        ],
+        "segment": 0,
+        "t": 0.84375,
+        "message": "Raggio 13.20 mm / minimo 12 mm",
+        "measured": 13.19907553878464,
+        "limit": 12,
+        "id": "issue-1",
+        "samples": 8
+      }
+    ],
+    "length": 2223.7544728134817,
+    "minRadius": 13.19907553878464,
+    "errors": 0,
+    "warnings": 2,
+    "compatible": true,
+    "pathStatus": [
+      "ok",
+      "ok",
+      "ok",
+      "ok",
+      "warning",
+      "ok",
+      "ok",
+      "ok",
+      "ok",
+      "ok",
+      "warning",
+      "ok",
+      "ok",
+      "ok",
+      "ok",
+      "ok",
+      "ok"
+    ]
+  },
+  "dimensions": {
+    "width": 1608.6869988441467,
+    "height": 168.99200201034546,
+    "depth": 8.5
+  },
+  "bed": {
+    "fits": false,
+    "width": 1608.6869988441467,
+    "height": 168.99200201034546,
+    "depth": 8.5,
+    "plate": 256,
+    "message": "Fuori volume P1S 256 × 256 × 256 mm. Suddivisione non implementata."
+  }
+}

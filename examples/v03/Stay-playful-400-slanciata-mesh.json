@@ -1,0 +1,10 @@
+{
+  "valid": true,
+  "triangles": 20004,
+  "boundary": 0,
+  "nonManifold": 0,
+  "nonManifoldVertices": 0,
+  "inconsistent": 0,
+  "degenerate": 0,
+  "volume": 29569.23488461107
+}

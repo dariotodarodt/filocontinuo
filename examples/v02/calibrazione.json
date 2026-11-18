@@ -1,0 +1,22 @@
+{
+  "mesh": {
+    "valid": true,
+    "triangles": 6860,
+    "boundary": 0,
+    "nonManifold": 0,
+    "nonManifoldVertices": 0,
+    "inconsistent": 0,
+    "degenerate": 0,
+    "volume": 44713.401624367485
+  },
+  "dimensions": {
+    "width": 179.49100017547607,
+    "height": 188.34099960327148,
+    "depth": 8.5
+  },
+  "legends": [
+    "Riga 1: retta 82 mm, tolleranza totale 0.00 mm; arco 90° R8 mm, tolleranza 0.3 mm.",
+    "Riga 2: retta 82 mm, tolleranza totale 0.30 mm; arco 90° R12 mm, tolleranza 0.3 mm.",
+    "Riga 3: retta 82 mm, tolleranza totale 0.60 mm; arco 90° R20 mm, tolleranza 0.3 mm."
+  ]
+}

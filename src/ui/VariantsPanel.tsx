@@ -1,0 +1,7 @@
+import { type generateVariants } from '../calligraphy/variants';
+import { type BezierPath } from '../vector/bezier';
+import { LetterPreview } from './LetterPreview';
+export const stateLabel={compatible:'Compatibile con i controlli',near:'Vicino ai limiti',incompatible:'Incompatibile',unknown:'Da verificare'};
+export function VariantsPanel({variants,onSelect,onClose}:{variants:ReturnType<typeof generateVariants>;onSelect:(v:ReturnType<typeof generateVariants>[number])=>void;onClose:()=>void}){
+  return <div className="variants-panel"><div className="variants-title"><strong>Tre alternative · originale conservato fino alla scelta</strong><button onClick={onClose}>Chiudi confronto</button></div><div className="variant-cards">{variants.map(v=><article key={v.variant}><h3>{v.variant}</h3><div className="variant-image"><LetterPreview curves={v.curves}/></div><p>{v.width.toFixed(1)} × {v.height.toFixed(1)} mm · {v.paths} percorsi</p><p>LED {(v.length/1000).toFixed(3)} m · raggio osservato {Number.isFinite(v.analysis.minRadius)?v.analysis.minRadius.toFixed(2):'∞'} mm</p><p className={v.analysis.status}>{stateLabel[v.analysis.status]} · {v.analysis.errors} errori</p><button onClick={()=>onSelect(v)} disabled={!v.withinWidth}>{v.analysis.compatible?'Usa questa variante':'Apri candidato da correggere'}</button></article>)}</div><p className="variant-note">Anteprime candidate: scegliere una variante incompatibile la apre per la correzione manuale, senza dichiararla producibile. Obiettivo 2–4 tratti indicativo.</p></div>;
+}
