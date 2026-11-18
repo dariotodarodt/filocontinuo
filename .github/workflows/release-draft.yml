@@ -45,6 +45,7 @@ jobs:
       - run: npm ci
       - run: node scripts/check-version.mjs
       - run: npm run examples:v03
+      - run: npm run examples:v04
       - run: npm test
       - name: Genera installer firmato e metadati
         run: npm run desktop:dist

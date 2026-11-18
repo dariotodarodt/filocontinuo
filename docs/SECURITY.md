@@ -17,3 +17,5 @@ Audit npm del 18 novembre 2026: 12 advisory complessivi (5 moderate, 7 high) nel
 Riferimento: [raccomandazioni sicurezza Electron](https://www.electronjs.org/docs/latest/tutorial/security). Firma e limiti del feed in UPDATE_SYSTEM.md. Segnalare problemi al proprietario tramite un canale privato concordato, senza includere segreti in issue pubbliche.
 
 Aggiornamento della verifica dopo clone da GitHub: audit sullo stesso lockfile ora riporta 6 moderate e zero high/critical, zero advisory npm runtime. Non sono stati applicati upgrade/downgrade. Backup privati e dati utente sono in D:/filocontinuo_backup e restano fuori dal repository; Git e GCM in D:/filocontinuo_tools. Il primo push è stato autorizzato ed eseguito, senza pubblicare installer, token o una release stabile.
+
+Style Studio aggiunge al bridge solo il tipo file styles e due chiavi di backup; famiglia, libreria e preferiti sono convalidati anche nel main tramite schema condiviso. Nessuna API di esecuzione comandi aggiunta. --review-dir è un’opzione CLI locale per prove isolate, non un messaggio IPC dal renderer. Nessuna famiglia esterna o personale inclusa nei sorgenti pubblicati.

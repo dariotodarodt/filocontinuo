@@ -20,6 +20,7 @@ jobs:
       - run: mkdir -p .tools/tmp
       - run: npm ci
       - run: npm run examples:v03
+      - run: npm run examples:v04
       - run: npm test
       - run: npm run build
       - run: node scripts/check-version.mjs

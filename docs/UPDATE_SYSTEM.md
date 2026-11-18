@@ -29,3 +29,7 @@ Se il repository diventasse privato, questo provider pubblico non sarebbe suffic
 Test automatici del controller coprono consenso, nessun automatismo, errori/offline, cancellazione e ripresa, versioni, firme simulate, integrità fallita e modifiche non salvate. Non sostituiscono una prova reale di aggiornamento fra due installer firmati. Mancano certificato, release e tale prova; non è ancora una distribuzione produttiva.
 
 Riferimenti: [API updater v26](https://www.electron.build/v26/docs/api/electron-updater.class.appupdater/), [configurazione Windows](https://www.electron.build/v26/docs/win/).
+
+## Conseguenze per questa consegna Studio
+
+Il nuovo Studio conserva 0.4.0 sperimentale su richiesta, già usato dalla base desktop: nessun aggiornamento di pari versione viene offerto dall’updater. Il setup alias senza -x64 serve alla consegna manuale, mentre il nome canonico -x64 resta quello verificato nei metadati di una futura release firmata. Blockmap prodotta; latest.yml non generato/distribuito per la build non firmata. Nessun token/certificato aggiunto, nessuna verifica di sicurezza disattivata.

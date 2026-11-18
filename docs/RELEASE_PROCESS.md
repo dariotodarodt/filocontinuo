@@ -6,7 +6,7 @@ Repository ufficiale: https://github.com/dariotodarodt/filocontinuo. Verificato 
 
 `main` conserva la baseline web 0.3.0; `develop` è il ramo di integrazione 0.4.0; `feature/desktop-distribution` contiene il desktop 0.4.0 sperimentale. Nuove attività in `feature/*`, correzioni in `fix/*`. Prima di integrare, test e revisione; il semplice push esegue CI ma non pubblica release. Nessun force push.
 
-L'identità locale deriva dal profilo pubblico indicato dal proprietario: DtDesigns, email GitHub noreply. Verificare `git log` prima della pubblicazione. Git portatile, runtime, cache e backup in `.tools` restano locali. Il primo push richiede **conferma esplicita del proprietario sul manifesto dei file** ; l’autenticazione GitHub con dariotodarodt è stata completata e il dry-run dei tre rami è riuscito, senza inviare file. Nessun push reale effettuato.
+L'identità locale deriva dal profilo pubblico indicato dal proprietario: DtDesigns, email GitHub noreply. Verificare `git log` prima della pubblicazione. Git portatile, runtime, cache e backup in `.tools` restano locali. Il primo push richiede **conferma esplicita del proprietario sul manifesto dei file** ; l’autenticazione GitHub con dariotodarodt è stata completata e il dry-run dei tre rami è riuscito, senza inviare file. Il primo push è stato in seguito autorizzato ed eseguito; le note iniziali descrivono il controllo precedente.
 
 Prima del push: `git fetch origin`, riesaminare riferimenti e differenze remote, controllare `.gitignore` e `docs/PUBLICATION_MANIFEST.md`, poi autenticarsi tramite GitHub/gestore credenziali. Non salvare token in URL, file o chat. Se i rami remoti sono comparsi, integrarli e riesaminarli senza sovrascriverli.
 
@@ -31,8 +31,12 @@ Seguire l'ambiente in INSTALLATION.md, poi `npm ci`, `npm run examples:v03`, `np
 
 Non usare una versione beta sul canale stabile; niente downgrade automatico. In caso di regressione distribuire una versione correttiva superiore. Backup prima dell'aggiornamento; recupero dati descritto in INSTALLATION.md. Autenticazione GitHub verificata. Certificati, ambiente protetto, tag, esecuzione Actions e rilascio restano da predisporre/verificare sul servizio.
 
-VS Code locale: git.path nelle impostazioni utente punta al Git portatile sotto D:/filocontinuo/.tools/git/cmd/git.exe. Il workspace .tools/FILOCONTINUO.code-workspace apre lo stesso progetto e riconosce il ramo feature/desktop-distribution. Configurazioni locali e credenziali non sono incluse nel repository. Il collegamento Git non implica accesso a Copilot, sincronizzazione delle impostazioni o pubblicazione del codice.
+VS Code locale: git.path nelle impostazioni utente punta a D:/FILOCONTINUO_Studio/filocontinuo_tools/git/cmd/git.exe. Il workspace .tools/FILOCONTINUO-GITHUB.code-workspace apre il progetto corrente, ora sul ramo feature/v04-style-studio. Configurazioni locali e credenziali non sono incluse nel repository. Il collegamento Git non implica accesso a Copilot, sincronizzazione delle impostazioni o pubblicazione del codice.
 
 ## Migrazione completata
 
-I sorgenti sono ora sul remoto ufficiale. Lavorare nel clone D:/filocontinuo_github, con Git esterno D:/filocontinuo_tools/git. La configurazione iniziale che puntava a D:/filocontinuo/.tools/git è storica ed è stata sostituita nelle impostazioni utente VS Code. La cartella precedente resta conservata. La documentazione della migrazione è nel ramo feature/migrazione-github, integrato in develop; nessun tag o release. Il manifesto del primo push conserva l’elenco storico approvato al commit 939adfa.
+I sorgenti sono ora sul remoto ufficiale. Il clone e Git esterno sono stati raccolti sotto D:/FILOCONTINUO_Studio; i precedenti percorsi D:/filocontinuo_github e D:/filocontinuo_tools sono storici. La configurazione iniziale che puntava a D:/filocontinuo/.tools/git è stata sostituita nelle impostazioni utente VS Code. La cartella precedente resta conservata. La documentazione della migrazione è nel ramo feature/migrazione-github, integrato in develop; nessun tag o release. Il manifesto del primo push conserva l’elenco storico approvato al commit 939adfa.
+
+## Sviluppo Style Studio
+
+Branch feature/v04-style-studio, codice 0.4.0 sperimentale e famiglie dati 1.0.0. Il ramo di feature viene sincronizzato senza integrare automaticamente main/develop o pubblicare tag/release. CI rigenera examples:v04 prima dei test. Artefatti e dati personali restano esclusi da Git. Conservare hash e backup del nuovo setup, poi eseguire separatamente i test di installazione/aggiornamento e ottenere firma/autorizzazione prima del canale stabile. Percorso locale corrente: D:/FILOCONTINUO_Studio/filocontinuo_github.

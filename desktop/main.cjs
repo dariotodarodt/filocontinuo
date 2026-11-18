@@ -2,26 +2,28 @@ const {app,BrowserWindow,protocol,ipcMain,dialog,session,Menu}=require('electron
 const fs=require('node:fs');const path=require('node:path');
 const {CSP,isTrustedUrl,resolveAsset,trustedIpc,validateSave,validateSnapshot}=require('./security.cjs');
 const {SettingsStore,atomicWrite,validateSettings}=require('./store.cjs');
-const {validateProject,validateProfile}=require('./generated/project-schema.cjs');
+const {validateProject,validateProfile,validateStyleFamily,validateStyleLibrary,validateStylePreferences}=require('./generated/project-schema.cjs');
 const {UpdateController}=require('./update-controller.cjs');
 const {verifyAuthenticode}=require('./signature.cjs');
 const {CancellationToken}=require('builder-util-runtime');
 const {validateBackupSnapshot}=require('./backup.cjs');
 const smoke=process.argv.includes('--smoke-test');
+const reviewDir=process.argv.find(a=>a.startsWith('--review-dir='))?.slice(13);
 app.setName('FILOCONTINUO');
-if(smoke){const dir=process.argv.find(a=>a.startsWith('--smoke-dir='))?.slice(12);if(!dir||!path.isAbsolute(dir))throw Error('Directory smoke test assoluta richiesta.');fs.mkdirSync(path.join(dir,'UserData'),{recursive:true});fs.mkdirSync(path.join(dir,'Logs'),{recursive:true});app.setPath('userData',path.join(dir,'UserData'));app.setPath('logs',path.join(dir,'Logs'));}
+if(smoke||reviewDir){const dir=smoke?process.argv.find(a=>a.startsWith('--smoke-dir='))?.slice(12):reviewDir;if(!dir||!path.isAbsolute(dir))throw Error('Directory smoke test assoluta richiesta.');fs.mkdirSync(path.join(dir,'UserData'),{recursive:true});fs.mkdirSync(path.join(dir,'Logs'),{recursive:true});app.setPath('userData',path.join(dir,'UserData'));app.setPath('logs',path.join(dir,'Logs'));}
 protocol.registerSchemesAsPrivileged([{scheme:'filocontinuo',privileges:{standard:true,secure:true,supportFetchAPI:true,stream:true}}]);
 let win,store,updates,dirty=true,closeAfterSave=false,restorePending=false,smokeTimer;
 const resourceRoot=app.isPackaged?process.resourcesPath:path.join(__dirname,'..');
 function readPolicy(){try{const p=JSON.parse(fs.readFileSync(path.join(resourceRoot,'release-policy.json'),'utf8'));if(p.schema!==1||p.repository!=='dariotodarodt/filocontinuo')throw Error();return {...p,enabled:!!(p.enabled&&p.publisherName&&p.publisherSubject&&app.isPackaged)};}catch{return {...require('./release-policy.json'),enabled:false};}}
 function settings(){try{return store.read();}catch{return {schema:1,autoCheckUpdates:false};}}
-const projectRoot=()=>path.join(app.getPath('documents'),'FILOCONTINUO','Progetti');
+const projectRoot=()=>reviewDir?path.join(reviewDir,'Progetti'):path.join(app.getPath('documents'),'FILOCONTINUO','Progetti');
 function handle(channel,fn){ipcMain.handle(channel,async(event,...args)=>{if(!trustedIpc(event,win))throw Error('IPC rifiutato: origine o frame non valido.');return fn(...args);});}
 function backupData(snapshot){return {format:'filocontinuo-user-backup',version:1,appVersion:app.getVersion(),createdAt:new Date().toISOString(),settings:settings(),snapshot:validateSnapshot(snapshot)};}
 async function saveFile(value){
   const v=validateSave(value);if(v.kind==='project'){if(v.data.length>8*1024*1024)throw Error('Progetto oltre 8 MB.');validateProject(JSON.parse(v.data.toString('utf8')));}
   if(v.kind==='profiles'){const values=JSON.parse(v.data.toString('utf8'));if(!Array.isArray(values)||values.length>50)throw Error('Libreria profili non valida.');values.forEach(validateProfile);}
-  const extension={project:'json',profiles:'json',stl:'stl','3mf':'3mf',obj:'obj',svg:'svg'}[v.kind];fs.mkdirSync(projectRoot(),{recursive:true});
+  if(v.kind==='styles'){if(v.data.length>2_000_000)throw Error('Famiglia oltre 2 MB.');validateStyleFamily(JSON.parse(v.data.toString('utf8')));}
+  const extension={project:'json',profiles:'json',styles:'json',stl:'stl','3mf':'3mf',obj:'obj',svg:'svg'}[v.kind];fs.mkdirSync(projectRoot(),{recursive:true});
   const result=await dialog.showSaveDialog(win,{title:'Salva file FILOCONTINUO',defaultPath:path.join(projectRoot(),v.name),filters:[{name:v.kind==='project'?'Progetto FILOCONTINUO':v.kind.toUpperCase(),extensions:[extension]}]});
   if(result.canceled||!result.filePath){closeAfterSave=false;return {saved:false};}
   const target=result.filePath.toLowerCase().endsWith('.'+extension)?result.filePath:result.filePath+'.'+extension;
@@ -35,11 +37,11 @@ function installIpc(policy){
   handle('file:save',saveFile);
   handle('updates:state',()=>updates.snapshot());handle('updates:check',()=>app.isPackaged?updates.check():updates.set({status:'unsupported',message:'Controllo aggiornamenti disponibile nelle build installate.'}));handle('updates:download',()=>updates.download());handle('updates:install',()=>updates.install());handle('updates:defer',()=>updates.defer());
   handle('backup:create',async snapshot=>{const data=backupData(snapshot),result=await dialog.showSaveDialog(win,{title:'Backup dati FILOCONTINUO',defaultPath:path.join(app.getPath('documents'),'FILOCONTINUO-backup.json'),filters:[{name:'Backup',extensions:['json']}]});if(result.canceled)return {saved:false};atomicWrite(result.filePath,JSON.stringify(data,null,2));return {saved:true};});
-  handle('backup:restore',async current=>{validateSnapshot(current);const selected=await dialog.showOpenDialog(win,{title:'Ripristina backup FILOCONTINUO',properties:['openFile'],filters:[{name:'Backup',extensions:['json']}]});if(selected.canceled)return null;const file=selected.filePaths[0];if(fs.statSync(file).size>20*1024*1024)throw Error('Backup troppo grande.');const data=JSON.parse(fs.readFileSync(file,'utf8'));if(data.format!=='filocontinuo-user-backup'||data.version!==1)throw Error('Formato backup non supportato.');validateSettings(data.settings);validateBackupSnapshot(data.snapshot,{validateProject,validateProfile});
+  handle('backup:restore',async current=>{validateSnapshot(current);const selected=await dialog.showOpenDialog(win,{title:'Ripristina backup FILOCONTINUO',properties:['openFile'],filters:[{name:'Backup',extensions:['json']}]});if(selected.canceled)return null;const file=selected.filePaths[0];if(fs.statSync(file).size>20*1024*1024)throw Error('Backup troppo grande.');const data=JSON.parse(fs.readFileSync(file,'utf8'));if(data.format!=='filocontinuo-user-backup'||data.version!==1)throw Error('Formato backup non supportato.');validateSettings(data.settings);validateBackupSnapshot(data.snapshot,{validateProject,validateProfile,validateStyleLibrary,validateStylePreferences});
     const answer=await dialog.showMessageBox(win,{type:'warning',buttons:['Annulla','Ripristina dati'],defaultId:0,cancelId:0,message:'Sostituire impostazioni e dati dell’app con il backup?',detail:'I file di progetto esterni restano invariati. Verrà conservata una copia dei dati correnti.'});if(answer.response!==1)return null;store.backup(backupData(current),'pre-ripristino');store.write(data.settings);restorePending=true;return data.snapshot;
   });
   handle('backup:reload',()=>{if(!restorePending)throw Error('Nessun ripristino da completare.');restorePending=false;win.webContents.reload();return true;});
-  if(smoke)handle('smoke:ready',report=>{if(!report||report.version!==app.getVersion()||report.workerReady!==true||report.meshValid!==true)throw Error('Smoke report non valido.');const dir=process.argv.find(a=>a.startsWith('--smoke-dir=')).slice(12);atomicWrite(path.join(dir,'result.json'),JSON.stringify({version:app.getVersion(),packaged:app.isPackaged,url:win.webContents.getURL(),workerReady:true,meshValid:true,webPreferences:{contextIsolation:win.webContents.getLastWebPreferences().contextIsolation,nodeIntegration:win.webContents.getLastWebPreferences().nodeIntegration,sandbox:win.webContents.getLastWebPreferences().sandbox},offlineRenderer:true},null,2));clearTimeout(smokeTimer);setTimeout(()=>app.exit(0),200);return true;});
+  if(smoke)handle('smoke:ready',report=>{if(!report||report.version!==app.getVersion()||report.workerReady!==true||report.meshValid!==true||!Array.isArray(report.studioFamilies)||['signature','minimal','vintage'].some(id=>!report.studioFamilies.includes(id)))throw Error('Smoke report non valido.');const dir=process.argv.find(a=>a.startsWith('--smoke-dir=')).slice(12);atomicWrite(path.join(dir,'result.json'),JSON.stringify({version:app.getVersion(),packaged:app.isPackaged,url:win.webContents.getURL(),workerReady:true,meshValid:true,webPreferences:{contextIsolation:win.webContents.getLastWebPreferences().contextIsolation,nodeIntegration:win.webContents.getLastWebPreferences().nodeIntegration,sandbox:win.webContents.getLastWebPreferences().sandbox},offlineRenderer:true,studioFamilies:report.studioFamilies},null,2));clearTimeout(smokeTimer);setTimeout(()=>app.exit(0),200);return true;});
 }
 async function start(){
   if(!app.requestSingleInstanceLock()){app.quit();return;}

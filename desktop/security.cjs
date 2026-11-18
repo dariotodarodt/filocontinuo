@@ -11,13 +11,13 @@ function resolveAsset(root,url){
 function trustedIpc(event,window){return !!window&&!window.isDestroyed()&&event.sender===window.webContents&&event.senderFrame===window.webContents.mainFrame&&isTrustedUrl(event.senderFrame?.url);}
 const CSP="default-src 'self'; script-src 'self'; worker-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'none'";
 function validateSave(value){
-  if(!value||typeof value!=='object'||!['project','profiles','stl','3mf','obj','svg'].includes(value.kind)||typeof value.name!=='string'||!/^[\w .-]{1,100}$/.test(value.name)||value.name.includes('..'))throw Error('Richiesta di salvataggio non valida.');
+  if(!value||typeof value!=='object'||!['project','profiles','styles','stl','3mf','obj','svg'].includes(value.kind)||typeof value.name!=='string'||!/^[\w .-]{1,100}$/.test(value.name)||value.name.includes('..'))throw Error('Richiesta di salvataggio non valida.');
   const data=typeof value.data==='string'?Buffer.from(value.data,'utf8'):value.data instanceof Uint8Array?Buffer.from(value.data):null;
   if(!data||data.length>64*1024*1024)throw Error('File assente o oltre 64 MB.');
   return {name:value.name,kind:value.kind,data};
 }
 function validateSnapshot(snapshot){
-  const keys=['filocontinuo-autosave','filocontinuo-last-valid','filocontinuo-profiles','filocontinuo-saved-signature','filocontinuo-ui'];
+  const keys=['filocontinuo-autosave','filocontinuo-last-valid','filocontinuo-profiles','filocontinuo-saved-signature','filocontinuo-ui','filocontinuo-styles','filocontinuo-style-preferences'];
   if(!snapshot||typeof snapshot!=='object'||Array.isArray(snapshot))throw Error('Backup non valido.');
   for(const [key,value] of Object.entries(snapshot))if(!keys.includes(key)||typeof value!=='string'||Buffer.byteLength(value)>8*1024*1024)throw Error('Dato backup non consentito.');
   if(Buffer.byteLength(JSON.stringify(snapshot))>16*1024*1024)throw Error('Backup troppo grande.');return snapshot;

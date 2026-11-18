@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.0 — 2026-11-18 — Style Studio sperimentale, nessuna release stabile
+
+- Famiglie originali e versionate Signature/Minimal/Vintage, 92 caratteri ciascuna.
+- Snapshot della famiglia e delle curve nei progetti V2, reader precedenti conservati.
+- Style Studio, varianti, sostituzione lettere, multiriga e trasformazioni reali.
+- Neon parametrico, preferiti e import/export famiglie monolinea con validazione e backup.
+- Worker Studio, chiave degli input per evitare applicazione di risultati obsoleti, ingombri analitici delle cubiche.
+- 30 progetti/SVG, 9 Neon, confronto con profilo fisso e legacy. Stay playful rimane incompatibile a 400/600/800 mm.
+- 60 test e build web/desktop, smoke delle famiglie incluse, verifica visiva Windows e salvataggio/riapertura nativi.
+- Nuovo installer locale non firmato con alias richiesto; comportamento aggiornamenti invariato e nessun latest.yml non firmato pubblicato.
+
+
 ## 0.4.0 — 2026-11-18 — sorgenti pubblicati, distribuzione desktop sperimentale
 
 - Primo push autorizzato, clone da GitHub verificato in D:/filocontinuo_github, backup esterno e Git separato dalla vecchia cartella.

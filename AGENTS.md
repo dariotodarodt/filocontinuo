@@ -14,7 +14,7 @@
 - In V0.2 conservare nodi/maniglie originali e reader JSON V1; non rigenerare silenziosamente i progetti legacy.
 - Salvare in JSON V2 dopo modifiche manuali. Ottimizzazioni soltanto proposte fino alla conferma esplicita nella UI.
 - Per nuove funzioni vettoriali eseguire i test V0.1 e V0.2; SSR/XML non sono QA visiva. Non aggirare l'indisponibilità del browser con automazioni alternative non supportate.
-- Cache, log e temporanei sul disco D nella cartella `.tools` del checkout corrente (ora `D:\filocontinuo_github\.tools`). Non dipendere dalla vecchia cartella `D:\filocontinuo`. Non forzare downgrade/upgrade della toolchain per nascondere advisory senza verificarne gli effetti.
+- Cache, log e temporanei sul disco D nella cartella `.tools` del checkout corrente (ora `D:\FILOCONTINUO_Studio\filocontinuo_github\.tools`). Non dipendere dalla vecchia cartella `D:\filocontinuo`. Non forzare downgrade/upgrade della toolchain per nascondere advisory senza verificarne gli effetti.
 - V0.3: non presentare le candidate a quattro tratti come soluzioni LED; 400/600 mm restano incompatibili. Consultare examples/v03/confronto.json.
 - Non usare verde se un controllo esaurisce il budget. Conservare separati radiusLower, raggio osservato e difetti di giunzione.
 - Conservare gate dei job, cancellazione e blocco export per dati obsoleti. Il test Node del worker non equivale a QA browser.
@@ -26,3 +26,9 @@
 - Updater 6: autoDownload=false e autoInstallOnAppQuit=false; consenso esplicito distinto per download/installazione, niente beta/downgrade. Senza firma verificabile bloccare gli aggiornamenti.
 - Conservare dati Windows standard e reader V1/V2. Cache e temporanei di sviluppo su D; non obbligare gli utenti distribuiti ad avere disco D.
 - Per modifiche desktop eseguire npm test, npm run build, npm run desktop:dist e npm run desktop:smoke. Lo smoke non prova installer, aspetto visivo o aggiornamento reale: documentare i limiti.
+
+- Style Studio: conservare famiglia/versione, matrici e snapshot in JSON V2; nessuna rigenerazione silenziosa dei progetti legacy o dei nodi editati.
+- Cambi ai disegni delle famiglie richiedono versione dati coerente, npm run examples:v04, npm test e build. Gli stili incompleti restano fuori dai selettori.
+- Nessuna sostituzione silenziosa di caratteri nello Studio. Le famiglie personali restano locali; verificare provenienza/licenza prima di includere risorse esterne in Git.
+- Collegamenti automatici solo per porte compatibili e composizioni con controlli conclusivi senza errori. Non presentare le nove Stay playful rosse come producibili.
+- Desktop smoke deve comporre Signature/Minimal/Vintage dal vero worker e verificare una mesh Studio. Review --review-dir usa dati isolati, non le cartelle utente.

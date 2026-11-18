@@ -1,5 +1,27 @@
 # Roadmap
 
+## V0.4 — Calligraphy & Style Studio
+
+- [x] Backup, branch dedicato e conservazione dei generatori/progetti precedenti
+- [x] Famiglie schema 1 originali Signature, Minimal, Vintage; autore/licenza/versione
+- [x] 92 caratteri per famiglia, accenti, maiuscole e avvisi senza fallback nello Studio
+- [x] Varianti realmente disponibili, ripetizioni e sostituzione di una lettera con snapshot
+- [x] Confronto famiglie e varianti in worker, metriche e quattro stati LED
+- [x] Parametri reali, multiriga, allineamenti, interlinea e offset
+- [x] Import/export famiglie JSON, preferiti e backup desktop validato
+- [x] Neon estetico parametrico e colore canaletta 3D
+- [x] 30 progetti/SVG, 9 Neon e confronti 400/600/800 mm
+- [x] 60 test, build web/desktop, smoke famiglie e prova visiva Windows limitata
+- [ ] Qualità professionale e percorsi Stay playful realmente producibili con R12
+- [ ] Glifi contestuali completi per ogni famiglia; raccordi generali e routing
+- [ ] Corrispondenza lettera/nodi dopo modifiche manuali arbitrarie
+- [ ] Verifica UI completa di import famiglie, singola lettera, nodi ed export
+- [ ] Luxury, Handwriting, Modern; licenze esterne da esaminare prima di includere risorse
+- [ ] TTF/OTF, estrazione sperimentale linea centrale e testo lungo archi
+- [ ] Prove fisiche, tagli LED, firma e test di aggiornamento reale
+- [ ] V0.5: sezionamento automatico e giunzioni per il piatto
+
+
 ## 0.4.0 — desktop e distribuzione sperimentale
 
 - [x] Backup locale, Git/origin/rami e filtri di riservatezza

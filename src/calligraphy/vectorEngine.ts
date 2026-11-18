@@ -4,7 +4,7 @@ import { openGlyphs } from './openGlyphs';
 import { contextualLettering } from './contextual';
 import { fromStrokes,parseCenterline,sampleBezier,transformPaths,type BezierPath } from '../vector/bezier';
 export function vectorLettering(p:Project):{curves:BezierPath[];notes:string[]}{
-  if(p.curves!==undefined)return {curves:structuredClone(p.curves),notes:[]};
+  if(p.curves!==undefined)return {curves:structuredClone(p.curves),notes:p.generator==='studio'?[...(p.studio?.notes||[])]:[]};
   if(p.generator==='contextual'&&!p.imported)return contextualLettering(p);
   const notes:string[]=[];let curves:BezierPath[]=[],cursor=0;
   if(p.imported)curves=fromStrokes(p.imported);

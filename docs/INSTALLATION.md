@@ -19,7 +19,7 @@ Da **Impostazioni → Aggiornamenti → Esporta backup dati** salvare autosave, 
 
 ## Sviluppo locale
 
-Sul computer corrente `avvia.cmd` mantiene la modalità web esistente su http://127.0.0.1:5173/. Per i comandi manuali, da `D:/filocontinuo_github`:
+Sul computer corrente `avvia.cmd` mantiene la modalità web esistente su http://127.0.0.1:5173/. Per i comandi manuali, da `D:/FILOCONTINUO_Studio/filocontinuo_github`:
 
 ```powershell
 $env:PATH = "$PWD/.tools/node-v22.16.0-win-x64;$env:PATH"
@@ -54,3 +54,13 @@ Backup: D:/filocontinuo_backup/migrazione-20261118-182427225. progetto-originale
 Git funziona da D:/filocontinuo_tools/git e non richiede la cartella originale. Node e cache del nuovo checkout sono in .tools del nuovo progetto. Le impostazioni VS Code precedenti sono conservate nel backup. Il sistema Windows mantiene le credenziali GCM; non sono esportate.
 
 Per ripristinare, copiare lo snapshot in una cartella nuova e usare npm ci/build per le dipendenze escluse. Prima di ripristinare i dati dell'app, chiudere FILOCONTINUO e salvare una copia dei dati attuali. Il backup contiene dati personali e non va pubblicato. La cartella originale è stata conservata: la migrazione non ne esegue la cancellazione.
+
+## Nuovo setup Style Studio
+
+La cartella attiva è ora D:/FILOCONTINUO_Studio/filocontinuo_github e il branch della consegna è feature/v04-style-studio. Gli strumenti Git sono nella sottocartella sorella filocontinuo_tools; backup in filocontinuo_backup. I vecchi percorsi riportati sopra descrivono la prima migrazione.
+
+Il nuovo setup locale è release/FILOCONTINUO-Setup-0.4.0.exe, alias identico del file canonico -x64.exe richiesto dall’updater. Mantiene lo stesso numero 0.4.0 della base sperimentale precedente; per ottenere lo Studio occorre eseguire manualmente il nuovo setup. Questa sessione lo ha generato e verificato come pacchetto avviabile, senza installarlo sul sistema o provare un aggiornamento fra versioni firmate.
+
+Dopo l’avvio scegliere Style Studio. Comporre e confrontare le famiglie, quindi Applica/genera 3D o Apri nell’editor. Un candidato rosso richiede correzione: la mesh chiusa non certifica il LED. Galleria e progetti in examples/v04; npm run examples:v04 li rigenera.
+
+L’importazione web di progetti/SVG resta limitata a 2 MB; il dialogo nativo dei progetti a 8 MB. Una famiglia personale complessa inclusa nel progetto può richiedere il dialogo desktop. I limiti di quota dell’autosave sono segnalati e non sostituiscono il salvataggio esplicito.

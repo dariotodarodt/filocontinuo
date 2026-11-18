@@ -1,3 +1,84 @@
+# FILOCONTINUO — riepilogo V0.4 per ChatGPT
+
+## Calligraphy & Style Studio — 0.4.0 sperimentale, 18 novembre 2026
+
+### Risultato effettivo
+
+- Tre famiglie originali con disegni distinti: Signature, Minimal e Vintage, versione dati 1.0.0. Ciascuna supporta 92 caratteri: a–z/A–Z, dodici accenti italiani, dieci cifre e diciotto simboli; spazi e fino a cinque righe gestiti dal compositore. Nessuna sostituzione silenziosa di caratteri nello Studio.
+- Formato famiglia schema 1 con autore/licenza, Bézier, metriche, ancore/tangenti e varianti effettive. Famiglia completa, versione e geometria congelate nei progetti JSON V2 estesi. Reader V1/V2 precedenti conservati, senza rigenerazione automatica.
+- Style Studio con confronto simultaneo, varianti deduplicate, preferiti, import/export JSON monolinea, parametri reali, layout multiriga e offset indipendenti. Proposta originale intatta fino alla scelta. I motori legacy restano disponibili e dichiarano i loro limiti, inclusa la conversione di alcune maiuscole al glifo minuscolo.
+- Varianti di singola lettera tramite dati/matrice congelati, senza rigenerare le altre lettere; geometria ricontrollata. Dopo modifiche arbitrarie nell'editor, la corrispondenza lettera/nodi è considerata obsoleta e serve ricomposizione esplicita. Non esiste mappatura intelligente delle modifiche manuali.
+- Neon estetico con colore LED, intensità apparente, alone, sfondo, colore canaletta e acceso/spento; usa le curve effettive. Colore canaletta applicato al materiale 3D; nessuna rianalisi geometrica per sole modifiche Neon. Non è simulazione fotometrica.
+- Worker per famiglie/varianti, analisi e mesh, annullamento e scarto dei risultati obsoleti. Dimensioni del percorso ottenute da estremi analitici delle cubiche in Float64, non da un box dei controlli o da un campionamento amplificato dalla scala.
+- 30 progetti JSON e SVG per gli otto testi richiesti, 9 SVG Neon, tre famiglie JSON e galleria in examples/v04/. STL/3MF/OBJ di tre campioni generati localmente e ignorati da Git. Raggi e profilo LED non sono stati ridotti per ottenere esiti favorevoli.
+
+### Risultati produttivi: obiettivo ancora aperto
+
+Le famiglie sono una base sperimentale, **non un repertorio calligrafico professionale già validato**. La qualità estetica richiede revisione umana e miglioramenti dei glifi. Tutte le Stay playful restano incompatibili a 400, 600 e 800 mm con il profilo fisso. Il numero maggiore di tratti rispetto alla candidata V0.3 deriva anche dal rifiuto dei collegamenti non verificati; non viene presentato come miglioramento della continuità fisica.
+
+Parametri del confronto: LED 6 × 8 mm, tolleranza 0,3 mm, pareti 1,2 mm, fondo 1,5 mm, altezza pareti 7 mm, raggio minimo 12 mm, flessione laterale, inclinazione 8°, spaziatura 1,3. Larghezza del percorso centrale; ingombro del solido e piatto sono verifiche separate. Le nove mesh Stay playful sono numericamente valide, ma questo non certifica il LED.
+
+| Famiglia | Obiettivo mm | Percorsi | LED teorico mm | Raggio osservato mm | Errori raggruppati | Stato LED |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| Signature | 400 | 13 | 987.8 | 1.072 | 101 | incompatible |
+| Signature | 600 | 13 | 1481.9 | 1.608 | 99 | incompatible |
+| Signature | 800 | 13 | 1976.1 | 2.144 | 85 | incompatible |
+| Minimal | 400 | 18 | 675.4 | 3.143 | 35 | incompatible |
+| Minimal | 600 | 18 | 1013.1 | 4.715 | 28 | incompatible |
+| Minimal | 800 | 18 | 1350.9 | 6.287 | 15 | incompatible |
+| Vintage | 400 | 18 | 805.5 | 2.539 | 50 | incompatible |
+| Vintage | 600 | 18 | 1208.4 | 3.808 | 45 | incompatible |
+| Vintage | 800 | 18 | 1611.2 | 5.077 | 39 | incompatible |
+
+Confronti legacy riprodotti con gli stessi parametri e lo stesso controllo attuale:
+
+| Generatore | Larghezza mm | Percorsi | LED teorico mm | Raggio osservato mm | Stato LED |
+| --- | ---: | ---: | ---: | ---: | --- |
+| V0.2 aperta | 400 | 17 | 664.5 | 4.463 | incompatible |
+| V0.3 aperta | 400 | 4 | 746.8 | 0.736 | incompatible |
+| V0.2 aperta | 600 | 17 | 996.8 | 6.694 | incompatible |
+| V0.3 aperta | 600 | 4 | 1120.4 | 1.105 | incompatible |
+| V0.2 aperta | 800 | 17 | 1329.2 | 8.907 | incompatible |
+| V0.3 aperta | 800 | 4 | 1494.0 | 1.473 | incompatible |
+
+Il confronto non dimostra una soluzione producibile. Forme aperte e correzione dei nodi restano strumenti necessari; il passo di taglio non è ancora ottimizzato e il profilo è dimostrativo. Le fotografie originali restano assenti.
+
+### Test e prove realmente svolte
+
+**60/60 test superati, zero falliti**: i 45 precedenti e 15 nuovi per famiglie/topologia, repertorio e accenti, input malformati, varianti/ripetizioni, sostituzione singola lettera, limiti dimensionali analitici, multiriga, collegamenti accettati/rifiutati, vecchi progetti, JSON e undo/redo, quattro esportazioni, Neon, backup stili e vero worker offline. npm run build e npm run desktop:dist riusciti. Nessun cambiamento al motore mesh Clipper/Earcut.
+
+Smoke del pacchetto finale: renderer locale, sandbox true, contextIsolation true, Node false, tre famiglie effettivamente composte nel worker e mesh Studio valida. Le famiglie sono incorporate nei bundle e il renderer non può scaricare codice/font remoto. Non è una prova di disconnessione fisica dell'intero PC.
+
+Verifica visiva reale tramite API supportata Computer Use Windows, su dati isolati: tre famiglie, L'amore è luce + MoruMì su due righe, accenti, Neon acceso/spento, applicazione Minimal alla mesh 3D, Annulla/Ripeti, salvataggio e riapertura nativi dello stesso JSON. Il file salvato è stato riletto con il validatore: famiglia 1.0.0 e snapshot identici. L'app di revisione è stata chiusa senza modificare i progetti personali. Le correzioni successive a tale prova riguardano convalida degli ID personali e conservazione delle estensioni nella sostituzione di lettere; sono coperte dalla suite e dalla build/smoke finali.
+
+Non provati visivamente: ogni singolo glifo, import famiglia personale, sostituzione singola lettera, tutti i trascinamenti e tutti i dialoghi di export. Non eseguiti nuova installazione, disinstallazione, aggiornamento fra pacchetti firmati, slicing, stampa o misure fisiche. Nel registro Windows è presente FILOCONTINUO 0.4.0, coerente con l'installazione precedente riferita dall'utente: non è prova d'installazione del nuovo Style Studio.
+
+Composizione+analisi dei 30 casi, sulla macchina della sessione: da 21 a 475 ms; mesh, avvio worker e carico di altri processi esclusi. Dati grezzi in confronto.json, non benchmark universale. Bundle principale circa 1019 kB e worker 223 kB; warning Vite di dimensione mantenuto. Nessun downgrade/upgrade delle dipendenze per nascondere advisory.
+
+### Desktop, versioni e distribuzione
+
+La versione resta **0.4.0 sperimentale**, già usata dalla base desktop e richiesta anche per questo sviluppo; famiglie versione 1.0.0. Per ottenere lo Studio nell'app installata serve il nuovo setup manuale, anche se il numero versione è uguale. La vecchia installazione non è stata sostituita automaticamente.
+
+Installer reale release/FILOCONTINUO-Setup-0.4.0-x64.exe e alias richiesto release/FILOCONTINUO-Setup-0.4.0.exe, identici: 126343708 byte, SHA-256 DDD6E151E9A132BC6914940862514AAB19502D2660D46C45EC3A233C27C444E8. Non firmati, soltanto locali. Blockmap generata. **latest.yml non generato per una distribuzione non firmata**: il percorso firmato richiede certificato/secret non disponibili. Nessuna firma disabilitata per aggirare il problema, nessun manifest fittizio pubblicato.
+
+Updater 6.8.11 invariato: niente download/installazione automatici, niente beta/downgrade, consenso esplicito e progetto salvato richiesti. Download/installazione bloccati nella build non firmata. Nessun tag, release stabile o aggiornamento reso disponibile agli utenti.
+
+### Percorsi e stato Git
+
+Cartella attiva **D:/FILOCONTINUO_Studio/filocontinuo_github**; Git/GCM in **D:/FILOCONTINUO_Studio/filocontinuo_tools/git**; backup privati in **D:/FILOCONTINUO_Studio/filocontinuo_backup**. Cache e temporanei nella .tools del checkout. Il backup prima di questo sviluppo è prima-style-studio-20261118-190113 (bundle, sorgenti ZIP e patch delle modifiche locali).
+
+Branch dedicato **feature/v04-style-studio**, basato sul commit 3d3d48d; sincronizzazione del ramo secondo autorizzazione, senza force push. main resta baseline web V0.3 e develop resta la precedente integrazione desktop fino a revisione. Workflow CI aggiornati per rigenerare anche v04; la loro esecuzione su GitHub va distinta dalle prove locali e registrata dopo il push.
+
+Il precedente riordino delle tre cartelle è riuscito. La vecchia D:/filocontinuo **non è stata eliminata**: la verifica automatica ha rifiutato la cancellazione con blocked by policy e il tentativo reversibile di archiviarla ha incontrato un processo che la teneva in uso. Non è stata ritentata la cancellazione aggirando il blocco. Esiste anche un backup aggiornato con 3634 file confrontati tramite checksum. Questo limite non impedisce lo sviluppo nella nuova cartella.
+
+### Prossimi sviluppi
+
+Ridisegnare glifi/raccordi con raggi controllati e migliorare leggibilità, continuità e compattezza, senza forzare il verde. Completare repertori contestuali in ogni famiglia, mappatura dei nodi editati alle lettere, routing generale, test UI estesi e prove fisiche. Luxury/Handwriting/Modern, TTF/OTF e centralizzazione dei contorni, archi SVG e testo lungo curve restano in roadmap. Sezionamento automatico rimandato alla V0.5.
+
+---
+
+## Riepilogo precedente conservato
+
 # FILOCONTINUO — riepilogo migrazione per ChatGPT
 
 ## Migrazione GitHub verificata — 18 novembre 2026

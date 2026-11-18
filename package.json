@@ -18,7 +18,8 @@
     "icon": "node scripts/generate-icon.mjs",
     "desktop:runtime": "node scripts/ensure-electron.mjs",
     "licenses": "node scripts/dependency-notices.mjs",
-    "version:check": "node scripts/check-version.mjs"
+    "version:check": "node scripts/check-version.mjs",
+    "examples:v04": "tsx scripts/generate-v04.ts"
   },
   "dependencies": {
     "clipper-lib": "^6.4.2",
