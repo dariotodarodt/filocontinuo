@@ -1,5 +1,25 @@
 # Roadmap
 
+## 0.4.0 — desktop e distribuzione sperimentale
+
+- [x] Backup locale, Git/origin/rami e filtri di riservatezza
+- [x] Electron sandbox e protocollo locale, API preload limitate e IPC validato
+- [x] File nativi V1/V2, esportazioni, preferenze e backup/ripristino versionato
+- [x] Installer NSIS reale non firmato, icona e collegamenti configurati
+- [x] Aggiornamenti con consenso, nessun automatismo e blocco senza firma
+- [x] 45 test e build web, smoke del pacchetto senza verifica visiva
+- [x] Verifica visiva Windows limitata a CAD/3D e aggiornamenti, salvataggio nativo e JSON V2 valido
+- [x] Workflow CI e release firmata solo in bozza, inventario licenze
+- [ ] Conferma del manifesto, autenticazione e primo push GitHub
+- [ ] Protezioni rami e ambiente release-signing con revisori su GitHub
+- [ ] Esecuzione effettiva dei workflow sul repository
+- [ ] Certificato Authenticode e gestione sicura secret
+- [ ] Test su Windows pulito: installazione, offline, file, disinstallazione
+- [ ] Aggiornamento reale fra due versioni firmate con conservazione dati
+- [ ] Correzione advisory compatibili del grafo build prima del canale stabile
+- [ ] Autorizzazione proprietario per tag e pubblicazione stabile
+
+
 ## V0.3 — generazione contestuale e controlli
 
 - [x] Backup e conservazione generatori/progetti V1/V2
@@ -79,6 +99,6 @@ Stato: base V0.2 implementata; compatibilità verificata con controlli numerici,
 - [ ] Simulazione luminosa fisica e libreria calligrafica professionale
 - [x] Persistenza controlli Bézier per SVG polinomiali importati in V0.2
 - [ ] Conversione adattiva archi/ellissi durante importazione SVG
-- [ ] Desktop Windows tramite Tauri o Electron; riutilizzo dei moduli puri
+- [x] Desktop Windows Electron sperimentale; riutilizzo dei moduli puri (QA distribuzione ancora incompleta)
 - [ ] 3MF con componenti e metadati produttivi; validazione schema completa
 - [ ] Aggiornare toolchain quando disponibile una patch per l'advisory picomatch rilevato da npm audit

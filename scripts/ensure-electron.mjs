@@ -1,0 +1,2 @@
+import {existsSync,mkdirSync} from 'node:fs';import {spawnSync} from 'node:child_process';import path from 'node:path';
+if(!existsSync('node_modules/electron/dist/electron.exe')){const cache=path.resolve('.tools/electron-cache');mkdirSync(cache,{recursive:true});const result=spawnSync(process.execPath,['node_modules/electron/install.js'],{stdio:'inherit',env:{...process.env,ELECTRON_CACHE:cache,TEMP:path.resolve('.tools/tmp'),TMP:path.resolve('.tools/tmp')}});if(result.status!==0)process.exit(result.status??1);}

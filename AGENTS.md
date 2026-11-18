@@ -19,3 +19,10 @@
 - Non usare verde se un controllo esaurisce il budget. Conservare separati radiusLower, raggio osservato e difetti di giunzione.
 - Conservare gate dei job, cancellazione e blocco export per dati obsoleti. Il test Node del worker non equivale a QA browser.
 - Dopo modifiche al generatore, `npm run examples:v03` aggiorna gli artefatti prima di `npm test`. SSR non costituisce valutazione estetica.
+
+- Distribuzione 0.4: rispettare docs/RELEASE_PROCESS.md e docs/SECURITY.md. Primo push soltanto dopo conferma esplicita sul manifesto e verifica del remoto; nessun force push o cambio visibilità/licenza.
+- main stabile, develop integrazione, feature/* e fix/*; push e commit non autorizzano una release. Nessuna pubblicazione stabile senza consenso del proprietario.
+- Electron sandbox/contextIsolation attivi, renderer senza Node/rete remota. Validare origine/frame e schema di ogni IPC, niente esecuzione comandi dal renderer.
+- Updater 6: autoDownload=false e autoInstallOnAppQuit=false; consenso esplicito distinto per download/installazione, niente beta/downgrade. Senza firma verificabile bloccare gli aggiornamenti.
+- Conservare dati Windows standard e reader V1/V2. Cache e temporanei di sviluppo su D; non obbligare gli utenti distribuiti ad avere disco D.
+- Per modifiche desktop eseguire npm test, npm run build, npm run desktop:dist e npm run desktop:smoke. Lo smoke non prova installer, aspetto visivo o aggiornamento reale: documentare i limiti.

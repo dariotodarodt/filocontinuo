@@ -39,3 +39,22 @@ examples/**/*.obj
 latest.yml
 docs/references/*
 !docs/references/README.md
+
+# Materiali locali: non pubblicare senza revisione esplicita
+backups/
+backup/
+npm-cache/
+.cache/
+logs/
+tmp/
+temp/
+node-v*-win-*/
+.tokens/
+*.jpg
+*.jpeg
+*.heic
+*.tif
+*.tiff
+*.webp
+*.png
+!build/icon.png

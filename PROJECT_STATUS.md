@@ -1,4 +1,34 @@
-# Stato FILOCONTINUO V0.3
+# Stato FILOCONTINUO 0.4.0 — desktop sperimentale
+
+Aggiornato il **18 novembre 2026**. Nuova MINOR compatibile: package/lock/app 0.4.0. Backup precedente: `.tools/backups/prima-desktop-2026-11-18.zip`. Il motore e i dati geometrici V0.3 restano invariati; i risultati a 400/600 mm restano incompatibili. Nessuna fotografia originale disponibile.
+
+## Risultati della sessione desktop
+
+- Electron 45.3.4, Builder 26.18.0, Updater 6.8.11, protocollo locale sicuro e renderer sandbox senza Node. Modalità web mantenuta. Nessun codice remoto caricato dal renderer.
+- Dialoghi nativi per file V1/V2 e quattro esportazioni, controllo modifiche non salvate alla chiusura, dati Windows standard, backup/ripristino validato con copia preventiva, impostazioni schema 1 e preferenze persistenti.
+- Impostazioni → Aggiornamenti: versione, stabile/data/note/dimensione/stato, controllo/download/installazione/differimento. Auto-controllo facoltativo inizialmente spento; auto-download e auto-installazione alla chiusura disabilitati. Niente beta o downgrade. Download e installazione bloccati senza firma. Firma Authenticode fail closed e SHA-512 dell'updater, non firma separata del manifest.
+- Installer NSIS x64 reale in release, icona dedicata, menu Start e desktop facoltativo, disinstallazione prevista senza rimozione dati. Non firmato e sperimentale, non autorizzato alla distribuzione stabile. Vedere il rapporto di consegna per dimensione/hash e verifica finale.
+- CI web/Windows e workflow manuale di sola release in bozza firmata, azioni fissate a SHA e permessi limitati. Nessuna esecuzione GitHub, tag o release effettuata.
+- Git locale inizializzato, origin ufficiale pubblico inizialmente vuoto. Baseline V0.3 locale su main; develop e feature/desktop-distribution separano lo sviluppo. Identità DtDesigns con email GitHub noreply. Nessun push: autenticazione assente, conferma proprietario richiesta dopo revisione del manifesto.
+- Inventario licenze e nessuna licenza open source assegnata. Runtime/cache/backups/installer/foto e progetti privati esclusi. Git non è un archivio dei dati utente.
+
+## Test e limiti della distribuzione
+
+**45/45 test superati**: 34 precedenti conservati e 11 desktop per protocollo/IPC, limiti file, impostazioni, backup, consenso, firme simulate, metadati, beta/downgrade, offline e cancellazione/ripresa. Build TypeScript/Vite riuscita; warning chunk principale circa 978 kB conservato. Il test del pacchetto avvia Electron e attende dal vero renderer la conferma del worker e di una mesh valida; verifica anche sandbox e isolamento. Non è QA visiva o prova interattiva dei dialoghi.
+
+Verifica visiva Windows effettuata tramite la skill Computer Use: osservati CAD/mesh 3D, impostazioni e blocco degli aggiornamenti non firmati; il controllo reale segnala nessuna release pubblicata. Salvataggio nativo riuscito, file JSON V2 validato. Dialogo Apri osservato, riapertura non completata per limiti del controllo del dialogo e poi annullata. Non è una prova completa dell'editor. Il limite storico del browser non è stato aggirato con automazioni alternative non supportate.
+
+Non effettuati: installazione pulita, avvio su PC senza toolchain, disinstallazione, aggiornamento reale fra due versioni firmate, conservazione dati attraverso tale aggiornamento, disconnessione fisica dalla rete, slicing/stampa. Il renderer non effettua richieste remote per configurazione, ma questo non sostituisce una prova offline completa. Certificato e credenziali GitHub non disponibili. Smoke del pacchetto e test unitari non certificano questi flussi. Rapporto finale e hash in docs/DISTRIBUTION_CHECKS.md.
+
+Audit: 12 advisory nel grafo totale (5 moderate, 7 high), zero nel grafo npm runtime `--omit=dev`; nessuna correzione forzata della toolchain. Firma/QA installazione e aggiornamento, advisory e protezioni GitHub devono essere risolti prima del canale stabile. Durante la build si è verificato EPERM su rename: il builder ha completato mediante il proprio fallback copia/eliminazione, senza disattivare controlli.
+
+Documenti operativi: INSTALLATION, RELEASE_PROCESS, UPDATE_SYSTEM, SECURITY e THIRD_PARTY_NOTICES in docs/. Il riepilogo trasferibile descrive anche le operazioni ancora soggette a consenso o credenziali.
+
+---
+
+## Stato tecnico conservato della V0.3
+
+# FILOCONTINUO V0.3 — riferimento storico
 
 Aggiornato il **18 novembre 2026**. Versione **0.3.0** nel progetto esistente D:\filocontinuo. Backup precedente creato prima delle modifiche: `.tools/backups/prima-v03-2026-11-18.zip`. Documenti V0.2 archiviati in docs/history/.
 

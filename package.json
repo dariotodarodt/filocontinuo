@@ -1,6 +1,6 @@
 {
   "name": "filocontinuo",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,16 +8,28 @@
     "build": "tsc -b && vite build",
     "test": "tsx --test tests/*.test.ts",
     "preview": "vite preview --host 127.0.0.1",
-    "examples:v03": "tsx scripts/generate-v03.ts"
+    "examples:v03": "tsx scripts/generate-v03.ts",
+    "desktop:prepare": "node scripts/build-desktop.mjs --prepare-only",
+    "desktop:dev": "npm run build && npm run desktop:prepare && npm run desktop:runtime && node scripts/launch-desktop.mjs",
+    "desktop:pack": "npm run build && node scripts/build-desktop.mjs --dir",
+    "desktop:dist": "npm run build && node scripts/build-desktop.mjs",
+    "desktop:smoke": "node scripts/desktop-smoke.mjs --packaged",
+    "desktop:smoke:dev": "npm run build && npm run desktop:prepare && npm run desktop:runtime && node scripts/desktop-smoke.mjs",
+    "icon": "node scripts/generate-icon.mjs",
+    "desktop:runtime": "node scripts/ensure-electron.mjs",
+    "licenses": "node scripts/dependency-notices.mjs",
+    "version:check": "node scripts/check-version.mjs"
   },
   "dependencies": {
     "clipper-lib": "^6.4.2",
     "earcut": "^3.0.1",
+    "electron-updater": "6.8.11",
     "fflate": "^0.8.2",
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "three": "^0.177.0"
+    "three": "^0.177.0",
+    "builder-util-runtime": "9.7.0"
   },
   "devDependencies": {
     "@types/clipper-lib": "^6.4.0",
@@ -27,9 +39,20 @@
     "@types/react-dom": "^19.1.0",
     "@types/three": "^0.177.0",
     "@vitejs/plugin-react": "^4.4.1",
+    "electron": "45.3.4",
+    "electron-builder": "26.18.0",
     "linkedom": "^0.18.12",
     "tsx": "^4.19.4",
     "typescript": "~5.8.3",
-    "vite": "^6.3.5"
-  }
+    "vite": "^6.3.5",
+    "esbuild": "0.28.2"
+  },
+  "description": "Studio locale per insegne LED Neon Flex — distribuzione desktop sperimentale",
+  "author": "dariotodarodt",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dariotodarodt/filocontinuo.git"
+  },
+  "main": "desktop/main.cjs"
 }

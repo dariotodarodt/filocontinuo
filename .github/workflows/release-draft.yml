@@ -1,0 +1,67 @@
+name: Prepara release firmata in bozza
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Versione SemVer corrispondente a un tag già approvato, esempio 0.4.0'
+        required: true
+        type: string
+      confirm_draft:
+        description: 'Confermo la preparazione di una bozza firmata; NON pubblica una release stabile'
+        required: true
+        default: false
+        type: boolean
+permissions:
+  contents: read
+jobs:
+  signed-draft:
+    if: inputs.confirm_draft
+    environment: release-signing
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    env:
+      RELEASE_VERSION: ${{ inputs.version }}
+      npm_config_cache: ${{ github.workspace }}/.tools/npm-cache
+      ELECTRON_CACHE: ${{ github.workspace }}/.tools/electron-cache
+      ELECTRON_BUILDER_CACHE: ${{ github.workspace }}/.tools/electron-builder-cache
+    steps:
+      - name: Valida versione senza interpolazione in comandi
+        shell: pwsh
+        run: |
+          if ($env:RELEASE_VERSION -notmatch '^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$') { throw 'Versione non valida' }
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: refs/tags/v${{ inputs.version }}
+          fetch-depth: 0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22.x'
+      - shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force .tools/tmp | Out-Null
+          "TEMP=$env:GITHUB_WORKSPACE/.tools/tmp" | Out-File $env:GITHUB_ENV -Append
+          "TMP=$env:GITHUB_WORKSPACE/.tools/tmp" | Out-File $env:GITHUB_ENV -Append
+      - run: npm ci
+      - run: node scripts/check-version.mjs
+      - run: npm run examples:v03
+      - run: npm test
+      - name: Genera installer firmato e metadati
+        run: npm run desktop:dist
+        env:
+          FILOCONTINUO_SIGNED_RELEASE: '1'
+          CSC_LINK: ${{ secrets.WINDOWS_CSC_LINK }}
+          CSC_KEY_PASSWORD: ${{ secrets.WINDOWS_CSC_KEY_PASSWORD }}
+          FILOCONTINUO_PUBLISHER_NAME: ${{ vars.WINDOWS_PUBLISHER_NAME }}
+          FILOCONTINUO_PUBLISHER_SUBJECT: ${{ vars.WINDOWS_PUBLISHER_SUBJECT }}
+      - run: npm run desktop:smoke
+      - name: Crea soltanto una bozza; pubblicazione finale del proprietario
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if (!(Test-Path release/latest.yml)) { throw 'Metadati aggiornamento mancanti' }
+          $assets = @(Get-ChildItem release -File | Where-Object { $_.Name -like '*Setup*.exe' -or $_.Name -like '*.blockmap' -or $_.Name -eq 'latest.yml' } | ForEach-Object FullName)
+          gh release create "v$env:RELEASE_VERSION" --verify-tag --draft --title "FILOCONTINUO $env:RELEASE_VERSION" --notes-file CHANGELOG.md @assets
+          if ($LASTEXITCODE -ne 0) { throw 'Creazione bozza non riuscita' }

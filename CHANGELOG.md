@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.0 — 2026-11-18 — sperimentale locale, non pubblicata
+
+- Nuova app Electron Windows mantenendo modalità web e motore/schema V1/V2.
+- Protocollo locale, sandbox, bridge limitato e convalida IPC/progetti/backup.
+- Apertura/salvataggio nativi, controllo modifiche, dati Windows e backup/ripristino.
+- Impostazioni/aggiornamenti con consenso separato; nessun download/installazione automatici, rifiuto beta/downgrade e blocco senza firma.
+- Installer NSIS x64 non firmato, icona e collegamenti; smoke renderer/worker/mesh.
+- Git locale, rami, origin pubblico, esclusioni dati e workflow CI/release solo in bozza; nessun push o release.
+- 45 test superati e build web; QA installazione/aggiornamento reale ancora da eseguire.
+- Documentazione distribuzione/sicurezza/licenze. Nessuna modifica geometrica o miglioramento LED rivendicato.
+
+
 ## 0.3.0 — 2026-11-18
 
 - Aggiunto motore contestuale opzionale; conservati generatori e progetti precedenti.

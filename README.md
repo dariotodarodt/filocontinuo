@@ -1,8 +1,20 @@
-# FILOCONTINUO V0.3
+# FILOCONTINUO 0.4.0 — desktop sperimentale
 
 Applicazione locale Windows per scritte monolinea e canalette parametriche LED Neon Flex. La V0.3 introduce varianti contestuali, controllo conservativo della curvatura e calcolo in background. **Le nuove candidate Stay playful a 400/600 mm non sono ancora compatibili con il profilo dimostrativo da 12 mm di raggio.**
 
-## Avvio
+## Desktop Windows e distribuzione
+
+Nuova versione compatibile **0.4.0 sperimentale**, con Electron 45.3.4, installer NSIS x64 e impostazioni/aggiornamenti. Le funzionalità calligrafiche della V0.3 restano invariate, compresi i limiti produttivi. Nessuna release stabile pubblicata.
+
+Aprire il setup locale `release/FILOCONTINUO-Setup-0.4.0-x64.exe` oppure `release/win-unpacked/FILOCONTINUO.exe` mantenendo tutta la cartella. Il pacchetto include il runtime: l'utente non deve installare Node o avviare Vite/browser. **Installer non firmato: distribuzione sperimentale.** I controlli automatici verificano avvio, bridge e worker/mesh, non l'installazione reale o l'aspetto grafico.
+
+Da sorgenti: `npm run desktop:dev`; per generare setup: `npm run desktop:dist`. Progetti e backup tramite dialoghi nativi, dati in %APPDATA%/FILOCONTINUO. In Impostazioni → Aggiornamenti il controllo all'avvio è facoltativo; download e installazione richiedono consenso e restano bloccati nella build non firmata.
+
+Repository ufficiale **pubblico**: [dariotodarodt/filocontinuo](https://github.com/dariotodarodt/filocontinuo). Sorgenti preparati localmente; autenticazione mancante e primo push ancora da approvare. Nessuna licenza open source assegnata (UNLICENSED). Cache/runtime/installer/dati personali non entrano in Git.
+
+Istruzioni complete: [installazione e recupero](docs/INSTALLATION.md), [Git e release](docs/RELEASE_PROCESS.md), [aggiornamenti](docs/UPDATE_SYSTEM.md), [sicurezza](docs/SECURITY.md), [licenze dipendenze](docs/THIRD_PARTY_NOTICES.md).
+
+## Avvio web locale
 
 Doppio clic su **avvia.cmd**, quindi http://127.0.0.1:5173/. Tenere aperta la finestra del server; Ctrl+C per arrestarlo. Il programma funziona offline dopo l'installazione, senza account o servizi remoti. Cache/log npm e TEMP/TMP dell'avvio sono sul disco D nella cartella `.tools`.
 
@@ -12,14 +24,14 @@ Per sviluppo e riproduzione dei risultati:
 $env:PATH = "$PWD/.tools/node-v22.16.0-win-x64;$env:PATH"
 $env:TEMP = "$PWD/.tools/tmp"
 $env:TMP = $env:TEMP
-npm install
+npm ci
 npm run dev
 npm run examples:v03
 npm test
 npm run build
 ```
 
-Su altri computer installare Node.js 22+ o copiare il runtime portatile. Nessuna pubblicazione remota. Il server ascolta sul loopback.
+Su altri computer installare Node.js 22+ o copiare il runtime portatile. La sincronizzazione GitHub è predisposta, ma il primo push richiede conferma del proprietario. Il server ascolta sul loopback.
 
 ## Come continuare un progetto
 
@@ -79,4 +91,4 @@ STL/OBJ: coordinate mm, importare come mm. 3MF Core con unità, senza impostazio
 
 La riduzione a quattro tratti è stata ottenuta come struttura candidata, **non come insegna compatibile con il LED da 12 mm di raggio**. A 400/600 mm tutte e tre le varianti restano rosse. La V0.2 storicamente compatibile a 1600 mm rivela una discontinuità con i nuovi controlli, senza modifiche alla sua geometria.
 
-Browser automation host indisponibile: nessuna QA visiva, test manuale dei gesti, slicing o stampa fisica dichiarati. Foto originali e dati LED reali assenti. Vedere PROJECT_STATUS.md per confronto, test, advisory e limiti; docs/RIEPILOGO_CHATGPT.md per la chat brainstorming. Documenti precedenti in docs/history/; backup `.tools/backups/prima-v03-2026-11-18.zip`.
+La verifica V0.3 nel browser resta incompleta. Nella sessione desktop 0.4.0 sono stati osservati realmente CAD/3D e impostazioni via Computer Use Windows, effettuato il controllo GitHub e salvato un JSON V2 valido. Nessuna prova completa dei gesti/editor, riapertura nativa, slicing o stampa fisica. Foto originali e dati LED reali assenti. Vedere PROJECT_STATUS.md e [rapporto distribuzione](docs/DISTRIBUTION_CHECKS.md) per test e limiti; docs/RIEPILOGO_CHATGPT.md per la chat brainstorming. Documenti precedenti in docs/history/; backup `.tools/backups/prima-v03-2026-11-18.zip` e `.tools/backups/prima-desktop-2026-11-18.zip`.

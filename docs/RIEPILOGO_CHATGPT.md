@@ -1,59 +1,53 @@
-# FILOCONTINUO — riepilogo V0.3 per ChatGPT
+# FILOCONTINUO — riepilogo 0.4.0 per ChatGPT
 
-## Esito principale
+## Risultato e stato reale
 
-Il progetto esistente D:\filocontinuo è stato aggiornato a **0.3.0** il 18 novembre 2026, con backup iniziale in `.tools/backups/prima-v03-2026-11-18.zip`. Generatori V0.1/V0.2, file e test precedenti sono conservati. Nuovo usa il motore V0.3; un progetto aperto mantiene la sua grafia fino a scelta esplicita del motore o della variante. Avvio con avvia.cmd, URL http://127.0.0.1:5173/. Cache/log/temporanei su D.
+Il progetto esistente D:/filocontinuo è stato esteso con una distribuzione Windows Electron **0.4.0 sperimentale**. È una nuova MINOR compatibile, non una patch geometrica della V0.3. Il motore calligrafico, analisi, editor, quattro formati e reader JSON V1/V2 sono conservati. Modalità web ancora disponibile con avvia.cmd. Backup prima dei lavori: .tools/backups/prima-desktop-2026-11-18.zip. Le fotografie originali non sono disponibili e non sono state analizzate.
 
-**L'obiettivo produttivo non è ancora raggiunto.** Sono state generate candidate Stay playful da quattro tratti, senza incroci rilevati, ma con raggi troppo piccoli e distanze insufficienti a 400/600 mm. Non dichiarare ottenuta una scrittura naturale e producibile. I nuovi raggi sono peggiori del riferimento aperto: la riduzione delle interruzioni è un compromesso ancora da risolvere.
+## GitHub e pubblicazione
 
-## Cosa è stato implementato
+Repository ufficiale pubblico dariotodarodt/filocontinuo, inizialmente vuoto e ancora senza riferimenti remoti all'ultimo controllo. Git portatile installato sotto .tools, repository locale inizializzato con origin ufficiale. Identità locale ricavata dall'account indicato dal proprietario: DtDesigns e indirizzo GitHub noreply, senza email personale.
 
-Motore contestuale a percorsi centrali originali, arrotondamenti C1 convertiti in cubiche, porte baseline e classificazione iniziale/intermedia/finale/isolata. Proporzioni dipendenti dai vicini, tratti secondari separati/protetti e svolazzi facoltativi. Tre alternative realmente differenti per geometria/proporzioni: Fluida, Aperta, Slanciata. Predisposizione contestuale presente, repertorio professionale di glifi alternativi ancora parziale. Non vengono estrusi contorni di font.
+Commit iniziali locali: 2b5077d importa la baseline V0.3, a428fa9 completa i file originali di avvio/configurazione. La consegna desktop è sul ramo feature/desktop-distribution; il commit finale è consultabile con git log e nel messaggio di consegna. main conserva V0.3, develop è il ramo di integrazione. Nessun force push, tag, release o cambio visibilità/licenza.
 
-Genera varianti mostra anteprime, dimensioni, numero di tratti, lunghezza, raggio e stato. Originale conservato fino alla scelta. Le candidate rosse si aprono per correzione manuale. Limiti espliciti di larghezza obiettivo/massima; nessun aumento automatico a 1600 mm per ottenere un esito favorevole.
+**Sincronizzazione remota non ancora eseguita**: autenticazione HTTPS non disponibile, verificata con dry-run senza scritture. Inoltre il proprietario ha richiesto conferma prima del primo push: deve approvare il manifesto docs/PUBLICATION_MANIFEST.md. Repository pubblico significa sorgenti e documenti leggibili da chiunque. UNLICENSED non è una licenza open source; nessuna licenza è stata scelta automaticamente.
 
-Controllo conservativo della curvatura mediante derivate Bernstein, box della velocità e bound del prodotto vettoriale con suddivisione adattiva. Inclusi estremi e giunzioni. Rettifili monotoni riconosciuti; curve singolari e budget esauriti non ricevono verde. Stati: compatibile con i controlli, vicino ai limiti, incompatibile, da verificare. Giunzioni >0,05° rosse, 0,001–0,05° non conclusive. Anche la sezione impone un minimo geometrico di metà larghezza esterna. Restano bound Float64, non certificazione CAD con intervalli arrotondati.
+Esclusi runtime, cache, backup, log, node_modules, installer, credenziali/certificati/.env e cartelle di dati personali/foto. Gli esempi sono generati dal software. Git non archivia i progetti privati degli utenti. Inventario dipendenze in THIRD_PARTY_NOTICES.md (388 pacchetti).
 
-Ottimizzatore con raccordi cubici fra estremità separate, inversione quando utile, controllo di raggio/larghezza/scostamento e nuovi difetti localizzati. Esclusi punti/barre. Valuta evidenze geometriche oltre ai gruppi di avvisi. Scostamento: limite superiore simmetrico derivato da polilinee a 0,01 mm e margine di metà corda. Ricerca limitata, con motivazioni dei rifiuti; nessuna soluzione universale o garanzia estetica. Anteprima, conferma e annullamento mantenuti.
+## Desktop e file
 
-Editor con inversione/apertura cicli, clic senza modifica, annullamento Escape/pointercancel/lost capture e draft aggiornato al rilascio. Undo/redo usa lo stesso reducer testato sulle maniglie. Osservazioni dei provini salvate in JSON senza inventare una verifica fisica.
+Electron 45.3.4, Builder 26.18.0, Updater 6.8.11. Runtime incluso nel pacchetto: l'utente non deve installare Node, avviare Vite o aprire un browser. Protocollo locale filocontinuo://app, sandbox/contextIsolation, Node disabilitato nel renderer, CSP e blocco navigazione/rete remota. Preload ristretto e validazione origine/frame/argomenti IPC; schema progetti condiviso con il motore. Nessun comando arbitrario dal renderer.
 
-Analisi, mesh, varianti e ottimizzazione in Web Worker annullabile. Nuovo progetto/job termina quello superato; ID obsoleti scartati. Errori conservano ultimo risultato e progetto. Export/editing sospesi finché i dati non sono aggiornati; ricalcolo e ripristino dell'ultimo progetto con mesh valida disponibili. La sola geometria dei provini è ancora calcolata nel thread UI.
+Dialoghi nativi per progetti ed esportazioni; controllo modifiche non salvate alla chiusura. Dati in %APPDATA%/FILOCONTINUO, cartella iniziale progetti Documenti/FILOCONTINUO/Progetti. Impostazioni schema 1 atomiche con copia precedente, backup/ripristino validato e copia preventiva dei dati correnti. Progetti esterni da copiare separatamente. I dati web del browser restano separati: trasferire con Salva/Apri. Non sono state necessarie migrazioni dei progetti V1/V2.
 
-Tre viste: Calligrafica pulita, Tecnica con editor/canaletta/anomalie, Neon estetica su sfondo scuro senza simulazione fisica.
+Installer reale non firmato: release/FILOCONTINUO-Setup-0.4.0-x64.exe, 126326438 byte, SHA-256 31C65C22497C27F7C91007F4331BD4449B26D70A7B9C9D100AC7FE6DD9D45C61. Icona originale, NSIS guidato per utente, menu Start e desktop facoltativo. Prevista disinstallazione standard senza cancellare dati, non verificata realmente. Il setup non è una release stabile e non è stato pubblicato.
 
-## Risultati a parametri uguali
+## Aggiornamenti
 
-Profilo dimostrativo costante: 6 × 8 mm, raggio 12 mm, tolleranza 0,3 mm, pareti 1,2 mm, fondo 1,5 mm, altezza pareti 7 mm, flessione laterale. Inclinazione 8°, spaziatura 1,3, proporzione 1. Quote del percorso centrale.
+Sezione Impostazioni → Aggiornamenti con versione, nuova stabile/data/note/dimensione/stato e comandi Controlla/Scarica/Installa e riavvia/Ricordamelo dopo. Auto-controllo inizialmente disattivato e facoltativo; autoDownload e autoInstallOnAppQuit disabilitati. Nessun downgrade o beta sul canale stabile. Download e installazione richiedono conferme native distinte e, prima di installare, progetto salvato.
 
-| Versione / variante | Larghezza | Tratti | LED teorico | Raggio osservato sulle cubiche | Esito |
-| --- | ---: | ---: | ---: | ---: | --- |
-| V0.2 aperta | 400 mm | 17 | 555,79 mm | 3,733 mm | incompatibile |
-| V0.2 aperta | 600 mm | 17 | 833,74 mm | 5,599 mm | incompatibile |
-| V0.2 riferimento | 1600 mm | 17 | 2223,75 mm | 13,191 mm | esito storico sì; oggi una discontinuità segnalata |
-| V0.3 Fluida | 400 mm | 4 | 902,02 mm | 0,705 mm | incompatibile |
-| V0.3 Aperta | 400 mm | 4 | 746,82 mm | 0,736 mm | incompatibile |
-| V0.3 Slanciata | 400 mm | 4 | 1048,96 mm | 0,597 mm | incompatibile |
-| V0.3 Fluida | 600 mm | 4 | 1353,23 mm | 1,057 mm | incompatibile |
-| V0.3 Aperta | 600 mm | 4 | 1120,42 mm | 1,105 mm | incompatibile |
-| V0.3 Slanciata | 600 mm | 4 | 1573,69 mm | 0,896 mm | incompatibile |
+Nella build sperimentale senza certificato download/installazione sono bloccati. Il percorso firmato richiede certificato Authenticode e Subject completo atteso, verifica fail closed dell'app e del pacchetto, più integrità SHA-512 del trasporto. Non è implementata una firma autonoma del manifest: HTTPS GitHub e firma binari sono le protezioni effettive. Nessun token GitHub nell'app. Repository privato richiederebbe una distribuzione separata, senza token incorporato.
 
-Riduzione strutturale 17→4, −76,5%, **senza compatibilità LED raggiunta**. Zero incroci rilevati sulle sei candidate, ma prossimità e curvature insufficienti. Tutte le sei mesh sono chiuse valide: mesh valida e LED compatibile restano distinti. La V0.2 a 1600 mm non è cambiata: il controllo più severo trova una giunzione prima tollerata. I raggi delle cubiche non rappresentano un raggio fisico definito in uno spigolo.
+## Automazione release
 
-## Artefatti e verifica
+CI predisposta per npm ci, rigenerazione esempi, 45 test e build web su Linux, build NSIS/smoke Windows e soli artefatti Actions temporanei. Azioni fissate a SHA. Il push non pubblica release. Secondo workflow manuale richiede tag approvato, versione coerente, ambiente release-signing e certificato/secret; crea soltanto una bozza firmata con installer/blockmap/latest.yml. Pubblicazione finale stabile esclusivamente manuale e autorizzata dal proprietario. Nessun workflow eseguito su GitHub, nessuna protezione rami/ambiente dichiarata già configurata.
 
-Generati 36 SVG puliti: Stay playful, Amore, Olivia, Tradizione, Buon compleanno e Filocontinuo × tre alternative × 400/600 mm. Sei SVG Neon estetici aggiuntivi. Tutto in examples/v03/, con galleria.html, progetti JSON, confronto.json, rapporti diagnostici/mesh e STL/3MF/OBJ di una candidata. Rigenerazione: npm run examples:v03.
+## Test realmente eseguiti
 
-34/34 test superati, build TypeScript/Vite riuscita. Suite portata a 34 test, preservando i 20 precedenti. Nuovi test su bound contro curva densa, estremi/singolarità/non verde, sezione minima, apertura/inversione, raccordi accettati/rifiutati, scostamento, V1/V2/metadata, undo/redo, gate async, sei testi/varianti, vero handler worker con adapter Node, SVG, STL roundtrip e indici 3MF/OBJ, SSR V0.3. SSR e adapter Node non sono test browser.
+45/45 test superati: 34 precedenti mantenuti e 11 desktop per protocollo/IPC, limiti file, impostazioni/backup, consenso, versioni e metadati, corruzione/firme simulate, modifiche non salvate, offline/cancellazione/ripresa. Build TypeScript/Vite riuscita, warning bundle principale circa 978 kB. NSIS generato realmente; ripetuto smoke del pacchetto finale: renderer locale, bridge e vero Web Worker, mesh valida, sandbox true, Node false, contextIsolation true. Confronto ASAR/sorgenti principali coerente.
 
-Server HTTP 200. Browser CUA tentato: `The browser access host is unavailable`. **Nessuna QA visiva, prova manuale dei gesti, slicing o stampa fisica effettuata.** Foto e specifiche LED reali non allegate: nessuna analisi fotografica o misura dedotta da immagini.
+Prova visiva reale tramite Computer Use Windows: osservati CAD/mesh 3D e pannello aggiornamenti; interrogazione effettiva GitHub con esito No published versions on GitHub; download/installazione disabilitati. Salvataggio nativo riuscito con file e conferma UI; dialogo Apri osservato ma riapertura non completata per limiti del controllo del dialogo, poi annullato. Questo non è una validazione completa dell'editor. Il vecchio limite del browser non è stato aggirato: è stata usata l'API supportata di controllo dell'app Windows.
 
-Audit ripetuto: 4 high nella catena dev Vite/picomatch, registry ancora 4.0.7 e nessuna patch compatibile trovata; nessun aggiornamento/downgrade forzato. Server soltanto loopback, rapporto audit in .tools/npm-audit-v03.json.
+YAML dei workflow validato localmente; controllo versioni riuscito; npm ci --dry-run --ignore-scripts riuscito. Audit totale: 12 advisory (5 moderate, 7 high) nel grafo di sviluppo/build; audit runtime --omit=dev zero advisory del registry. Non significa assenza di vulnerabilità. Nessun downgrade/upgrade forzato per nascondere gli advisory. EPERM durante rename della build gestito dal fallback copia/eliminazione del builder, senza disattivare protezioni.
 
-## Cosa resta da fare
+## Verifiche mancanti e prossimi passi
 
-1. Valutare gli SVG con fotografie e LED reali; disegnare glifi/raccordi a raggio controllato, senza ridurre i tratti sacrificando le curvature. Stabilire dimensioni realistiche del prodotto.
-2. Verificare in browser worker, cancellazione, selezioni e gesti; poi slicer e stampa dei provini V0.2, annotando solo misure reali.
-3. Rafforzare collisioni/raggruppamenti e bound numerici: ancora polilinee con esclusioni locali, nessuna prova generale triangolo-triangolo o minimi spessori.
-4. Completare la libreria contestuale, maiuscole/cifre/accenti, inversione/selezione avanzata e routing dell'ottimizzatore.
-5. Sezionamento P1S, giunti, terminali, passacavi e costi rimangono futuri. Nessuna produzione pronta dichiarata.
+1. Approvare manifesto e autenticarsi, poi riesaminare remoto ed effettuare primo push autorizzato.
+2. Configurare protezioni rami/ambiente e provare realmente GitHub Actions.
+3. Ottenere certificato, correggere advisory compatibili, completare prove su Windows pulito: installazione, file V1/V2, export nativi, offline reale, disinstallazione, backup e conservazione dati.
+4. Provare aggiornamento fra due versioni sperimentali firmate, consenso/differimento, riavvio e recupero dati. Solo poi richiedere autorizzazione alla release stabile.
+5. Riprendere qualità calligrafica e vincoli produttivi: la consegna desktop non li risolve. Stay playful V0.3 rimane a quattro tratti con mesh valida ma LED incompatibile a 400/600 mm; raggi e distanze insufficienti. Nessuna prova fisica LED, slicing o stampa.
+
+## Avvio
+
+Utente: aprire il setup locale oppure release/win-unpacked/FILOCONTINUO.exe mantenendo tutta la cartella. Sviluppo desktop: npm run desktop:dev; web: avvia.cmd oppure npm run dev. Ambiente Node/cache/temp su D descritto in docs/INSTALLATION.md. Processo release, aggiornamenti e sicurezza descritti in RELEASE_PROCESS.md, UPDATE_SYSTEM.md, SECURITY.md; dettagli verifiche/hash in DISTRIBUTION_CHECKS.md. Il riepilogo V0.3 precedente è conservato in docs/history/RIEPILOGO-V03.md.
