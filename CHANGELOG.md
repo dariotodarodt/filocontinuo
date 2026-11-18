@@ -10,6 +10,7 @@
 - 30 progetti/SVG, 9 Neon, confronto con profilo fisso e legacy. Stay playful rimane incompatibile a 400/600/800 mm.
 - 60 test e build web/desktop, smoke delle famiglie incluse, verifica visiva Windows e salvataggio/riapertura nativi.
 - Nuovo installer locale non firmato con alias richiesto; comportamento aggiornamenti invariato e nessun latest.yml non firmato pubblicato.
+- CI Linux e Windows riuscita sul codice e2d5cf4: corretto lo shim dei test worker (self === globalThis), senza modificare il worker distribuito. Audit: sei advisory moderati di sviluppo e zero di produzione; nessun downgrade automatico.
 
 
 ## 0.4.0 — 2026-11-18 — sorgenti pubblicati, distribuzione desktop sperimentale
@@ -67,5 +68,3 @@
 - Aggiunti import SVG, esportatori STL/3MF/OBJ/SVG, file progetto, autosave e cronologia.
 - Preparati avvio Windows, test, esempi e documentazione per proseguire tra ChatGPT e Codex.
 - Segnalate fotografie mancanti e limiti fisici dell'alfabeto sperimentale.
-
-Nota CI Style Studio: adattatore Node dei test worker corretto per usare self === globalThis; primo run Linux aveva due errori del loader. Nessuna modifica al worker distribuito; suite Windows e build web rieseguite. Audit: sei advisory moderati di sviluppo, zero di produzione, nessun downgrade automatico.

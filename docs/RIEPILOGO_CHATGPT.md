@@ -71,6 +71,12 @@ Branch dedicato **feature/v04-style-studio**, basato sul commit 3d3d48d; sincron
 
 Il precedente riordino delle tre cartelle è riuscito. La vecchia D:/filocontinuo **non è stata eliminata**: la verifica automatica ha rifiutato la cancellazione con blocked by policy e il tentativo reversibile di archiviarla ha incontrato un processo che la teneva in uso. Non è stata ritentata la cancellazione aggirando il blocco. Esiste anche un backup aggiornato con 3634 file confrontati tramite checksum. Questo limite non impedisce lo sviluppo nella nuova cartella.
 
+### Esito CI e backup finale
+
+Verifica GitHub Actions del codice e2d5cf4 completata con successo: run 44377364398, https://github.com/dariotodarodt/filocontinuo/actions/runs/44377364398. Linux: npm ci, esempi V0.3/V0.4, 60 test, build web e version check. Windows: npm ci, build installer NSIS e smoke del pacchetto, artefatti sperimentali caricati in Actions. Non equivale a installazione reale, firma, slicing o stampa; nessuna release pubblicata. Primo run 44376685321 fallito nei due test dello shim, poi corretto e verificato. I commit successivi di sola documentazione non cambiano il codice verificato.
+
+Backup installer, blockmap, rapporti e bundle Git finale verificati in D:/FILOCONTINUO_Studio/filocontinuo_backup/Style-Studio-0.4.0-20261118. Working tree pulito dopo i commit; nessuna integrazione automatica in main/develop.
+
 ### Prossimi sviluppi
 
 Ridisegnare glifi/raccordi con raggi controllati e migliorare leggibilità, continuità e compattezza, senza forzare il verde. Completare repertori contestuali in ogni famiglia, mappatura dei nodi editati alle lettere, routing generale, test UI estesi e prove fisiche. Luxury/Handwriting/Modern, TTF/OTF e estrazione sperimentale della linea centrale dai contorni, archi SVG e testo lungo curve restano in roadmap. Sezionamento automatico rimandato alla V0.5.

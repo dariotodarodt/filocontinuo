@@ -14,7 +14,7 @@ Prima del push: `git fetch origin`, riesaminare riferimenti e differenze remote,
 
 Semantic Versioning: 0.4.0 è MINOR per la nuova applicazione desktop compatibile, non una PATCH della sola web 0.3.0. `package.json` è la sorgente della versione dell'interfaccia e di Electron; lockfile, documentazione e futuro tag `v0.4.0` devono coincidere. Non esiste ancora un tag o una release 0.4.0. Una versione nel sorgente non è di per sé una release stabile.
 
-`.github/workflows/ci.yml`: npm ci, rigenerazione esempi, test, build web su Linux; su Windows build NSIS sperimentale e smoke dell'app impacchettata, poi soli artefatti Actions con scadenza 14 giorni. Dipendenze Actions fissate a SHA; job contents:read. I workflow non sono ancora stati eseguiti su GitHub. Configurare protezione di main/develop, revisioni e controlli richiesti dopo il primo push, senza dichiararli già attivi.
+`.github/workflows/ci.yml`: npm ci, rigenerazione esempi, test, build web su Linux; su Windows build NSIS sperimentale e smoke dell'app impacchettata, poi soli artefatti Actions con scadenza 14 giorni. Dipendenze Actions fissate a SHA; job contents:read. Il workflow CI è stato eseguito realmente con successo sul codice e2d5cf4 (run 44377364398): Linux e Windows, incluso installer/smoke e artefatti sperimentali. Il workflow di release firmata non è stato eseguito. Configurare protezione di main/develop, revisioni e controlli richiesti dopo il primo push, senza dichiararli già attivi.
 
 ## Creare un setup sperimentale locale
 
