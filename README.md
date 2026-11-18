@@ -10,7 +10,7 @@ Aprire il setup locale `release/FILOCONTINUO-Setup-0.4.0-x64.exe` oppure `releas
 
 Da sorgenti: `npm run desktop:dev`; per generare setup: `npm run desktop:dist`. Progetti e backup tramite dialoghi nativi, dati in %APPDATA%/FILOCONTINUO. In Impostazioni → Aggiornamenti il controllo all'avvio è facoltativo; download e installazione richiedono consenso e restano bloccati nella build non firmata.
 
-Repository ufficiale **pubblico**: [dariotodarodt/filocontinuo](https://github.com/dariotodarodt/filocontinuo). Sorgenti preparati localmente; autenticazione mancante e primo push ancora da approvare. Nessuna licenza open source assegnata (UNLICENSED). Cache/runtime/installer/dati personali non entrano in Git.
+Repository ufficiale **pubblico**: [dariotodarodt/filocontinuo](https://github.com/dariotodarodt/filocontinuo). Sorgenti preparati localmente; autenticazione GitHub completata e verificata con dry-run; primo push ancora da approvare. Nessuna licenza open source assegnata (UNLICENSED). Cache/runtime/installer/dati personali non entrano in Git.
 
 Istruzioni complete: [installazione e recupero](docs/INSTALLATION.md), [Git e release](docs/RELEASE_PROCESS.md), [aggiornamenti](docs/UPDATE_SYSTEM.md), [sicurezza](docs/SECURITY.md), [licenze dipendenze](docs/THIRD_PARTY_NOTICES.md).
 

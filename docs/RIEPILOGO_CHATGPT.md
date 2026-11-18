@@ -10,7 +10,7 @@ Repository ufficiale pubblico dariotodarodt/filocontinuo, inizialmente vuoto e a
 
 Commit iniziali locali: 2b5077d importa la baseline V0.3, a428fa9 completa i file originali di avvio/configurazione. La consegna desktop è sul ramo feature/desktop-distribution; il commit finale è consultabile con git log e nel messaggio di consegna. main conserva V0.3, develop è il ramo di integrazione. Nessun force push, tag, release o cambio visibilità/licenza.
 
-**Sincronizzazione remota non ancora eseguita**: autenticazione HTTPS non disponibile, verificata con dry-run senza scritture. Inoltre il proprietario ha richiesto conferma prima del primo push: deve approvare il manifesto docs/PUBLICATION_MANIFEST.md. Repository pubblico significa sorgenti e documenti leggibili da chiunque. UNLICENSED non è una licenza open source; nessuna licenza è stata scelta automaticamente.
+**Sincronizzazione remota non ancora eseguita**: autenticazione GitHub ora completata con dariotodarodt tramite Git Credential Manager, dopo autorizzazione manuale dell’utente. Dry-run di main, develop e feature/desktop-distribution riuscito senza inviare file. VS Code configurato con il percorso Git portatile nelle impostazioni utente e verificato nel workspace locale .tools/FILOCONTINUO.code-workspace. Queste configurazioni locali e le credenziali non vengono pubblicate. Inoltre il proprietario ha richiesto conferma prima del primo push: deve approvare il manifesto docs/PUBLICATION_MANIFEST.md. Repository pubblico significa sorgenti e documenti leggibili da chiunque. UNLICENSED non è una licenza open source; nessuna licenza è stata scelta automaticamente.
 
 Esclusi runtime, cache, backup, log, node_modules, installer, credenziali/certificati/.env e cartelle di dati personali/foto. Gli esempi sono generati dal software. Git non archivia i progetti privati degli utenti. Inventario dipendenze in THIRD_PARTY_NOTICES.md (388 pacchetti).
 
@@ -42,7 +42,7 @@ YAML dei workflow validato localmente; controllo versioni riuscito; npm ci --dry
 
 ## Verifiche mancanti e prossimi passi
 
-1. Approvare manifesto e autenticarsi, poi riesaminare remoto ed effettuare primo push autorizzato.
+1. Approvare il manifesto, poi riesaminare remoto ed effettuare primo push autorizzato; autenticazione già completata.
 2. Configurare protezioni rami/ambiente e provare realmente GitHub Actions.
 3. Ottenere certificato, correggere advisory compatibili, completare prove su Windows pulito: installazione, file V1/V2, export nativi, offline reale, disinstallazione, backup e conservazione dati.
 4. Provare aggiornamento fra due versioni sperimentali firmate, consenso/differimento, riavvio e recupero dati. Solo poi richiedere autorizzazione alla release stabile.

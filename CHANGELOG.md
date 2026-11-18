@@ -2,6 +2,8 @@
 
 ## 0.4.0 — 2026-11-18 — sperimentale locale, non pubblicata
 
+- Autenticazione GitHub completata con Git Credential Manager; configurato Git in VS Code e verificato push --dry-run, senza pubblicazione.
+
 - Nuova app Electron Windows mantenendo modalità web e motore/schema V1/V2.
 - Protocollo locale, sandbox, bridge limitato e convalida IPC/progetti/backup.
 - Apertura/salvataggio nativi, controllo modifiche, dati Windows e backup/ripristino.

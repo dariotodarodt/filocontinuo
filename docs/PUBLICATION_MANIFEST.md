@@ -1,6 +1,6 @@
 # Manifesto del primo push — da approvare
 
-Preparato il 18 novembre 2026 per il repository **pubblico** dariotodarodt/filocontinuo. **Nessun file è ancora stato inviato**. Occorrono conferma esplicita del proprietario e autenticazione GitHub. L'approvazione riguarda i sorgenti/rami, non autorizza tag, release stabili, installer pubblici o cambio di visibilità/licenza.
+Preparato il 18 novembre 2026 per il repository **pubblico** dariotodarodt/filocontinuo. **Nessun file è ancora stato inviato**. Autenticazione GitHub completata e dry-run dei tre rami riuscito senza inviare file. Occorre ancora la conferma esplicita del proprietario al primo push. L'approvazione riguarda i sorgenti/rami, non autorizza tag, release stabili, installer pubblici o cambio di visibilità/licenza.
 
 ## Riepilogo
 
@@ -37,10 +37,10 @@ Dimensioni dei file sul disco al momento della preparazione; il manifesto stesso
 | `.gitignore` | 641 |
 | `.npmrc` | 23 |
 | `AGENTS.md` | 3468 |
-| `CHANGELOG.md` | 3794 |
-| `PROJECT_STATUS.md` | 13425 |
-| `README.md` | 11305 |
-| `ROADMAP.md` | 6127 |
+| `CHANGELOG.md` | 3935 |
+| `PROJECT_STATUS.md` | 13634 |
+| `README.md` | 11338 |
+| `ROADMAP.md` | 6193 |
 | `avvia.cmd` | 630 |
 | `build/icon.ico` | 4335 |
 | `build/icon.png` | 4313 |
@@ -55,13 +55,13 @@ Dimensioni dei file sul disco al momento della preparazione; il manifesto stesso
 | `desktop/signature.cjs` | 873 |
 | `desktop/store.cjs` | 1262 |
 | `desktop/update-controller.cjs` | 5761 |
-| `docs/DISTRIBUTION_CHECKS.md` | 3658 |
+| `docs/DISTRIBUTION_CHECKS.md` | 3739 |
 | `docs/INSTALLATION.md` | 3611 |
 | `docs/PROMPT_ORIGINALE.md` | 6334 |
 | `docs/PROMPT_V02.md` | 5443 |
 | `docs/PUBLICATION_MANIFEST.md` | — |
-| `docs/RELEASE_PROCESS.md` | 4408 |
-| `docs/RIEPILOGO_CHATGPT.md` | 7665 |
+| `docs/RELEASE_PROCESS.md` | 4926 |
+| `docs/RIEPILOGO_CHATGPT.md` | 8038 |
 | `docs/SECURITY.md` | 3275 |
 | `docs/THIRD_PARTY_NOTICES.md` | 22350 |
 | `docs/UPDATE_SYSTEM.md` | 3892 |

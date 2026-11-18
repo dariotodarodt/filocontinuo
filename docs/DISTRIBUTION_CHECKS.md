@@ -27,7 +27,7 @@
 | Lockfile | `npm ci --dry-run --ignore-scripts` riuscito; non equivale a installazione su ambiente pulito |
 | Audit npm | 12 complessivi (5 moderate, 7 high); runtime `--omit=dev` zero advisory del registry |
 | Remoto Git | Pubblico, nessun riferimento remoto al controllo; nessun push effettuato |
-| Accesso di scrittura Git | Dry-run senza scritture fallito perché manca autenticazione HTTPS; nessun token inserito |
+| Accesso di scrittura Git | Prima verifica fallita per autenticazione assente; dopo autorizzazione manuale, account dariotodarodt registrato in GCM e dry-run dei tre rami riuscito senza inviare file |
 
 Lo smoke usa dati isolati sotto `.tools/tmp/`, nessun test sostituisce progetti utente. Il campo `offlineRenderer=true` del rapporto descrive il blocco configurato delle richieste remote del renderer, **non** una prova di disconnessione fisica della macchina. La prova visiva Windows aggiunge un'osservazione reale, ma non verifica tutti i gesti dell'editor o i dialoghi di esportazione.
 

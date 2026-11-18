@@ -10,7 +10,8 @@
 - [x] 45 test e build web, smoke del pacchetto senza verifica visiva
 - [x] Verifica visiva Windows limitata a CAD/3D e aggiornamenti, salvataggio nativo e JSON V2 valido
 - [x] Workflow CI e release firmata solo in bozza, inventario licenze
-- [ ] Conferma del manifesto, autenticazione e primo push GitHub
+- [x] Autenticazione GitHub, Git configurato in VS Code e verifica push --dry-run
+- [ ] Conferma del manifesto e primo push GitHub
 - [ ] Protezioni rami e ambiente release-signing con revisori su GitHub
 - [ ] Esecuzione effettiva dei workflow sul repository
 - [ ] Certificato Authenticode e gestione sicura secret

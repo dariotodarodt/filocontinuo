@@ -6,7 +6,7 @@ Repository ufficiale: https://github.com/dariotodarodt/filocontinuo. Verificato 
 
 `main` conserva la baseline web 0.3.0; `develop` è il ramo di integrazione; `feature/desktop-distribution` contiene il desktop 0.4.0 sperimentale. Nuove attività in `feature/*`, correzioni in `fix/*`. Prima di integrare, test e revisione; il semplice push esegue CI ma non pubblica release. Nessun force push.
 
-L'identità locale deriva dal profilo pubblico indicato dal proprietario: DtDesigns, email GitHub noreply. Verificare `git log` prima della pubblicazione. Git portatile, runtime, cache e backup in `.tools` restano locali. Il primo push richiede **conferma esplicita del proprietario sul manifesto dei file** e autenticazione GitHub; nessun push è stato effettuato durante la preparazione.
+L'identità locale deriva dal profilo pubblico indicato dal proprietario: DtDesigns, email GitHub noreply. Verificare `git log` prima della pubblicazione. Git portatile, runtime, cache e backup in `.tools` restano locali. Il primo push richiede **conferma esplicita del proprietario sul manifesto dei file** ; l’autenticazione GitHub con dariotodarodt è stata completata e il dry-run dei tre rami è riuscito, senza inviare file. Nessun push reale effettuato.
 
 Prima del push: `git fetch origin`, riesaminare riferimenti e differenze remote, controllare `.gitignore` e `docs/PUBLICATION_MANIFEST.md`, poi autenticarsi tramite GitHub/gestore credenziali. Non salvare token in URL, file o chat. Se i rami remoti sono comparsi, integrarli e riesaminarli senza sovrascriverli.
 
@@ -29,4 +29,6 @@ Seguire l'ambiente in INSTALLATION.md, poi `npm ci`, `npm run examples:v03`, `np
 5. Provare realmente aggiornamento fra due versioni sperimentali firmate in ambiente isolato; controllare rifiuto/differimento, firma, corruzione, dati e nessuna installazione automatica. Riesaminare note e artefatti della bozza.
 6. **Il proprietario autorizza esplicitamente e pubblica manualmente la release stabile.** Non è un passaggio automatico del workflow e non è stato eseguito.
 
-Non usare una versione beta sul canale stabile; niente downgrade automatico. In caso di regressione distribuire una versione correttiva superiore. Backup prima dell'aggiornamento; recupero dati descritto in INSTALLATION.md. Certificati, ambiente protetto, autenticazione, tag, esecuzione Actions e rilascio restano da predisporre/verificare sul servizio.
+Non usare una versione beta sul canale stabile; niente downgrade automatico. In caso di regressione distribuire una versione correttiva superiore. Backup prima dell'aggiornamento; recupero dati descritto in INSTALLATION.md. Autenticazione GitHub verificata. Certificati, ambiente protetto, tag, esecuzione Actions e rilascio restano da predisporre/verificare sul servizio.
+
+VS Code locale: git.path nelle impostazioni utente punta al Git portatile sotto D:/filocontinuo/.tools/git/cmd/git.exe. Il workspace .tools/FILOCONTINUO.code-workspace apre lo stesso progetto e riconosce il ramo feature/desktop-distribution. Configurazioni locali e credenziali non sono incluse nel repository. Il collegamento Git non implica accesso a Copilot, sincronizzazione delle impostazioni o pubblicazione del codice.
