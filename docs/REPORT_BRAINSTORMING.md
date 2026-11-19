@@ -1,4 +1,24 @@
 # FILOCONTINUO 0.4.3 · ONE Fusion
+
+## Revisione delle parole ONE Fusion · 19 novembre 2026
+
+Le due immagini del proprietario mostrano aste inclinate, occhielli stretti e discendenti lunghi. Nella frase rosa le sette parole sono separate e distribuite su quattro righe. In Stay playful i ritorni di y e f scendono molto sotto la linea di scrittura. Le fotografie prive di scala non determinano spessori, raggi, separazione interna o continuità elettrica. Il confronto locale ora presenta Signature, ONE precedente dove disponibile e due proporzioni Fusion per 13 composizioni a 600 mm. Tutte le 26 mesh sono valide al controllo numerico e tutte le proposte violano i vincoli geometrici del profilo dimostrativo. La frase produce sette percorsi. La scelta estetica precede la revisione dei ritorni e la prova fisica. Consultare examples/v043/galleria.html e parole.json.
+
+### Risultati della revisione
+
+| Caso compatto, asse largo 600 mm | Percorsi | Estremità | Lunghezza teorica | R minimo osservato | Distanza minima osservata |
+|---|---:|---:|---:|---:|---:|
+| Frase rosa su quattro righe | 7 | 14 | 5351,01 mm | 0,83 mm | Da verificare, budget esaurito |
+| Love | 1 | 2 | 2038,86 mm | 3,85 mm | 0 mm |
+| Stay playful | 2 | 4 | 2189,98 mm | 0,74 mm | 0 mm |
+
+La seconda proposta modifica anche la traiettoria di S, y, f, l e p. Il riferimento storico ONE vincolato a 600 mm dà R 31,02 mm per Love e 20,41 mm per Amore, con zero errori diagnostici e mesh valide. Resta disponibile nello Studio per confronto. La proposta Fusion applicata è modificabile nell’editor. Per confrontare la grafia vedere [galleria](../examples/v043/galleria.html).
+
+Suite automatica da 71 test, tutti superati. Verifica interattiva sul desktop: apertura dello Studio, scorrimento, anteprima di Stay playful, applicazione e apertura nell’editor con i nodi e l’indicazione ONE. Tre schermate in examples/v043. Mancano approvazione estetica, misure fisiche della divisoria, slicing e stampa. Il pacchetto è locale e sperimentale.
+
+### Stato precedente del laboratorio di lettere
+
+
 19 novembre 2026. Il laboratorio nel pannello ONE propone Fusion come prima modalità e Separate come alternativa. La revisione copre esclusivamente l, e, o, a, f, t, g, y, p. Ogni lettera ha tre varianti Fusion. Apertura, sviluppo dei rami e terminali cambiano il percorso usato dalla mesh. I progetti conservano versione, modalità, variante, parete minima e curve applicate.
 
 Aprire examples/v043/galleria.html. Ogni riga contiene il glifo Signature storico, un confronto Separate e tre Fusion. I disegni tecnici usano i contorni esterni e interni realmente triangolati. La linea centrale e l’anteprima Neon usano le stesse cubiche. Il file misure.json contiene raggio, distanza, parete stimata e validazione per ciascuna proposta. Le nove lettere sono prototipi estetici da approvare.

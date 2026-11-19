@@ -1,4 +1,9 @@
 ## Priorità dopo il laboratorio Fusion
+
+## Revisione delle parole ONE Fusion · 19 novembre 2026
+
+Prima della distribuzione, approvare una direzione estetica sulle parole complete, ridisegnare i ritorni con raggi inferiori al profilo, eliminare gli incroci e verificare la separazione delle cavità con un provino. Resta aperta la ricerca automatica di varianti compatibili nel contesto della parola.
+
 Approvazione estetica lettera per lettera, raccordi a/f/t/g/p, prova fisica delle divisorie. Estendere il repertorio solo dopo la revisione.
 
 ## Consolidamento 0.4.2

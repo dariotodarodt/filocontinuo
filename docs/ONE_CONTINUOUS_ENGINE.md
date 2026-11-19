@@ -1,4 +1,9 @@
 ## 0.4.3 · Parete condivisa sperimentale
+
+## Revisione delle parole ONE Fusion · 19 novembre 2026
+
+Il compositore `words.ts` dispone un’intera riga, adatta la larghezza dei ritorni alla densità di lettere e al profilo, combina nuovi tratti cubici e guide originali ONE e determina le maniglie di raccordo dalle tangenti. Ogni parola è un sottopercorso. Il collegamento tra parole è facoltativo sulla singola riga. L’asse verticale viene convertito in coordinate CAD quando si applica la bozza. La misura tra rami è campionata. Oltre il budget di 4000 punti la distanza resta indeterminata. La larghezza impostata è riferita all’asse. Il controllo della leggibilità resta affidato al proprietario.
+
 La distanza nominale dei due assi è larghezza LED + tolleranza + divisoria + 0,12 mm. Separate sostituisce la divisoria con due pareti. I contorni esterni vengono uniti dal motore di offset e la cavità è calcolata separatamente. Il worker ripete il controllo dopo le modifiche; l’export mesh dei glifi sperimentali richiede anche distanza campionata con margine di 0,08 mm, una linea aperta e diagnostica LED conclusiva favorevole. Il margine è numerico, non una tolleranza di stampa certificata. Rigenerare la galleria con tsx scripts/generate-v043.ts.
 
 # ONE vincolato 0.4.2

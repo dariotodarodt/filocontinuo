@@ -1,5 +1,10 @@
 # FILOCONTINUO — istruzioni di lavoro
 
+## Revisione delle parole ONE Fusion · 19 novembre 2026
+
+La revisione estetica ONE si valuta su parole libere e frasi. Rigenerare la galleria con `tsx scripts/generate-v043.ts`. Conservare le fotografie del proprietario fuori dagli artefatti distribuiti.
+
+
 - Interfaccia e documentazione in italiano. Unità interne ed esportate: millimetri; Z è l'asse di estrusione.
 - Leggere README.md e PROJECT_STATUS.md prima di modificare il progetto.
 - Separare calligrafia, geometria, analisi produttiva, UI ed esportazione. Non estrudere contorni di font per simulare monolinea.

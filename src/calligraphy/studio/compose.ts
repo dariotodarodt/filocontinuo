@@ -69,7 +69,7 @@ export function replaceStudioLetter(p:Project,index:number,variant:GlyphVariant)
 }
 export function studioProject(source:Project,candidate:StudioCandidate):Project{
  if(candidate.missing.length||!candidate.withinWidth)throw Error('Proposta non applicabile: caratteri mancanti o larghezza massima superata.');
- return {...structuredClone(source),version:2,generator:'studio',imported:null,text:source.text.replace(/\r\n/g,'\n').normalize('NFC'),curves:structuredClone(candidate.curves),studio:structuredClone(candidate.state)};
+ return {...structuredClone(source),version:2,one:undefined,generator:'studio',imported:null,text:source.text.replace(/\r\n/g,'\n').normalize('NFC'),curves:structuredClone(candidate.curves),studio:structuredClone(candidate.state)};
 }
 export function studioCandidates(p:Project,request:StudioRequest):StudioCandidate[]{
  if(request.letter)return [replaceStudioLetter(p,request.letter.index,request.letter.variant)];

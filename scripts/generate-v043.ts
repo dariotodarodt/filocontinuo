@@ -1,4 +1,4 @@
-﻿import {mkdirSync,writeFileSync} from 'node:fs';
+import {mkdirSync,writeFileSync} from 'node:fs';
 import {builtInFamilies} from '../src/calligraphy/studio/families';
 import {fusionGlyph,fusionLetters,type Construction} from '../src/calligraphy/one/fusion';
 import {newProjectV3} from '../src/core/profiles';
@@ -33,4 +33,5 @@ for(const letter of fusionLetters){
  sections.push('<section><h2>'+letter+'</h2><div>'+cards.join('')+'</div></section>');
 }
 writeFileSync(dir+'/misure.json',JSON.stringify(rows,null,2));
-writeFileSync(dir+'/galleria.html','<!doctype html><html lang="it"><meta charset="utf-8"><title>ONE Fusion · revisione estetica</title><style>body{margin:3vw;background:#faf7f0;color:#252e30;font:16px system-ui}section div{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:12px}article{background:white;padding:12px;border-radius:8px}svg,img{width:100%;height:155px}h2{font:italic 40px Georgia}p{font-size:14px}</style><h1>ONE Fusion · revisione delle lettere</h1><p>Profilo 6 × 8 mm · R12 · divisoria minima 1,20 mm. Grigio: struttura esterna. Sabbia: cavità. Rosso: asse LED. Le misure sono campionate.</p>'+sections.join('')+'</html>');
+writeFileSync(dir+'/glifi.html','<!doctype html><html lang="it"><meta charset="utf-8"><title>ONE Fusion · revisione estetica</title><style>body{margin:3vw;background:#faf7f0;color:#252e30;font:16px system-ui}section div{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:12px}article{background:white;padding:12px;border-radius:8px}svg,img{width:100%;height:155px}h2{font:italic 40px Georgia}p{font-size:14px}</style><h1>ONE Fusion · revisione delle lettere</h1><p>Profilo 6 × 8 mm · R12 · divisoria minima 1,20 mm. Grigio: struttura esterna. Sabbia: cavità. Rosso: asse LED. Le misure sono campionate.</p>'+sections.join('')+'</html>');
+await import('./generate-v043-words');

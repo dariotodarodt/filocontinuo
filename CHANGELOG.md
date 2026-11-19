@@ -1,4 +1,9 @@
 ## 0.4.3 · ONE Fusion
+
+## Revisione delle parole ONE Fusion · 19 novembre 2026
+
+Revisione locale 0.4.3. Composizione ONE in Style Studio con testo multiriga condiviso con la bozza, scelta Fusion/Separate, anteprima prima dell’applicazione, geometria editabile e controllo campionato delle distanze anche tra parole. Galleria delle parole e regressioni dedicate.
+
 Modalità Fusion e Separate, divisoria parametrica, nove glifi con tre proposte, galleria tecnica e Neon. Corretto il difetto di triangolazione Love 600.
 
 ## 0.4.2 · 19 novembre 2026

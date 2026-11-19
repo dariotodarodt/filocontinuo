@@ -1,4 +1,24 @@
 # Stato tecnico 0.4.3 · ONE Fusion
+
+## Revisione delle parole ONE Fusion · 19 novembre 2026
+
+La revisione locale dello Style Studio genera percorsi per parola e conserva le curve applicate nei progetti V2. Il pannello precedente interrogava il generatore di glifi singoli con un testo libero. Il selettore storico mostrava il motore predefinito anche con curve ONE salvate. La proposta ora si modifica nello Studio. A 600 mm, 26 proposte su 13 testi hanno mesh valida e incompatibilità LED. Sette percorsi per la frase su quattro righe. Love a 600 mm ha mesh valida in entrambe le proposte. Galleria e misure in examples/v043. Approvazione estetica, slicing e prova fisica aperti.
+
+### Risultati della revisione
+
+| Caso compatto, asse largo 600 mm | Percorsi | Estremità | Lunghezza teorica | R minimo osservato | Distanza minima osservata |
+|---|---:|---:|---:|---:|---:|
+| Frase rosa su quattro righe | 7 | 14 | 5351,01 mm | 0,83 mm | Da verificare, budget esaurito |
+| Love | 1 | 2 | 2038,86 mm | 3,85 mm | 0 mm |
+| Stay playful | 2 | 4 | 2189,98 mm | 0,74 mm | 0 mm |
+
+La seconda proposta modifica anche la traiettoria di S, y, f, l e p. Il riferimento storico ONE vincolato a 600 mm dà R 31,02 mm per Love e 20,41 mm per Amore, con zero errori diagnostici e mesh valide. Resta disponibile nello Studio per confronto. La proposta Fusion applicata è modificabile nell’editor. Per confrontare la grafia vedere [galleria](examples/v043/galleria.html).
+
+Suite automatica da 71 test, tutti superati. Verifica interattiva sul desktop: apertura dello Studio, scorrimento, anteprima di Stay playful, applicazione e apertura nell’editor con i nodi e l’indicazione ONE. Tre schermate in examples/v043. Mancano approvazione estetica, misure fisiche della divisoria, slicing e stampa. Il pacchetto è locale e sperimentale.
+
+### Stato precedente del laboratorio di lettere
+
+
 Laboratorio di nove lettere in revisione estetica. 36 mesh valide, 12/27 Fusion entro i controlli campionati R12. Love 600 corretto. Suite locale 68/68. Misure e galleria in examples/v043/.
 
 # Stato tecnico 0.4.2 · ONE

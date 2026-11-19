@@ -4,14 +4,13 @@ import { bounds,type Project } from '../core/types';
 import { fromStrokes } from '../vector/bezier';
 import { buildChannel } from '../geometry/channel';
 import { checkBend,inspectPaths } from '../optimization/strict';
-import {measuredGap} from '../calligraphy/one/measuredGap';
+import {compositionGap} from '../calligraphy/one/measuredGap';
 export function evaluateProject(p:Project){
   const {strokes,notes}=lettering(p),curves=p.version===2||p.curves?vectorLettering(p).curves:fromStrokes(strokes),diagnostics=checkBend(inspectPaths(strokes,p.params,curves,p.one?.engine==="0.4.3"&&p.one.construction==="fusion"?p.one.divider:undefined),p.bend),channel=strokes.length?buildChannel(strokes,p.params):null;
   let constructionVerified=true;
   if(p.one?.engine==='0.4.3'){
-    const required=p.one.construction==='fusion'?p.one.divider!:2*p.params.wall;
-    const points=strokes.length===1&&!curves[0]?.closed?strokes[0].points:[];
-    const gap=points.length>=2&&points.length<=4000?measuredGap(points,p.params.minRadius):null;
+    const required=p.one.construction==='fusion'?(p.one.divider??p.params.wall):2*p.params.wall;
+    const gap=compositionGap(strokes,p.params.minRadius);
     const wall=gap===null?null:gap-p.params.ledWidth-p.params.tolerance;
     // Budget for two sampled offsets and integer clipping. Insufficient margin
     // keeps the mesh export gate closed even when the surface itself is valid.
