@@ -58,3 +58,4 @@ node-v*-win-*/
 *.webp
 *.png
 !build/icon.png
+!tests/fixtures/v02.filo.json
