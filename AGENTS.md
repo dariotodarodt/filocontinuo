@@ -34,3 +34,4 @@
 - Desktop smoke deve comporre Signature/Minimal/Vintage dal vero worker e verificare una mesh Studio. Review --review-dir usa dati isolati, non le cartelle utente.
 ONE 0.4.1: conservare le curve applicate. Rigenerare examples/v041 con scripts/generate-one.ts dopo modifiche ai glifi. Un percorso singolo richiede controlli indipendenti di raggio, distanze e intersezioni.
 Per ONE vincolato rigenerare esempi e provini v042. Verificare raggio sulle cubiche, distanza osservata e validazione della mesh separatamente. Conservare la geometria congelata della V0.4.1.
+V0.4.3: preferire ONE Fusion nel laboratorio ONE e mantenere Separate. Prima di estendere il repertorio acquisire la scelta estetica delle nove lettere. Conservare i controlli indipendenti di mesh, distanza e raggio.

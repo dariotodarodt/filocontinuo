@@ -1,3 +1,6 @@
+## Priorità dopo il laboratorio Fusion
+Approvazione estetica lettera per lettera, raccordi a/f/t/g/p, prova fisica delle divisorie. Estendere il repertorio solo dopo la revisione.
+
 ## Consolidamento 0.4.2
 
 Risolvere la mesh Love a 600 mm, revisionare la leggibilità, provare fisicamente i ritorni e completare repertorio, conversioni raggio, parete condivisa e modalità per parola prima del sezionamento.

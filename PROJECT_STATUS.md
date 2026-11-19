@@ -1,3 +1,6 @@
+# Stato tecnico 0.4.3 · ONE Fusion
+Laboratorio di nove lettere in revisione estetica. 36 mesh valide, 12/27 Fusion entro i controlli campionati R12. Love 600 corretto. Suite locale 68/68. Misure e galleria in examples/v043/.
+
 # Stato tecnico 0.4.2 · ONE
 
 Love e Memo a 400 mm e Amore a 600 mm superano LED R12 e validazione mesh. Love a 600 mm fallisce la mesh. Suite locale 65/65, build web/desktop/smoke riuscite. Dati completi in examples/v042/confronto.json, calibrazione e limiti in docs/ONE_CONTINUOUS_ENGINE.md.

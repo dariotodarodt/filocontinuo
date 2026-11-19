@@ -1,3 +1,6 @@
+# FILOCONTINUO 0.4.3 · ONE Fusion
+Aprire il pannello ONE e scegliere una lettera sperimentale. [Galleria di approvazione estetica](examples/v043/galleria.html).
+
 # FILOCONTINUO 0.4.2
 
 Aprire release/FILOCONTINUO-Setup-0.4.2.exe. Nel pannello ONE selezionare Geometria vincolata, provare Love a 400 mm e applicare per il calcolo 3D. [Galleria](examples/v042/galleria.html).

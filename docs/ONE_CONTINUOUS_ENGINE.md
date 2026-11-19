@@ -1,3 +1,6 @@
+## 0.4.3 · Parete condivisa sperimentale
+La distanza nominale dei due assi è larghezza LED + tolleranza + divisoria + 0,12 mm. Separate sostituisce la divisoria con due pareti. I contorni esterni vengono uniti dal motore di offset e la cavità è calcolata separatamente. Il worker ripete il controllo dopo le modifiche; l’export mesh dei glifi sperimentali richiede anche distanza campionata con margine di 0,08 mm, una linea aperta e diagnostica LED conclusiva favorevole. Il margine è numerico, non una tolleranza di stampa certificata. Rigenerare la galleria con tsx scripts/generate-v043.ts.
+
 # ONE vincolato 0.4.2
 
 Gli archi usano maniglie tangenti di lunghezza 4R tan(θ/4)/3 e angolo massimo 45°. La normalizzazione uniforme deve lasciare almeno 1,015 volte il raggio richiesto sulle primitive unitarie. Il solver rifiuta il caso altrimenti. La diagnostica successiva verifica le cubiche. Distanze campionate e limiti sono documentati nel report e nei JSON. Rigenerazione con tsx scripts/generate-v042.ts e tsx scripts/calibrate-one.ts.

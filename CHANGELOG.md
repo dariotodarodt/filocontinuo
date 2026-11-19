@@ -1,3 +1,6 @@
+## 0.4.3 · ONE Fusion
+Modalità Fusion e Separate, divisoria parametrica, nove glifi con tre proposte, galleria tecnica e Neon. Corretto il difetto di triangolazione Love 600.
+
 ## 0.4.2 · 19 novembre 2026
 
 Otto glifi generici ad archi tangenti, rifiuto delle larghezze insufficienti, ripristino dei parametri ONE, galleria comparativa e dodici provini di ritorno.
