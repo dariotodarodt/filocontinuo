@@ -3,9 +3,9 @@ import { cubic,type BezierPath } from '../vector/bezier';
 export type Anomaly={id:string;kind:'raggio'|'cuspide'|'incrocio'|'sovrapposizione'|'distanza'|'tratto';severity:'warning'|'error';position:Point;pathIds:number[];segment:number;t:number;message:string;measured?:number;limit?:number;samples:number};
 export function curvatureRadius(a:Point,b:Point,c:Point,d:Point,t:number){const u=1-t,dx=3*u*u*(b.x-a.x)+6*u*t*(c.x-b.x)+3*t*t*(d.x-c.x),dy=3*u*u*(b.y-a.y)+6*u*t*(c.y-b.y)+3*t*t*(d.y-c.y),ddx=6*u*(c.x-2*b.x+a.x)+6*t*(d.x-2*c.x+b.x),ddy=6*u*(c.y-2*b.y+a.y)+6*t*(d.y-2*c.y+b.y),speed=Math.hypot(dx,dy),cross=Math.abs(dx*ddy-dy*ddx);return speed<1e-8?0:cross<1e-10?Infinity:speed**3/cross;}
 function closest(p:Point,a:Point,b:Point){const l=(b.x-a.x)**2+(b.y-a.y)**2,t=l?Math.max(0,Math.min(1,((p.x-a.x)*(b.x-a.x)+(p.y-a.y)*(b.y-a.y))/l)):0;const q={x:a.x+t*(b.x-a.x),y:a.y+t*(b.y-a.y)};return {distance:distance(p,q),point:q,t};}
-export function diagnose(strokes:Stroke[],params:Parameters,curves?:BezierPath[]){
+export function diagnose(strokes:Stroke[],params:Parameters,curves?:BezierPath[],divider?:number){
   const anomalies:Anomaly[]=[],last=new Map<string,{anomaly:Anomaly;position:Point}>();let minRadius=Infinity;
-  const width=params.ledWidth+params.tolerance+2*params.wall,margin=.5;
+  const width=params.ledWidth+params.tolerance+(divider??2*params.wall),margin=.5;
   const add=(a:Omit<Anomaly,'id'|'samples'>)=>{
     const key=a.kind+':'+a.pathIds.join(',')+':'+a.severity,old=last.get(key);
     if(old&&distance(old.position,a.position)<Math.max(width,2)){

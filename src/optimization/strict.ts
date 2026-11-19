@@ -3,8 +3,8 @@ import { cubic,type BezierPath } from '../vector/bezier';
 import { diagnose,type Anomaly } from './diagnostics';
 import { inspectCubic } from './curvature';
 export type LedState='compatible'|'near'|'incompatible'|'unknown';
-export function inspectPaths(strokes:Stroke[],params:Parameters,curves?:BezierPath[]){
-  const legacy=diagnose(strokes,params,curves),anomalies:Anomaly[]=legacy.anomalies.filter(a=>!curves||!['raggio','cuspide'].includes(a.kind));
+export function inspectPaths(strokes:Stroke[],params:Parameters,curves?:BezierPath[],divider?:number){
+  const legacy=diagnose(strokes,params,curves,divider),anomalies:Anomaly[]=legacy.anomalies.filter(a=>!curves||!['raggio','cuspide'].includes(a.kind));
   const requiredRadius=Math.max(params.minRadius,(params.ledWidth+params.tolerance+2*params.wall)/2);
   const uncertainPaths=new Set<number>();let radiusLower=Infinity,observedRadius=Infinity,cuspCount=0,violatingSpans=0,unknownSpans=0;
   const add=(issue:Omit<Anomaly,'id'|'samples'>)=>anomalies.push({...issue,id:`strict-${anomalies.length}`,samples:1});

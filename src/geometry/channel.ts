@@ -44,6 +44,26 @@ export function buildFromContours(outer:Path[],inner:Path[],floor:number,wallHei
       const flat:number[]=[],holes:number[]=[];
       for(const [i,path] of [g.outer,...g.holes].entries()){if(i)holes.push(flat.length/2);for(const v of path)flat.push(v.X/SCALE,v.Y/SCALE);}
       const ix=earcut(flat,holes,2);
+      const area=(i:number,j:number,k:number)=>{
+        const x=(n:number)=>Math.fround(flat[2*n]),y=(n:number)=>Math.fround(flat[2*n+1]);
+        return Math.abs((x(j)-x(i))*(y(k)-y(i))-(y(j)-y(i))*(x(k)-x(i)));
+      };
+      // A collinear ear can be repaired by swapping its longest, interior
+      // diagonal with its neighbour. The contour and all side edges stay fixed.
+      for(let i=0;i<ix.length;i+=3){
+        const tri=ix.slice(i,i+3);
+        if(area(tri[0],tri[1],tri[2])>=1e-8)continue;
+        const length=(a:number,b:number)=>Math.hypot(flat[2*a]-flat[2*b],flat[2*a+1]-flat[2*b+1]);
+        const [a,b,m]=[tri,[tri[1],tri[2],tri[0]],[tri[2],tri[0],tri[1]]].sort((u,v)=>length(v[0],v[1])-length(u[0],u[1]))[0];
+        for(let j=0;j<ix.length;j+=3){
+          if(j===i)continue;
+          const neighbour=ix.slice(j,j+3);
+          if(!neighbour.includes(a)||!neighbour.includes(b))continue;
+          const n=neighbour.find(k=>k!==a&&k!==b);
+          if(n===undefined||Math.min(area(a,m,n),area(b,m,n))<1e-8)continue;
+          ix.splice(i,3,a,m,n);ix.splice(j,3,m,b,n);break;
+        }
+      }
       for(let i=0;i<ix.length;i+=3){let [a,b,c]=ix.slice(i,i+3).map(j=>[flat[j*2],flat[j*2+1],z]);const cross=(b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0]);if((cross>0)!==up)[b,c]=[c,b];triangle(a,b,c);}
     }
   };

@@ -1,0 +1,1010 @@
+[
+  {
+    "letter": "l",
+    "mode": "separate",
+    "variant": 2,
+    "radius": 18.039911104128514,
+    "gap": 8.819999999999997,
+    "wall": 2.519999999999997,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3828,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8616.305319915413
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "l",
+    "mode": "fusion",
+    "variant": 1,
+    "radius": 16.39991918557001,
+    "gap": 7.619999999999997,
+    "wall": 1.3199999999999974,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3404,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8176.0667954213795
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "l",
+    "mode": "fusion",
+    "variant": 2,
+    "radius": 18.039911104126134,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3752,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8344.80723450103
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "l",
+    "mode": "fusion",
+    "variant": 3,
+    "radius": 19.679903022691178,
+    "gap": 7.6199999999999966,
+    "wall": 1.3199999999999965,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4272,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8520.6962701814
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "e",
+    "mode": "separate",
+    "variant": 2,
+    "radius": 14.785714285714285,
+    "gap": 8.819999999999995,
+    "wall": 2.519999999999995,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4276,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8510.314351765948
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "e",
+    "mode": "fusion",
+    "variant": 1,
+    "radius": 14.785714285714285,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3856,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8045.833691568091
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "e",
+    "mode": "fusion",
+    "variant": 2,
+    "radius": 14.785714285714285,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4172,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8251.897906087026
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "e",
+    "mode": "fusion",
+    "variant": 3,
+    "radius": 14.785714285714285,
+    "gap": 7.619999999999997,
+    "wall": 1.3199999999999974,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4192,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8468.188121447289
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "o",
+    "mode": "separate",
+    "variant": 2,
+    "radius": 13.72186195079105,
+    "gap": 8.819999999999999,
+    "wall": 2.5199999999999987,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3580,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8645.242902123464
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "o",
+    "mode": "fusion",
+    "variant": 1,
+    "radius": 12.553286559649472,
+    "gap": 7.619999999999997,
+    "wall": 1.3199999999999974,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3484,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8037.822928711088
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "o",
+    "mode": "fusion",
+    "variant": 2,
+    "radius": 13.72186195079105,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3496,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8370.699180445587
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "o",
+    "mode": "fusion",
+    "variant": 3,
+    "radius": 14.718397074051806,
+    "gap": 7.619999999999997,
+    "wall": 1.3199999999999974,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3516,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8718.860408665101
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "a",
+    "mode": "separate",
+    "variant": 2,
+    "radius": 9.362769230769231,
+    "gap": 8.819999999999997,
+    "wall": 2.519999999999997,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 5136,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10728.475145098811
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "a",
+    "mode": "fusion",
+    "variant": 1,
+    "radius": 9.362769230769231,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4964,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10091.473772544832
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "a",
+    "mode": "fusion",
+    "variant": 2,
+    "radius": 9.362769230769231,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 5048,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10483.04800909642
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "a",
+    "mode": "fusion",
+    "variant": 3,
+    "radius": 9.362769230769231,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 5044,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10891.429073243296
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 2,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "f",
+    "mode": "separate",
+    "variant": 2,
+    "radius": 8.719283666235407,
+    "gap": 8.819999999999995,
+    "wall": 2.519999999999995,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3960,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 9320.914220866132
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "f",
+    "mode": "fusion",
+    "variant": 1,
+    "radius": 8.719283666235407,
+    "gap": 7.6199999999999966,
+    "wall": 1.3199999999999965,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3800,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8869.285309891296
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "f",
+    "mode": "fusion",
+    "variant": 2,
+    "radius": 8.719283666235407,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3868,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 9048.914646510431
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "f",
+    "mode": "fusion",
+    "variant": 3,
+    "radius": 8.719283666235407,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3992,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 9234.424670334614
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 2,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "t",
+    "mode": "separate",
+    "variant": 2,
+    "radius": 10.598400000000002,
+    "gap": 8.819999999999997,
+    "wall": 2.519999999999997,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3496,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 7992.910492402243
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 2,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "t",
+    "mode": "fusion",
+    "variant": 1,
+    "radius": 9.361735095352897,
+    "gap": 7.619999999999997,
+    "wall": 1.3199999999999974,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3268,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 7580.248183468255
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 2,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "t",
+    "mode": "fusion",
+    "variant": 2,
+    "radius": 10.598400000000002,
+    "gap": 7.619999999999997,
+    "wall": 1.3199999999999974,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3528,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 7721.07502749827
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 2,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "t",
+    "mode": "fusion",
+    "variant": 3,
+    "radius": 10.598400000000002,
+    "gap": 7.619999999999997,
+    "wall": 1.3199999999999974,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3544,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 7866.113563954841
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 2,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "g",
+    "mode": "separate",
+    "variant": 2,
+    "radius": 9.238419659965327,
+    "gap": 8.819999999999995,
+    "wall": 2.519999999999995,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4920,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10722.660859537533
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "g",
+    "mode": "fusion",
+    "variant": 1,
+    "radius": 10.162261625961856,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4788,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10051.815513428402
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "g",
+    "mode": "fusion",
+    "variant": 2,
+    "radius": 9.238419659965322,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4808,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10480.058742142064
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "g",
+    "mode": "fusion",
+    "variant": 3,
+    "radius": 8.46855135496821,
+    "gap": 7.619999999999997,
+    "wall": 1.3199999999999974,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4844,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10925.089933470354
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "y",
+    "mode": "separate",
+    "variant": 2,
+    "radius": 14.968911699159639,
+    "gap": 8.819999999999997,
+    "wall": 2.519999999999997,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3888,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 9373.55552554721
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "y",
+    "mode": "fusion",
+    "variant": 1,
+    "radius": 13.999931011063229,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3628,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 8901.846176703919
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "y",
+    "mode": "fusion",
+    "variant": 2,
+    "radius": 14.968911699159639,
+    "gap": 7.619999999999997,
+    "wall": 1.3199999999999974,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3760,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 9096.39286013585
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "y",
+    "mode": "fusion",
+    "variant": 3,
+    "radius": 14.968911699159639,
+    "gap": 7.619999999999999,
+    "wall": 1.3199999999999992,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3844,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 9297.453151614489
+    },
+    "state": "entro i controlli campionati",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "p",
+    "mode": "separate",
+    "variant": 2,
+    "radius": 10.443978724399305,
+    "gap": 8.819999999999997,
+    "wall": 2.519999999999997,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4508,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10249.598957983057
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "p",
+    "mode": "fusion",
+    "variant": 1,
+    "radius": 9.094885708348013,
+    "gap": 7.619999999999999,
+    "wall": 1.3199999999999992,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 3824,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 9701.641370163466
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "p",
+    "mode": "fusion",
+    "variant": 2,
+    "radius": 10.443978724399297,
+    "gap": 7.619999999999999,
+    "wall": 1.3199999999999992,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4404,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 9980.34331839738
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "letter": "p",
+    "mode": "fusion",
+    "variant": 3,
+    "radius": 11.929405791691167,
+    "gap": 7.619999999999998,
+    "wall": 1.3199999999999983,
+    "divider": 1.2,
+    "mesh": {
+      "valid": true,
+      "triangles": 4504,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 10268.486077210462
+    },
+    "state": "incompatibile",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 1,
+      "unknownSpans": 0
+    }
+  }
+]
