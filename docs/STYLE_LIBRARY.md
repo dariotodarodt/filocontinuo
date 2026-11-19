@@ -1,3 +1,9 @@
+## ONE 0.4.1 sperimentale · 19 novembre 2026
+
+Il pannello FILOCONTINUO ONE compone scheletri originali, con percorso unico oppure uno per parola e tre ampiezze dei raccordi. Applica trasferisce le curve nell’editor e nel calcolo 3D con il profilo attivo. I progetti conservano la geometria. L’animazione del percorso unico offre pausa, riavvio e velocità regolabile.
+
+Tutti i 16 casi numerici di examples/v041 risultano incompatibili con il LED dimostrativo R12. Restano aperti il ridisegno delle lettere, la parete condivisa, l’ottimizzazione contestuale e la calibrazione fisica. Dettagli in docs/ONE_CONTINUOUS_ENGINE.md e misure in examples/v041/confronto.json.
+
 # Formato famiglie monolinea, schema 1
 
 Le famiglie integrate sono **Signature 1.0.0**, **Minimal 1.0.0**, **Vintage 1.0.0**. Ogni famiglia dichiara 92 caratteri: a–z, A–Z, à è é ì ò ù À È É Ì Ò Ù, 0–9 e i simboli `' ’ . , : ; ! ? - + = / ( ) & ° € %`. Spazi, tab e ritorni a capo sono gestiti dal compositore. Luxury, Handwriting e Modern non sono selezionabili perché non implementati.

@@ -1,3 +1,9 @@
+## ONE 0.4.1 sperimentale · 19 novembre 2026
+
+Il pannello FILOCONTINUO ONE compone scheletri originali, con percorso unico oppure uno per parola e tre ampiezze dei raccordi. Applica trasferisce le curve nell’editor e nel calcolo 3D con il profilo attivo. I progetti conservano la geometria. L’animazione del percorso unico offre pausa, riavvio e velocità regolabile.
+
+Tutti i 16 casi numerici di examples/v041 risultano incompatibili con il LED dimostrativo R12. Restano aperti il ridisegno delle lettere, la parete condivisa, l’ottimizzazione contestuale e la calibrazione fisica. Dettagli in docs/ONE_CONTINUOUS_ENGINE.md e misure in examples/v041/confronto.json.
+
 # FILOCONTINUO 0.4.0 — Calligraphy & Style Studio (sperimentale)
 
 Applicazione locale Windows per scritte monolinea e canalette parametriche LED Neon Flex. La V0.3 introduce varianti contestuali, controllo conservativo della curvatura e calcolo in background. **Le nuove candidate Stay playful a 400/600 mm non sono ancora compatibili con il profilo dimostrativo da 12 mm di raggio.**

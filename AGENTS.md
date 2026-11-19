@@ -32,3 +32,4 @@
 - Nessuna sostituzione silenziosa di caratteri nello Studio. Le famiglie personali restano locali; verificare provenienza/licenza prima di includere risorse esterne in Git.
 - Collegamenti automatici solo per porte compatibili e composizioni con controlli conclusivi senza errori. Non presentare le nove Stay playful rosse come producibili.
 - Desktop smoke deve comporre Signature/Minimal/Vintage dal vero worker e verificare una mesh Studio. Review --review-dir usa dati isolati, non le cartelle utente.
+ONE 0.4.1: conservare le curve applicate. Rigenerare examples/v041 con scripts/generate-one.ts dopo modifiche ai glifi. Un percorso singolo richiede controlli indipendenti di raggio, distanze e intersezioni.

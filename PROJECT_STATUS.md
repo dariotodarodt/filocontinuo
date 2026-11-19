@@ -1,3 +1,9 @@
+## ONE 0.4.1 sperimentale · 19 novembre 2026
+
+Il pannello FILOCONTINUO ONE compone scheletri originali, con percorso unico oppure uno per parola e tre ampiezze dei raccordi. Applica trasferisce le curve nell’editor e nel calcolo 3D con il profilo attivo. I progetti conservano la geometria. L’animazione del percorso unico offre pausa, riavvio e velocità regolabile.
+
+Tutti i 16 casi numerici di examples/v041 risultano incompatibili con il LED dimostrativo R12. Restano aperti il ridisegno delle lettere, la parete condivisa, l’ottimizzazione contestuale e la calibrazione fisica. Dettagli in docs/ONE_CONTINUOUS_ENGINE.md e misure in examples/v041/confronto.json.
+
 # Stato FILOCONTINUO 0.4.0 — Calligraphy & Style Studio
 
 ## Calligraphy & Style Studio — 0.4.0 sperimentale, 18 novembre 2026
@@ -126,6 +132,29 @@ Documenti operativi: INSTALLATION, RELEASE_PROCESS, UPDATE_SYSTEM, SECURITY e TH
 ---
 
 ## Stato tecnico conservato della V0.3
+
+## Risultati numerici ONE
+
+| Testo | Larghezza mm | Percorsi | Incroci rilevati | Ripassi rilevati | LED mm | R osservato mm | Distanza segnalata mm | Mesh valida |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| Love | 400 | 1 | 0 | 0 | 1.230,3 | 2,62 |  | True |
+| Ciao | 400 | 1 | 0 | 0 | 1.116,5 | 2,38 |  | True |
+| Amore | 400 | 1 | 0 | 0 | 1.069,7 | 1,67 | 5,84 | True |
+| Olivia | 400 | 1 | 0 | 0 | 1.143,4 | 1,63 | 8,74 | True |
+| Dario | 400 | 1 | 0 | 0 | 1.084,1 | 1,85 | 9,11 | True |
+| Olga | 400 | 1 | 0 | 0 | 1.293,3 | 2,08 | 9,19 | True |
+| Stay playful | 400 | 1 | 0 | 0 | 1.220,9 | 0,38 | 3,21 | True |
+| Stay playful | 600 | 1 | 0 | 0 | 1.831,7 | 0,58 | 4,81 | True |
+| Stay playful | 800 | 1 | 0 | 0 | 2.442,4 | 0,77 | 6,34 | True |
+| Stay playful | 1000 | 1 | 0 | 0 | 3.053,1 | 0,96 | 7,60 | True |
+| Tradizione | 400 | 1 | 0 | 0 | 1.081,0 | 0,89 | 5,17 | True |
+| Filocontinuo | 400 | 1 | 0 | 0 | 1.107,4 | 0,78 | 3,44 | True |
+| Buon compleanno | 400 | 1 | 0 | 0 | 1.052,5 | 0,30 | 2,53 | True |
+| MoruMì | 400 | 1 | 0 | 0 | 1.094,0 | 0,71 | 5,96 | True |
+| lloo | 400 | 1 | 0 | 0 | 1.270,8 | 2,72 |  | True |
+| bbjjkkqqxx | 400 | 1 | 0 | 0 | 1.221,5 | 0,56 | 5,61 | True |
+
+63 test locali superati, zero falliti. Gli esempi contengono anche i casi ripetuti lloo e bbjjkkqqxx. Le 16 analisi del percorso assoluto restituiscono incompatibilità LED. La galleria examples/v041/galleria.html collega progetti, anteprime tecniche e Neon. La simulazione è implementata sul tracciato ordinato; riproduzione, installazione e stampa restano da verificare sul PC.
 
 # FILOCONTINUO V0.3 — riferimento storico
 
