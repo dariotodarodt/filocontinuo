@@ -1,0 +1,23 @@
+﻿name: Conserva le tre release pubblicate più recenti
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: retention-releases
+  cancel-in-progress: false
+jobs:
+  pulizia:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Elimina le release pubblicate oltre la terza, conservando i tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          releases=$(gh api --paginate --slurp "repos/$GH_REPO/releases?per_page=100")
+          ids=$(jq -r 'add | map(select(.draft == false and .published_at != null)) | sort_by(.published_at,.id) | reverse | .[3:] | .[].id' <<<"$releases")
+          for id in $ids; do gh api --method DELETE "repos/$GH_REPO/releases/$id"; done
