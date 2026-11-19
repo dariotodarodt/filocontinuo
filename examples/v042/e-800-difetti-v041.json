@@ -1,0 +1,1 @@
+[{"kind":"raggio","severity":"warning","position":{"x":118.00585985183716,"y":-433.9980483055115},"pathIds":[0],"segment":5,"t":0.39990234375,"message":"Vicino al limite: raggio garantito ≥ 12.54 mm, osservato 12.65 mm","measured":12.538424578615079,"limit":12,"id":"defect-0","samples":1}]

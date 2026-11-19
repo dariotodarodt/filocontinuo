@@ -1,0 +1,2278 @@
+[
+  {
+    "text": "Love",
+    "width": 400,
+    "measuredGapMM": 15.19754511521228,
+    "baselineRadius": 2.6189140043946093,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 9680,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 23483.175288413204
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -105.59397838590546,
+      "maxX": 400,
+      "maxY": 32.9068653181842,
+      "width": 400,
+      "height": 138.50084370408968
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 777.1664940339883,
+    "radius": 20.677823858322014,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Love",
+    "width": 600,
+    "measuredGapMM": 15.798003043809105,
+    "baselineRadius": 3.9283710065919246,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": false,
+      "triangles": 16012,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 5,
+      "volume": 35087.21338223464
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -158.39096757885818,
+      "maxX": 600,
+      "maxY": 49.3602979772763,
+      "width": 600,
+      "height": 207.75126555613448
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1165.8744880976335,
+    "radius": 31.019424557570616,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Love",
+    "width": 800,
+    "measuredGapMM": 15.430292091925345,
+    "baselineRadius": 5.237828008789219,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 16212,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 46687.907056175136
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -211.18795677181092,
+      "maxX": 800,
+      "maxY": 65.8137306363684,
+      "width": 800,
+      "height": 277.00168740817935
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1554.5066616666813,
+    "radius": 41.35923274342643,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Love",
+    "width": 1000,
+    "measuredGapMM": 15.24620566439426,
+    "baselineRadius": 6.547285010986552,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 18316,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 58289.528178801396
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -263.9849459647637,
+      "maxX": 1000,
+      "maxY": 82.2671632954605,
+      "width": 1000,
+      "height": 346.2521092602242
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1943.1668169051518,
+    "radius": 51.69904092928481,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Amore",
+    "width": 400,
+    "measuredGapMM": 15.21936073517605,
+    "baselineRadius": 1.6666666666666656,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 10144,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 19241.778743739134
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -51.155888936282516,
+      "maxX": 400,
+      "maxY": 1.5108278917162974e-15,
+      "width": 400,
+      "height": 51.155888936282516
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 635.0983202012062,
+    "radius": 13.603949569057574,
+    "status": "near",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Amore",
+    "width": 600,
+    "measuredGapMM": 15.128199971146506,
+    "baselineRadius": 2.5,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 12116,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 28722.8540010767
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -76.73383340442378,
+      "maxX": 600,
+      "maxY": 2.266241837574446e-15,
+      "width": 600,
+      "height": 76.73383340442378
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 952.6897321464531,
+    "radius": 20.405927880314074,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Amore",
+    "width": 800,
+    "measuredGapMM": 15.23201987104288,
+    "baselineRadius": 3.3333333333333313,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 19160,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 38207.0698518422
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -102.31177787256503,
+      "maxX": 800,
+      "maxY": 3.0216557834325948e-15,
+      "width": 800,
+      "height": 102.31177787256503
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1270.3951943160023,
+    "radius": 27.209975811797165,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Amore",
+    "width": 1000,
+    "measuredGapMM": 15.096738720030231,
+    "baselineRadius": 4.166666666666662,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 20340,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 47685.04542127809
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -127.8897223407063,
+      "maxX": 1000.0000000000001,
+      "maxY": 3.7770697292907436e-15,
+      "width": 1000.0000000000001,
+      "height": 127.8897223407063
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1588.0116229277023,
+    "radius": 34.01246976474743,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Memo",
+    "width": 400,
+    "measuredGapMM": 15.327796879981381,
+    "baselineRadius": 1.4285714285714286,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 10524,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 20218.19157160857
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -44.10342129260958,
+      "maxX": 400,
+      "maxY": 6.600678454732092,
+      "width": 400,
+      "height": 50.70409974734167
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 667.8094652616955,
+    "radius": 13.972520833804957,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Memo",
+    "width": 600,
+    "measuredGapMM": 15.326841652610193,
+    "baselineRadius": 2.142857142857138,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 12508,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 30184.879894846108
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -66.15513193891437,
+      "maxX": 600,
+      "maxY": 9.901017682098137,
+      "width": 600,
+      "height": 76.05614962101251
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1001.7575944647233,
+    "radius": 20.958784867938785,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Memo",
+    "width": 800,
+    "measuredGapMM": 15.843768504233084,
+    "baselineRadius": 2.857142857142857,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 20292,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 40162.57633745329
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -88.20684258521916,
+      "maxX": 800,
+      "maxY": 13.201356909464184,
+      "width": 800,
+      "height": 101.40819949468334
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1335.8439920050016,
+    "radius": 27.947174597785388,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Memo",
+    "width": 1000,
+    "measuredGapMM": 15.116909926957874,
+    "baselineRadius": 3.571428571428564,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 21308,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 50128.9006566663
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -110.25855323152395,
+      "maxX": 1000,
+      "maxY": 16.50169613683023,
+      "width": 1000,
+      "height": 126.76024936835418
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1669.816870139405,
+    "radius": 34.93396824723269,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Love Love",
+    "width": 400,
+    "refused": "Error: Larghezza insufficiente per i raccordi del profilo LED"
+  },
+  {
+    "text": "Love Love",
+    "width": 600,
+    "measuredGapMM": 14.273629838836769,
+    "baselineRadius": 1.2931034482758956,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 15148,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 34247.98301953724
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -75.30138502722257,
+      "maxX": 600,
+      "maxY": 30.432903347585295,
+      "width": 600,
+      "height": 105.73428837480786
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1137.8703532259851,
+    "radius": 14.74581031678218,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Love Love",
+    "width": 800,
+    "measuredGapMM": 15.046080268978839,
+    "baselineRadius": 1.7241379310344853,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 19136,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 45573.27886971648
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -100.4018467029634,
+      "maxX": 799.9999999999999,
+      "maxY": 40.57720446344706,
+      "width": 799.9999999999999,
+      "height": 140.97905116641044
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1517.2418937962698,
+    "radius": 19.66108042246938,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Love Love",
+    "width": 1000,
+    "measuredGapMM": 15.359628894954197,
+    "baselineRadius": 2.155172413793117,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 25292,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 56899.80708308036
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -125.50230837870427,
+      "maxX": 1000,
+      "maxY": 50.72150557930883,
+      "width": 1000,
+      "height": 176.2238139580131
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1896.6797298969275,
+    "radius": 24.576350528086333,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "Stay playful",
+    "width": 400,
+    "refused": "Error: Glifo vincolato non disponibile: S"
+  },
+  {
+    "text": "Stay playful",
+    "width": 600,
+    "refused": "Error: Glifo vincolato non disponibile: S"
+  },
+  {
+    "text": "Stay playful",
+    "width": 800,
+    "refused": "Error: Glifo vincolato non disponibile: S"
+  },
+  {
+    "text": "Stay playful",
+    "width": 1000,
+    "refused": "Error: Glifo vincolato non disponibile: S"
+  },
+  {
+    "text": "Ciao",
+    "width": 400,
+    "refused": "Error: Glifo vincolato non disponibile: C"
+  },
+  {
+    "text": "Ciao",
+    "width": 600,
+    "refused": "Error: Glifo vincolato non disponibile: C"
+  },
+  {
+    "text": "Ciao",
+    "width": 800,
+    "refused": "Error: Glifo vincolato non disponibile: C"
+  },
+  {
+    "text": "Ciao",
+    "width": 1000,
+    "refused": "Error: Glifo vincolato non disponibile: C"
+  },
+  {
+    "text": "Dario",
+    "width": 400,
+    "refused": "Error: Glifo vincolato non disponibile: D"
+  },
+  {
+    "text": "Dario",
+    "width": 600,
+    "refused": "Error: Glifo vincolato non disponibile: D"
+  },
+  {
+    "text": "Dario",
+    "width": 800,
+    "refused": "Error: Glifo vincolato non disponibile: D"
+  },
+  {
+    "text": "Dario",
+    "width": 1000,
+    "refused": "Error: Glifo vincolato non disponibile: D"
+  },
+  {
+    "text": "Olivia",
+    "width": 400,
+    "refused": "Error: Glifo vincolato non disponibile: O"
+  },
+  {
+    "text": "Olivia",
+    "width": 600,
+    "refused": "Error: Glifo vincolato non disponibile: O"
+  },
+  {
+    "text": "Olivia",
+    "width": 800,
+    "refused": "Error: Glifo vincolato non disponibile: O"
+  },
+  {
+    "text": "Olivia",
+    "width": 1000,
+    "refused": "Error: Glifo vincolato non disponibile: O"
+  },
+  {
+    "text": "Olga",
+    "width": 400,
+    "refused": "Error: Glifo vincolato non disponibile: O"
+  },
+  {
+    "text": "Olga",
+    "width": 600,
+    "refused": "Error: Glifo vincolato non disponibile: O"
+  },
+  {
+    "text": "Olga",
+    "width": 800,
+    "refused": "Error: Glifo vincolato non disponibile: O"
+  },
+  {
+    "text": "Olga",
+    "width": 1000,
+    "refused": "Error: Glifo vincolato non disponibile: O"
+  },
+  {
+    "text": "MoruMì",
+    "width": 400,
+    "refused": "Error: Glifo vincolato non disponibile: u"
+  },
+  {
+    "text": "MoruMì",
+    "width": 600,
+    "refused": "Error: Glifo vincolato non disponibile: u"
+  },
+  {
+    "text": "MoruMì",
+    "width": 800,
+    "refused": "Error: Glifo vincolato non disponibile: u"
+  },
+  {
+    "text": "MoruMì",
+    "width": 1000,
+    "refused": "Error: Glifo vincolato non disponibile: u"
+  },
+  {
+    "text": "Tradizione",
+    "width": 400,
+    "refused": "Error: Glifo vincolato non disponibile: T"
+  },
+  {
+    "text": "Tradizione",
+    "width": 600,
+    "refused": "Error: Glifo vincolato non disponibile: T"
+  },
+  {
+    "text": "Tradizione",
+    "width": 800,
+    "refused": "Error: Glifo vincolato non disponibile: T"
+  },
+  {
+    "text": "Tradizione",
+    "width": 1000,
+    "refused": "Error: Glifo vincolato non disponibile: T"
+  },
+  {
+    "text": "Filocontinuo",
+    "width": 400,
+    "refused": "Error: Glifo vincolato non disponibile: F"
+  },
+  {
+    "text": "Filocontinuo",
+    "width": 600,
+    "refused": "Error: Glifo vincolato non disponibile: F"
+  },
+  {
+    "text": "Filocontinuo",
+    "width": 800,
+    "refused": "Error: Glifo vincolato non disponibile: F"
+  },
+  {
+    "text": "Filocontinuo",
+    "width": 1000,
+    "refused": "Error: Glifo vincolato non disponibile: F"
+  },
+  {
+    "text": "Buon compleanno",
+    "width": 400,
+    "refused": "Error: Glifo vincolato non disponibile: B"
+  },
+  {
+    "text": "Buon compleanno",
+    "width": 600,
+    "refused": "Error: Glifo vincolato non disponibile: B"
+  },
+  {
+    "text": "Buon compleanno",
+    "width": 800,
+    "refused": "Error: Glifo vincolato non disponibile: B"
+  },
+  {
+    "text": "Buon compleanno",
+    "width": 1000,
+    "refused": "Error: Glifo vincolato non disponibile: B"
+  },
+  {
+    "text": "oo",
+    "width": 400,
+    "measuredGapMM": 15.974267230761601,
+    "baselineRadius": 5.050762722761062,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 11044,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 25467.04638182413
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -143.32496824383728,
+      "maxX": 400,
+      "maxY": 0,
+      "width": 400,
+      "height": 143.32496824383728
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 843.5875845574735,
+    "radius": 39.500568677391165,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "oo",
+    "width": 600,
+    "measuredGapMM": 15.280748140977074,
+    "baselineRadius": 7.576144084141562,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 12548,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 38057.149302406586
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -214.98745236575596,
+      "maxX": 600,
+      "maxY": 0,
+      "width": 600,
+      "height": 214.98745236575596
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1265.4073754165695,
+    "radius": 59.250853016087575,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "oo",
+    "width": 800,
+    "measuredGapMM": 16.03360304192274,
+    "baselineRadius": 10.101525445522125,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 18772,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 50650.42532816612
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -286.64993648767455,
+      "maxX": 800,
+      "maxY": 0,
+      "width": 800,
+      "height": 286.64993648767455
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1687.223266730222,
+    "radius": 79.00113735478449,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "oo",
+    "width": 1000,
+    "measuredGapMM": 15.925972747711535,
+    "baselineRadius": 9.247663738379766,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 24836,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 63241.238406842655
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -358.3124206095932,
+      "maxX": 999.9999999999999,
+      "maxY": 0,
+      "width": 999.9999999999999,
+      "height": 358.3124206095932
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 2109.039916349455,
+    "radius": 98.75142169347993,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "L",
+    "width": 400,
+    "measuredGapMM": 15.757349442292842,
+    "baselineRadius": 35.355339059327434,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 6024,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 36107.42357098585
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -424.7946052433524,
+      "maxX": 399.99999999999994,
+      "maxY": 1.4079882342582864e-13,
+      "width": 399.99999999999994,
+      "height": 424.7946052433525
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1200.0666613568815,
+    "radius": 83.19499977219577,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "L",
+    "width": 600,
+    "measuredGapMM": 15.446863027254267,
+    "baselineRadius": 53.033008588991066,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 11624,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 54018.659271657794
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -637.1919078650288,
+      "maxX": 600,
+      "maxY": 2.1119823513874298e-13,
+      "width": 600,
+      "height": 637.1919078650291
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1800.110973820418,
+    "radius": 124.79249965829395,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "L",
+    "width": 800,
+    "measuredGapMM": 15.787498405752993,
+    "baselineRadius": 70.71067811865487,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 11700,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 71929.92468855972
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -849.5892104867048,
+      "maxX": 799.9999999999999,
+      "maxY": 2.815976468516573e-13,
+      "width": 799.9999999999999,
+      "height": 849.589210486705
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 2400.1479650938772,
+    "radius": 166.38999954439154,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "L",
+    "width": 1000,
+    "measuredGapMM": 15.07645404221606,
+    "baselineRadius": 88.38834764831823,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": false,
+      "triangles": 18852,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 3,
+      "volume": 89846.18868809116
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -1061.9865131083811,
+      "maxX": 1000,
+      "maxY": 3.5199705856457165e-13,
+      "width": 1000,
+      "height": 1061.9865131083816
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 3000.187656852094,
+    "radius": 207.98749943048975,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "o",
+    "width": 400,
+    "measuredGapMM": 16.03360304192278,
+    "baselineRadius": 10.101525445522125,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 9532,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 25468.31609235684
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -286.64993648767455,
+      "maxX": 400,
+      "maxY": 0,
+      "width": 400,
+      "height": 286.64993648767455
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 843.6116333651107,
+    "radius": 79.00113735478475,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "o",
+    "width": 600,
+    "measuredGapMM": 15.290822844763026,
+    "baselineRadius": 11.097196486055722,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 12564,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 38058.41064900654
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -429.97490473151186,
+      "maxX": 600,
+      "maxY": 0,
+      "width": 600,
+      "height": 429.97490473151186
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1265.4239498096688,
+    "radius": 118.50170603217657,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "o",
+    "width": 800,
+    "measuredGapMM": 16.063162767586828,
+    "baselineRadius": 14.456209165314474,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 18796,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 50650.01681708708
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -573.2998729753491,
+      "maxX": 800,
+      "maxY": 0,
+      "width": 800,
+      "height": 573.2998729753491
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1687.2352913050167,
+    "radius": 158.0022747095695,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "o",
+    "width": 1000,
+    "measuredGapMM": 15.930072155176495,
+    "baselineRadius": 18.071812455734353,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 25012,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 63241.28165523652
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -716.6248412191865,
+      "maxX": 1000,
+      "maxY": 0,
+      "width": 1000,
+      "height": 716.6248412191865
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 2109.0468223776124,
+    "radius": 197.50284338696196,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "v",
+    "width": 400,
+    "measuredGapMM": 15.287442663690507,
+    "baselineRadius": 10.951999318046921,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 4268,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 15999.150148863004
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 400,
+      "maxY": 140.31052899432106,
+      "width": 400,
+      "height": 140.31052899432106
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 526.4078718742664,
+    "radius": 88.17515386102261,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "v",
+    "width": 600,
+    "measuredGapMM": 15.97427359821719,
+    "baselineRadius": 16.427998977070363,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 7540,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 23855.545039787172
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 600,
+      "maxY": 210.46579349148155,
+      "width": 600,
+      "height": 210.46579349148155
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 789.6180408959706,
+    "radius": 132.26273079153384,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "v",
+    "width": 800,
+    "measuredGapMM": 15.329087276872716,
+    "baselineRadius": 21.903998636093842,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 7996,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 31712.177588066286
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 800,
+      "maxY": 280.6210579886421,
+      "width": 800,
+      "height": 280.6210579886421
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1052.824297204452,
+    "radius": 176.35030772204522,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "v",
+    "width": 1000,
+    "measuredGapMM": 15.518386717054183,
+    "baselineRadius": 27.37999829511728,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 10684,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 39569.734322455384
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 1000,
+      "maxY": 350.77632248580267,
+      "width": 1000,
+      "height": 350.77632248580267
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1316.0319630405454,
+    "radius": 220.43788465255633,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "e",
+    "width": 400,
+    "measuredGapMM": 15.822918525542173,
+    "baselineRadius": 8.838834764831853,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 6464,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 16042.736523365613
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -119.16662511659408,
+      "maxX": 400,
+      "maxY": 38.291913160708056,
+      "width": 400,
+      "height": 157.45853827730213
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 527.8704298853693,
+    "radius": 81.06369596131385,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "e",
+    "width": 600,
+    "measuredGapMM": 15.99048225911725,
+    "baselineRadius": 9.71004692529876,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 8484,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 23921.610572050173
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -178.74993767489113,
+      "maxX": 600,
+      "maxY": 57.43786974106209,
+      "width": 600,
+      "height": 236.18780741595322
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 791.8097221282413,
+    "radius": 121.59554394197134,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "e",
+    "width": 800,
+    "measuredGapMM": 15.837137410401297,
+    "baselineRadius": 12.64911516538458,
+    "baselineState": "near",
+    "mesh": {
+      "valid": true,
+      "triangles": 12676,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 31800.771865229824
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -238.33325023318815,
+      "maxX": 800,
+      "maxY": 76.58382632141611,
+      "width": 800,
+      "height": 314.91707655460425
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1055.7480954681682,
+    "radius": 162.1273919226277,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "e",
+    "width": 1000,
+    "measuredGapMM": 15.078812818771183,
+    "baselineRadius": 15.812835898771198,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 14768,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 39678.81961696314
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -297.91656279148526,
+      "maxX": 1000,
+      "maxY": 95.72978290177014,
+      "width": 1000,
+      "height": 393.6463456932554
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1319.6861718565378,
+    "radius": 202.65923990328574,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "A",
+    "width": 400,
+    "measuredGapMM": 15.480899209009749,
+    "baselineRadius": 1.3689999147558758,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": false,
+      "triangles": 5836,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 1,
+      "volume": 20676.762988255174
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -233.9504934072114,
+      "maxX": 400,
+      "maxY": 3.454723767586732e-15,
+      "width": 400,
+      "height": 233.9504934072114
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 683.1417465775003,
+    "radius": 62.22580801219966,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "A",
+    "width": 600,
+    "measuredGapMM": 15.16972535556228,
+    "baselineRadius": 2.0534998721337954,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 4436,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 30872.060799960327
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -350.9257401108171,
+      "maxX": 600,
+      "maxY": 5.1820856513800985e-15,
+      "width": 600,
+      "height": 350.9257401108171
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1024.7126198662484,
+    "radius": 93.33871201829957,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "A",
+    "width": 800,
+    "measuredGapMM": 15.40310574564785,
+    "baselineRadius": 2.7379998295117516,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": false,
+      "triangles": 11368,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 8,
+      "volume": 41070.28952464593
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -467.9009868144228,
+      "maxX": 800,
+      "maxY": 6.909447535173464e-15,
+      "width": 800,
+      "height": 467.9009868144228
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1366.2904202750376,
+    "radius": 124.45161602439931,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "A",
+    "width": 1000,
+    "measuredGapMM": 15.801797245377248,
+    "baselineRadius": 3.4224997868896394,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": false,
+      "triangles": 8543,
+      "boundary": 3,
+      "nonManifold": 3,
+      "nonManifoldVertices": 3,
+      "inconsistent": 3,
+      "degenerate": 0,
+      "volume": 51268.566937742595
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -584.8762335180286,
+      "maxX": 1000,
+      "maxY": 8.63680941896683e-15,
+      "width": 1000,
+      "height": 584.8762335180286
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1707.8630253438075,
+    "radius": 155.56452003049884,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "m",
+    "width": 400,
+    "measuredGapMM": 15.290728441738862,
+    "baselineRadius": 6.66666666666667,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 6508,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 18337.402420029706
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -98.49164571483405,
+      "maxX": 400,
+      "maxY": 5.152665502504545e-15,
+      "width": 400,
+      "height": 98.49164571483405
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 604.7384451808897,
+    "radius": 46.40078888210263,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "m",
+    "width": 600,
+    "measuredGapMM": 15.527816596074324,
+    "baselineRadius": 10,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 8584,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 27363.706686746766
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -147.73746857225106,
+      "maxX": 600,
+      "maxY": 7.728998253756817e-15,
+      "width": 600,
+      "height": 147.73746857225106
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 907.1505504722887,
+    "radius": 69.60118332315409,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "m",
+    "width": 800,
+    "measuredGapMM": 15.138745878948594,
+    "baselineRadius": 11.50299062864859,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 8672,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 36390.10259315283
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -196.9832914296681,
+      "maxX": 800,
+      "maxY": 1.030533100500909e-14,
+      "width": 800,
+      "height": 196.9832914296681
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1209.5340672963841,
+    "radius": 92.80157776420526,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "m",
+    "width": 1000,
+    "measuredGapMM": 15.628274396714492,
+    "baselineRadius": 14.230285660223752,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 16760,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 45417.18731499621
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -246.2291142870851,
+      "maxX": 1000,
+      "maxY": 1.2881663756261362e-14,
+      "width": 1000,
+      "height": 246.2291142870851
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1511.935452243567,
+    "radius": 116.00197220525745,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "r",
+    "width": 400,
+    "measuredGapMM": 15.1563946837207,
+    "baselineRadius": 10.101525445522114,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 3476,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 15333.563733279416
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -168.59190935518188,
+      "maxX": 400,
+      "maxY": 0,
+      "width": 400,
+      "height": 168.59190935518188
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 504.10703121940986,
+    "radius": 91.88262091974099,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "r",
+    "width": 600,
+    "measuredGapMM": 15.163665060581138,
+    "baselineRadius": 15.152288168282615,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 6552,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 22858.530816417144
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -252.88786403277282,
+      "maxX": 600,
+      "maxY": 0,
+      "width": 600,
+      "height": 252.88786403277282
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 756.1660254418886,
+    "radius": 137.82393137961176,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "r",
+    "width": 800,
+    "measuredGapMM": 15.166213440849152,
+    "baselineRadius": 20.203050891042043,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 6532,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 30380.993537972347
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -337.18381871036377,
+      "maxX": 800,
+      "maxY": 0,
+      "width": 800,
+      "height": 337.18381871036377
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1008.221367255853,
+    "radius": 183.76524183948197,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "r",
+    "width": 1000,
+    "measuredGapMM": 15.79548443810529,
+    "baselineRadius": 25.25381361380435,
+    "baselineState": "compatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 12680,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 37904.674648936765
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -421.47977338795476,
+      "maxX": 1000,
+      "maxY": 0,
+      "width": 1000,
+      "height": 421.47977338795476
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1260.2789918337417,
+    "radius": 229.70655229935238,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "M",
+    "width": 400,
+    "measuredGapMM": 15.986367630808493,
+    "baselineRadius": 4.999999999999982,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 6488,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 21255.752879284148
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -123.26023231745715,
+      "maxX": 400,
+      "maxY": 0,
+      "width": 400,
+      "height": 123.26023231745715
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 702.5551303838876,
+    "radius": 39.97510896458857,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "M",
+    "width": 600,
+    "measuredGapMM": 15.9304466560491,
+    "baselineRadius": 7.5,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 8580,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 31742.74768332385
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -184.89034847618572,
+      "maxX": 600,
+      "maxY": 0,
+      "width": 600,
+      "height": 184.89034847618572
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1053.8642409676581,
+    "radius": 59.962663446882615,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "M",
+    "width": 800,
+    "measuredGapMM": 16.047981174915268,
+    "baselineRadius": 9.999999999999964,
+    "baselineState": "incompatible",
+    "mesh": {
+      "valid": true,
+      "triangles": 8564,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 42226.3617518933
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -246.5204646349143,
+      "maxX": 800,
+      "maxY": 0,
+      "width": 800,
+      "height": 246.5204646349143
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1405.1523212902102,
+    "radius": 79.9502179291772,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  },
+  {
+    "text": "M",
+    "width": 1000,
+    "measuredGapMM": 16.492697714497936,
+    "baselineRadius": 12.500000000000012,
+    "baselineState": "near",
+    "mesh": {
+      "valid": true,
+      "triangles": 17028,
+      "boundary": 0,
+      "nonManifold": 0,
+      "nonManifoldVertices": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "volume": 52710.291784046916
+    },
+    "bounds": {
+      "minX": 0,
+      "minY": -308.15058079364286,
+      "maxX": 1000,
+      "maxY": 0,
+      "width": 1000,
+      "height": 308.15058079364286
+    },
+    "wallMode": "independent",
+    "thresholdMM": 8.7,
+    "minimumReportedGapMM": null,
+    "endpoints": 2,
+    "paths": 1,
+    "length": 1756.4535457484264,
+    "radius": 99.93777241147139,
+    "status": "compatible",
+    "diagnostics": {
+      "intersections": 0,
+      "overlaps": 0,
+      "clearanceDeficit": 0,
+      "cuspCount": 0,
+      "violatingSpans": 0,
+      "unknownSpans": 0
+    }
+  }
+]

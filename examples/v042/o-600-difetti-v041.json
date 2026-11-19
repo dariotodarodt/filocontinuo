@@ -1,0 +1,1 @@
+[{"kind":"raggio","severity":"error","position":{"x":188.16964285714286,"y":-228.3482142857143},"pathIds":[0],"segment":7,"t":0.375,"message":"Raggio osservato 11.097 mm < 12 mm","measured":11.097196486055722,"limit":12,"id":"defect-0","samples":1}]

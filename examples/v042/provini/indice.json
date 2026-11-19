@@ -1,0 +1,122 @@
+[
+  {
+    "name": "R8-assi9",
+    "radius": 8,
+    "gap": 9,
+    "width": 24.700000762939453,
+    "height": 86.68299746513367,
+    "mesh": true,
+    "led": "incompatible",
+    "observed": 7.950600358618791
+  },
+  {
+    "name": "R8-assi12",
+    "radius": 8,
+    "gap": 12,
+    "width": 24.700000762939453,
+    "height": 86.68299746513367,
+    "mesh": true,
+    "led": "incompatible",
+    "observed": 7.950600358618791
+  },
+  {
+    "name": "R8-assi16",
+    "radius": 8,
+    "gap": 16,
+    "width": 24.700000762939453,
+    "height": 86.68299746513367,
+    "mesh": true,
+    "led": "incompatible",
+    "observed": 7.950600358618791
+  },
+  {
+    "name": "R12-assi9",
+    "radius": 12,
+    "gap": 9,
+    "width": 32.70000076293945,
+    "height": 90.68199741840363,
+    "mesh": true,
+    "led": "incompatible",
+    "observed": 11.925900537928195
+  },
+  {
+    "name": "R12-assi12",
+    "radius": 12,
+    "gap": 12,
+    "width": 32.70000076293945,
+    "height": 90.68199741840363,
+    "mesh": true,
+    "led": "incompatible",
+    "observed": 11.925900537928195
+  },
+  {
+    "name": "R12-assi24",
+    "radius": 12,
+    "gap": 24,
+    "width": 32.70000076293945,
+    "height": 90.68199741840363,
+    "mesh": true,
+    "led": "incompatible",
+    "observed": 11.925900537928195
+  },
+  {
+    "name": "R16-assi9",
+    "radius": 16,
+    "gap": 9,
+    "width": 40.698001861572266,
+    "height": 94.68199729919434,
+    "mesh": true,
+    "led": "near",
+    "observed": 15.872937655429192
+  },
+  {
+    "name": "R16-assi12",
+    "radius": 16,
+    "gap": 12,
+    "width": 40.698001861572266,
+    "height": 94.68199729919434,
+    "mesh": true,
+    "led": "compatible",
+    "observed": 15.872937655429192
+  },
+  {
+    "name": "R16-assi32",
+    "radius": 16,
+    "gap": 32,
+    "width": 40.70000076293945,
+    "height": 94.68199729919434,
+    "mesh": true,
+    "led": "compatible",
+    "observed": 15.872937655429192
+  },
+  {
+    "name": "R20-assi9",
+    "radius": 20,
+    "gap": 9,
+    "width": 48.698001861572266,
+    "height": 98.68699741363525,
+    "mesh": true,
+    "led": "near",
+    "observed": 19.841172069286905
+  },
+  {
+    "name": "R20-assi12",
+    "radius": 20,
+    "gap": 12,
+    "width": 48.698001861572266,
+    "height": 98.68699741363525,
+    "mesh": true,
+    "led": "compatible",
+    "observed": 19.841172069286905
+  },
+  {
+    "name": "R20-assi40",
+    "radius": 20,
+    "gap": 40,
+    "width": 48.70000076293945,
+    "height": 98.68699741363525,
+    "mesh": true,
+    "led": "compatible",
+    "observed": 19.841172069286905
+  }
+]
