@@ -1,5 +1,5 @@
-﻿import type {Point} from '../core/types';
-/** Distance observée entre branches de la polilinea. Il filtro usa lo sviluppo
+import type {Point} from '../../core/types';
+/** Distanza osservata tra rami della polilinea. Il filtro usa lo sviluppo
  * lungo la curva, indipendentemente da glifi e numero di nodi Bézier. */
 export function measuredGap(points:Point[],radius:number){
  const along=[0];
