@@ -40,3 +40,4 @@ I sorgenti sono ora sul remoto ufficiale. Il clone e Git esterno sono stati racc
 ## Sviluppo Style Studio
 
 Branch feature/v04-style-studio, codice 0.4.0 sperimentale e famiglie dati 1.0.0. Il ramo di feature viene sincronizzato senza integrare automaticamente main/develop o pubblicare tag/release. CI rigenera examples:v04 prima dei test. Artefatti e dati personali restano esclusi da Git. Conservare hash e backup del nuovo setup, poi eseguire separatamente i test di installazione/aggiornamento e ottenere firma/autorizzazione prima del canale stabile. Percorso locale corrente: D:/FILOCONTINUO_Studio/filocontinuo_github.
+Dal 19 novembre 2026 GitHub conserva le tre release pubblicate più recenti (stabili e prerelease insieme), in ordine di pubblicazione. Il workflow su main esclude bozze e conserva tag e cronologia. I setup sperimentali non firmati sono distribuiti manualmente come prerelease, esclusi dal canale stabile.

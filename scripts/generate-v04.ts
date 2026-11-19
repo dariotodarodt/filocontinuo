@@ -1,7 +1,7 @@
 import fs from 'node:fs';import path from 'node:path';
 import {builtInFamilies} from '../src/calligraphy/studio/families';import {studioDefaults} from '../src/calligraphy/studio/schema';import {composeStudio,studioProject} from '../src/calligraphy/studio/compose';
 import {newProjectV3} from '../src/core/profiles';import {validateProject} from '../src/core/types';import {bezierSVG,stl,threeMF,obj} from '../src/export/exporters';import {sampleBezier} from '../src/vector/bezier';import {buildChannel} from '../src/geometry/channel';import {contextualLettering} from '../src/calligraphy/contextual';import {vectorLettering} from '../src/calligraphy/vectorEngine';import {checkBend,inspectPaths} from '../src/optimization/strict';
-const dir='examples/v04';fs.mkdirSync(path.join(dir,'families'),{recursive:true});
+const dir='.tools/legacy-examples/v04';fs.mkdirSync(path.join(dir,'families'),{recursive:true});
 const texts=['Stay playful','Amore','Olivia','Tradizione','Buon compleanno','Filocontinuo',"L'amore è luce",'MoruMì'];
 const escape=(s:string)=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const slug=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]+/g,'-').replace(/^-|-$/g,'');

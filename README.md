@@ -5,7 +5,7 @@ Aprire release/FILOCONTINUO-Setup-0.4.2.exe. Nel pannello ONE selezionare Geomet
 # FILOCONTINUO 0.4.1
 Progetta insegne Neon Flex da percorsi centrali Bézier. Apri il setup Windows x64 sperimentale in release/FILOCONTINUO-Setup-0.4.1.exe. Nel pannello ONE scegli il testo, confronta i raccordi e applica la proposta per analizzarla in 3D. Style Studio offre Signature, Minimal e Vintage. Il checkout attivo è D:/FILOCONTINUO_Studio/filocontinuo_github.
 
-[Stato tecnico](PROJECT_STATUS.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md) · [Installazione](docs/INSTALLATION.md) · [Galleria ONE](examples/v041/galleria.html)
+[Stato tecnico](PROJECT_STATUS.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md) · [Installazione](docs/INSTALLATION.md) · [Galleria ONE](examples/v042/galleria.html)
 
 ## Avvio web locale
 
@@ -44,7 +44,7 @@ Il motore usa scheletri centrali originali raccordati C1, porte di ingresso/usci
 
 Supportati a–z, S e punteggiatura di base; altre maiuscole tramite minuscole. I caratteri assenti sono segnalati. Provati anche Amore, Olivia, Tradizione, Buon compleanno e Filocontinuo. Nessun contorno di font estruso.
 
-La [galleria locale](examples/v03/galleria.html) raccoglie **36 SVG puliti** (sei testi × tre varianti × due larghezze) e sono presenti sei SVG Neon estetici aggiuntivi. `confronto.json` contiene parametri e misure riproducibili. Eseguire `npm run examples:v03` prima dei test degli artefatti se si rigenera questa cartella.
+La [galleria locale](.tools/legacy-examples/v03/galleria.html) raccoglie **36 SVG puliti** (sei testi × tre varianti × due larghezze) e sono presenti sei SVG Neon estetici aggiuntivi. `confronto.json` contiene parametri e misure riproducibili. Eseguire `npm run examples:v03` prima dei test degli artefatti se si rigenera questa cartella.
 
 ## Tre viste
 

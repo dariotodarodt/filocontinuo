@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "tsc -b && vite build",
+    "pretest": "npm run examples:v03 && npm run examples:v04",
     "test": "tsx --test tests/*.test.ts",
     "preview": "vite preview --host 127.0.0.1",
     "examples:v03": "tsx scripts/generate-v03.ts",

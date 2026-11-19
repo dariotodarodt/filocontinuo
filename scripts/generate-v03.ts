@@ -9,7 +9,7 @@ import { diagnose } from '../src/optimization/diagnostics';
 import { inspectPaths } from '../src/optimization/strict';
 import { buildChannel } from '../src/geometry/channel';
 import { bezierSVG,stl,threeMF,obj } from '../src/export/exporters';
-const out='examples/v03';mkdirSync(out,{recursive:true});
+const out='.tools/legacy-examples/v03';mkdirSync(out,{recursive:true});
 const json=(value:unknown)=>JSON.stringify(value,(_,v)=>typeof v==='number'&&!Number.isFinite(v)?String(v):v,2);
 const labels={compatible:'Compatibile con i controlli',near:'Vicino ai limiti',unknown:'Da verificare',incompatible:'Incompatibile'};
 const summaries:object[]=[],cards:string[]=[],texts=['Stay playful','Amore','Olivia','Tradizione','Buon compleanno','Filocontinuo'];

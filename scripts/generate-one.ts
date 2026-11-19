@@ -1,3 +1,4 @@
+import {mkdirSync} from 'node:fs';
 import {writeFileSync} from 'node:fs';
 import {oneCenterline} from '../src/calligraphy/one/centerline';
 import {parseCenterline,sampleBezier} from '../src/vector/bezier';
@@ -7,6 +8,7 @@ import {bezierSVG} from '../src/export/exporters';
 
 import {buildChannel} from '../src/geometry/channel';
 import {bezierBounds} from '../src/vector/bounds';
+mkdirSync('.tools/legacy-examples/v041',{recursive:true});
 const cases=['Love','Ciao','Amore','Olivia','Dario','Olga','Stay playful','Tradizione','Filocontinuo','Buon compleanno','MoruMì','lloo','bbjjkkqqxx'];
 const results=[];
 const cards:string[]=[];
@@ -15,7 +17,7 @@ for(const text of cases){
     const project={...newProjectV3(),text,width,maxWidth:width};
     const curves=parseCenterline(oneCenterline(text,width));
     const report=checkBend(inspectPaths(sampleBezier(curves),project.params,curves),project.bend);
-    const file='examples/v041/'+text.replaceAll(' ','-')+'-'+width;
+    const file='.tools/legacy-examples/v041/'+text.replaceAll(' ','-')+'-'+width;
     writeFileSync(file+'.svg',bezierSVG(curves));
     writeFileSync(file+'.filo.json',JSON.stringify({...project,curves}));
     const svg=bezierSVG(curves);
@@ -32,6 +34,6 @@ for(const text of cases){
     results.push({text,width,mesh:validation,bounds:bezierBounds(curves),wallMode:'independent',thresholdMM:project.params.ledWidth+project.params.tolerance+2*project.params.wall,minimumReportedGapMM:gaps.length?Math.min(...gaps):null,endpoints:2,paths:curves.length,length:report.length,radius:report.minRadius,status:report.status,diagnostics:report.raw});
   }
 }
-writeFileSync('examples/v041/confronto.json',JSON.stringify(results,null,2));
+writeFileSync('.tools/legacy-examples/v041/confronto.json',JSON.stringify(results,null,2));
 
-writeFileSync('examples/v041/galleria.html','<!doctype html><html lang="it"><meta charset="utf-8"><title>Esempi ONE</title><style>body{font:16px system-ui;margin:3vw}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem}img{width:100%;height:130px}</style><h1>FILOCONTINUO ONE</h1><main>'+cards.join('')+'</main></html>');
+writeFileSync('.tools/legacy-examples/v041/galleria.html','<!doctype html><html lang="it"><meta charset="utf-8"><title>Esempi ONE</title><style>body{font:16px system-ui;margin:3vw}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem}img{width:100%;height:130px}</style><h1>FILOCONTINUO ONE</h1><main>'+cards.join('')+'</main></html>');

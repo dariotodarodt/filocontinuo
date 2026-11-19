@@ -34,7 +34,7 @@ test('Stay playful mesh and exports: STL roundtrip, 3MF package and reusable fix
   const mf=threeMF(c),files=unzipSync(mf),xml=strFromU8(files['3D/3dmodel.model']);assert.ok(xml.includes('unit="millimeter"'));assert.equal((xml.match(/<triangle /g)||[]).length,triangles);assert.ok(files['_rels/.rels']);
   assert.ok(svg(strokes).includes('mm'));assert.ok(obj(c).includes('\nv '));
   const report=productionReport(strokes,params);assert.ok(report.length>400);assert.ok(report.warnings.length>0);
-  mkdirSync('examples',{recursive:true});writeFileSync('examples/Stay-playful.stl',bytes);writeFileSync('examples/Stay-playful.3mf',mf);writeFileSync('examples/Stay-playful.svg',svg(strokes));writeFileSync('examples/Stay-playful.filo.json',JSON.stringify(defaults,null,2));writeFileSync('examples/validation.json',JSON.stringify({mesh:c.validation,dimensions:{width:c.width,height:c.height,depth:c.depth},production:report},null,2));c.geometry.dispose();
+  mkdirSync('.tools/legacy-examples',{recursive:true});writeFileSync('.tools/legacy-examples/Stay-playful.stl',bytes);writeFileSync('.tools/legacy-examples/Stay-playful.3mf',mf);writeFileSync('.tools/legacy-examples/Stay-playful.svg',svg(strokes));writeFileSync('.tools/legacy-examples/Stay-playful.filo.json',JSON.stringify(defaults,null,2));writeFileSync('.tools/legacy-examples/validation.json',JSON.stringify({mesh:c.validation,dimensions:{width:c.width,height:c.height,depth:c.depth},production:report},null,2));c.geometry.dispose();
 });
 test('different sizes, styles and alphabet yield closed meshes',()=>{
   for(const text of ['a','Neon','hello','abcdefghijklmnopqrstuvwxyz','Stay playful'])for(const width of [200,600]){

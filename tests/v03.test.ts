@@ -39,7 +39,7 @@ test('geometric displacement bound detects a large translation and is zero on id
   const a=parseCenterline('M0 0 L100 0'),b=parseCenterline('M0 10 L100 10');assert.equal(deviationBound(a,a,3),0);assert.ok(deviationBound(a,b,3)>3);assert.ok(deviationBound(a,b,15)>=10);
 });
 test('V1/V2 files and V3 metadata keep curves without silent regeneration',()=>{
-  for(const p of [defaults,newProject(),JSON.parse(readFileSync('examples/v02/Stay-playful.filo.json','utf8'))])assert.deepEqual(validateProject(JSON.parse(JSON.stringify(p))),p);
+  for(const p of [defaults,newProject(),JSON.parse(readFileSync('tests/fixtures/v02.filo.json','utf8'))])assert.deepEqual(validateProject(JSON.parse(JSON.stringify(p))),p);
   const p={...newProjectV3(),curves:parseCenterline('M0 0 C0 20 40 20 40 0'),calibrationNotes:'Nessuna prova ancora eseguita.'};assert.deepEqual(validateProject(JSON.parse(JSON.stringify(p))).curves,p.curves);
   assert.throws(()=>validateProject({...p,width:601,maxWidth:600}));
 });
