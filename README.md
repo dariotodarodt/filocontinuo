@@ -1,40 +1,11 @@
-## ONE 0.4.1 sperimentale · 19 novembre 2026
+# FILOCONTINUO 0.4.2
 
-Il pannello FILOCONTINUO ONE compone scheletri originali, con percorso unico oppure uno per parola e tre ampiezze dei raccordi. Applica trasferisce le curve nell’editor e nel calcolo 3D con il profilo attivo. I progetti conservano la geometria. L’animazione del percorso unico offre pausa, riavvio e velocità regolabile.
+Aprire release/FILOCONTINUO-Setup-0.4.2.exe. Nel pannello ONE selezionare Geometria vincolata, provare Love a 400 mm e applicare per il calcolo 3D. [Galleria](examples/v042/galleria.html).
 
-Tutti i 16 casi numerici di examples/v041 risultano incompatibili con il LED dimostrativo R12. Restano aperti il ridisegno delle lettere, la parete condivisa, l’ottimizzazione contestuale e la calibrazione fisica. Dettagli in docs/ONE_CONTINUOUS_ENGINE.md e misure in examples/v041/confronto.json.
+# FILOCONTINUO 0.4.1
+Progetta insegne Neon Flex da percorsi centrali Bézier. Apri il setup Windows x64 sperimentale in release/FILOCONTINUO-Setup-0.4.1.exe. Nel pannello ONE scegli il testo, confronta i raccordi e applica la proposta per analizzarla in 3D. Style Studio offre Signature, Minimal e Vintage. Il checkout attivo è D:/FILOCONTINUO_Studio/filocontinuo_github.
 
-# FILOCONTINUO 0.4.0 — Calligraphy & Style Studio (sperimentale)
-
-Applicazione locale Windows per scritte monolinea e canalette parametriche LED Neon Flex. La V0.3 introduce varianti contestuali, controllo conservativo della curvatura e calcolo in background. **Le nuove candidate Stay playful a 400/600 mm non sono ancora compatibili con il profilo dimostrativo da 12 mm di raggio.**
-
-## Style Studio
-
-Aprire **Style Studio** nella barra superiore: confronto Signature/Minimal/Vintage, 92 caratteri per famiglia, maiuscole e accenti italiani, multiriga, parametri, varianti, preferiti e famiglie JSON personali. Applica porta i percorsi reali nell'editor o nella canaletta 3D; l'originale resta intatto fino alla scelta. Nei progetti vengono conservate famiglia/versione e geometria.
-
-Neon consente colori, alone, intensità, sfondo e acceso/spento sui percorsi reali; è estetico, non fotometrico. I generatori V0.1–V0.3 rimangono separati per compatibilità. **Le nove Stay playful a 400/600/800 mm restano incompatibili con il profilo LED dimostrativo da R12**. Le famiglie richiedono ancora rifinitura e revisione estetica: non è una libreria professionale certificata.
-
-[Galleria dei 30 casi](examples/v04/galleria.html) · [confronti e misure](examples/v04/confronto.json) · [motore](docs/CALLIGRAPHY_ENGINE.md) · [formato famiglie](docs/STYLE_LIBRARY.md) · [provenienza/licenze](docs/FONT_LICENSES.md).
-
-Verifiche finali: **60 test**, build web e setup, smoke delle tre famiglie nel vero worker desktop. Prova visiva Windows di Studio/multiriga/Neon/3D/undo-redo e salvataggio-riapertura; niente slicing o prove fisiche.
-
-## Desktop Windows e distribuzione
-
-Nuova versione compatibile **0.4.0 sperimentale**, con Electron 45.3.4, installer NSIS x64 e impostazioni/aggiornamenti. Le funzionalità calligrafiche della V0.3 restano invariate, compresi i limiti produttivi. Nessuna release stabile pubblicata.
-
-Aprire il setup locale `release/FILOCONTINUO-Setup-0.4.0-x64.exe` oppure `release/win-unpacked/FILOCONTINUO.exe` mantenendo tutta la cartella. Il pacchetto include il runtime: l'utente non deve installare Node o avviare Vite/browser. **Installer non firmato: distribuzione sperimentale.** I controlli automatici verificano avvio, bridge e worker/mesh, non l'installazione reale o l'aspetto grafico.
-
-Da sorgenti: `npm run desktop:dev`; per generare setup: `npm run desktop:dist`. Progetti e backup tramite dialoghi nativi, dati in %APPDATA%/FILOCONTINUO. In Impostazioni → Aggiornamenti il controllo all'avvio è facoltativo; download e installazione richiedono consenso e restano bloccati nella build non firmata.
-
-Repository ufficiale **pubblico**: [dariotodarodt/filocontinuo](https://github.com/dariotodarodt/filocontinuo). Sorgenti pubblicati dopo autorizzazione; lo Style Studio è sul ramo feature/v04-style-studio, in attesa di revisione e integrazione in develop. main conserva la baseline web V0.3. Nessuna licenza open source assegnata (UNLICENSED). Cache/runtime/installer/dati personali non entrano in Git.
-
-Istruzioni complete: [installazione e recupero](docs/INSTALLATION.md), [Git e release](docs/RELEASE_PROCESS.md), [aggiornamenti](docs/UPDATE_SYSTEM.md), [sicurezza](docs/SECURITY.md), [licenze dipendenze](docs/THIRD_PARTY_NOTICES.md).
-
-## Cartella di lavoro dopo la migrazione
-
-Usare **D:/FILOCONTINUO_Studio/filocontinuo_github**, branch feature/v04-style-studio, e aprirlo in VS Code. Git è in D:/FILOCONTINUO_Studio/filocontinuo_tools/git; i backup privati sono in D:/FILOCONTINUO_Studio/filocontinuo_backup. La vecchia D:/filocontinuo rimane per il blocco della rimozione, ma non è più usata dal progetto attivo. Il codice completo resta anche sul disco: GitHub conserva la cronologia remota, mentre test e build vengono eseguiti nel checkout locale.
-
-Nel nuovo percorso: avvia.cmd per la modalità web, oppure release/win-unpacked/FILOCONTINUO.exe per l'app desktop ricostruita. Runtime e cartella release devono essere conservati insieme all'eseguibile. Dettagli e recupero in docs/INSTALLATION.md.
+[Stato tecnico](PROJECT_STATUS.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md) · [Installazione](docs/INSTALLATION.md) · [Galleria ONE](examples/v041/galleria.html)
 
 ## Avvio web locale
 
@@ -109,10 +80,3 @@ Provini di calibrazione V0.2 mantenuti: tre rette da 82 mm e tre archi R8/R12/R2
 
 STL/OBJ: coordinate mm, importare come mm. 3MF Core con unità, senza impostazioni Bambu. SVG V2 con cubiche originali. Import SVG polinomiale con trasformazioni: archi/ellissi da convertire prima, testi/use/immagini/script respinti; massimo 2 MB, 200 percorsi, 5000 nodi. Mesh non valida o dati non aggiornati bloccano l'export.
 
-## Stato reale
-
-La riduzione a quattro tratti è stata ottenuta come struttura candidata, **non come insegna compatibile con il LED da 12 mm di raggio**. A 400/600 mm tutte e tre le varianti restano rosse. La V0.2 storicamente compatibile a 1600 mm rivela una discontinuità con i nuovi controlli, senza modifiche alla sua geometria.
-
-La verifica V0.3 nel browser resta incompleta. Nella sessione desktop 0.4.0 sono stati osservati realmente CAD/3D e impostazioni via Computer Use Windows, effettuato il controllo GitHub e salvato un JSON V2 valido. Nessuna prova completa dei gesti/editor, riapertura nativa, slicing o stampa fisica. Foto originali e dati LED reali assenti. Vedere PROJECT_STATUS.md e [rapporto distribuzione](docs/DISTRIBUTION_CHECKS.md) per test e limiti; docs/RIEPILOGO_CHATGPT.md per la chat brainstorming. Documenti precedenti in docs/history/; backup `.tools/backups/prima-v03-2026-11-18.zip` e `.tools/backups/prima-desktop-2026-11-18.zip`.
-
-La base desktop e il nuovo Studio usano entrambi 0.4.0 sperimentale: installare manualmente il nuovo release/FILOCONTINUO-Setup-0.4.0.exe per ricevere queste funzioni. Nessun aggiornamento automatico o release stabile pubblicati.

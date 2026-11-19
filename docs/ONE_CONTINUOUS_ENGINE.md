@@ -1,4 +1,8 @@
-﻿# ONE — Filo Unico sperimentale 0.4.1
+# ONE vincolato 0.4.2
+
+Gli archi usano maniglie tangenti di lunghezza 4R tan(θ/4)/3 e angolo massimo 45°. La normalizzazione uniforme deve lasciare almeno 1,015 volte il raggio richiesto sulle primitive unitarie. Il solver rifiuta il caso altrimenti. La diagnostica successiva verifica le cubiche. Distanze campionate e limiti sono documentati nel report e nei JSON. Rigenerazione con tsx scripts/generate-v042.ts e tsx scripts/calibrate-one.ts.
+
+# ONE — Filo Unico sperimentale 0.4.1
 
 Il compositore usa guide distinte per lettera, in coordinate locali, con ingresso e uscita sulla linea di base. Il parametro di raccordo determina i punti di tangenza lungo ciascun lato. Le quadratiche SVG vengono convertite negli stessi nodi Bézier utilizzati da editor, analisi e mesh. I ritorni sono parte del disegno di l, g, p e y. I punti di i e l’accento di ì sono stilizzati nel tracciato. Serve una revisione umana della leggibilità. I caratteri assenti producono un errore.
 

@@ -1,3 +1,7 @@
+## Repertorio vincolato ONE
+
+L, A, M, o, v, e, m, r e spazio sono disponibili nel pannello ONE. Le famiglie Style Studio conservano i propri alfabeti.
+
 ## ONE 0.4.1 sperimentale · 19 novembre 2026
 
 Il pannello FILOCONTINUO ONE compone scheletri originali, con percorso unico oppure uno per parola e tre ampiezze dei raccordi. Applica trasferisce le curve nell’editor e nel calcolo 3D con il profilo attivo. I progetti conservano la geometria. L’animazione del percorso unico offre pausa, riavvio e velocità regolabile.

@@ -1,3 +1,7 @@
+## Compositore ONE 0.4.2
+
+Il compositore ad archi in src/calligraphy/one/constrained.ts condivide la rappresentazione Bézier con editor e diagnostica. Si affianca al generatore storico.
+
 ## ONE 0.4.1 sperimentale · 19 novembre 2026
 
 Il pannello FILOCONTINUO ONE compone scheletri originali, con percorso unico oppure uno per parola e tre ampiezze dei raccordi. Applica trasferisce le curve nell’editor e nel calcolo 3D con il profilo attivo. I progetti conservano la geometria. L’animazione del percorso unico offre pausa, riavvio e velocità regolabile.

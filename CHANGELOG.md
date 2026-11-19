@@ -1,10 +1,13 @@
+## 0.4.2 · 19 novembre 2026
+
+Otto glifi generici ad archi tangenti, rifiuto delle larghezze insufficienti, ripristino dei parametri ONE, galleria comparativa e dodici provini di ritorno.
+
+# Changelog
 ## ONE 0.4.1 sperimentale · 19 novembre 2026
 
 Il pannello FILOCONTINUO ONE compone scheletri originali, con percorso unico oppure uno per parola e tre ampiezze dei raccordi. Applica trasferisce le curve nell’editor e nel calcolo 3D con il profilo attivo. I progetti conservano la geometria. L’animazione del percorso unico offre pausa, riavvio e velocità regolabile.
 
 Tutti i 16 casi numerici di examples/v041 risultano incompatibili con il LED dimostrativo R12. Restano aperti il ridisegno delle lettere, la parete condivisa, l’ottimizzazione contestuale e la calibrazione fisica. Dettagli in docs/ONE_CONTINUOUS_ENGINE.md e misure in examples/v041/confronto.json.
-
-# Changelog
 
 ## 0.4.0 — 2026-11-18 — Style Studio sperimentale, nessuna release stabile
 
@@ -21,7 +24,7 @@ Tutti i 16 casi numerici di examples/v041 risultano incompatibili con il LED dim
 
 ## 0.4.0 — 2026-11-18 — sorgenti pubblicati, distribuzione desktop sperimentale
 
-- Primo push autorizzato, clone da GitHub verificato in D:/filocontinuo_github, backup esterno e Git separato dalla vecchia cartella.
+- Primo push autorizzato, clone da GitHub verificato in D:/FILOCONTINUO_Studio/filocontinuo_github, backup esterno e Git separato dalla vecchia cartella.
 - Installazione pulita dipendenze, 45 test, build web/installer e smoke del pacchetto ricostruito riusciti; nessuna release stabile pubblicata.
 
 - Autenticazione GitHub completata con Git Credential Manager; configurato Git in VS Code e verificato push --dry-run, senza pubblicazione.

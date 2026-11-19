@@ -7,7 +7,7 @@
 - Ogni modifica al motore geometrico richiede `npm test` e `npm run build`. Verificare volume, bordi, orientamento, vertici e facce degeneri. L'esportazione mesh deve essere bloccata se il controllo fallisce.
 - I controlli numerici non garantiscono compatibilità fisica LED o stampa: distinguere sempre avvisi produttivi e validità della mesh.
 - Non sovrascrivere originali fotografici. Le quattro foto iniziali non sono disponibili: non affermare di averle analizzate.
-- Aggiornare CHANGELOG.md, ROADMAP.md, PROJECT_STATUS.md e docs/RIEPILOGO_CHATGPT.md al termine della sessione.
+- Al termine di ogni sessione significativa aggiornare PROJECT_STATUS.md, fonte dello stato tecnico. README.md presenta il software e spiega come usarlo. ROADMAP.md contiene la pianificazione futura, CHANGELOG.md registra le modifiche per versione e AGENTS.md conserva le istruzioni permanenti. Generare docs/REPORT_BRAINSTORMING.md soltanto su richiesta esplicita, verificando stato tecnico, roadmap, changelog, codice e GitHub. I riepiloghi in docs/history sono archivi storici.
 - Le funzioni future restano in roadmap, senza controlli fittizi nell'interfaccia.
 - Non pubblicare il progetto: applicazione locale su Windows salvo diversa richiesta dell'utente.
 - Leggere e scrivere testo come UTF-8, anche da Windows PowerShell.
@@ -33,3 +33,4 @@
 - Collegamenti automatici solo per porte compatibili e composizioni con controlli conclusivi senza errori. Non presentare le nove Stay playful rosse come producibili.
 - Desktop smoke deve comporre Signature/Minimal/Vintage dal vero worker e verificare una mesh Studio. Review --review-dir usa dati isolati, non le cartelle utente.
 ONE 0.4.1: conservare le curve applicate. Rigenerare examples/v041 con scripts/generate-one.ts dopo modifiche ai glifi. Un percorso singolo richiede controlli indipendenti di raggio, distanze e intersezioni.
+Per ONE vincolato rigenerare esempi e provini v042. Verificare raggio sulle cubiche, distanza osservata e validazione della mesh separatamente. Conservare la geometria congelata della V0.4.1.
